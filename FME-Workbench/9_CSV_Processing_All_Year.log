@@ -1,0 +1,705 @@
+2025-09-17 21:31:40|   0.0|  0.0|INFORM|Current FME version: FME 2025.0.1.0 (20250327 - Build 25220 - WIN64)
+2025-09-17 21:31:40|   0.0|  0.0|INFORM|System Time: 20250917193141 UTC
+2025-09-17 21:31:40|   0.0|  0.0|INFORM|FME_HOME is 'C:\Program Files\FME\'
+2025-09-17 21:31:46|   0.0|  0.0|INFORM|FME for September (node locked-crc)
+2025-09-17 21:31:46|   0.0|  0.0|INFORM|Serial Number: 0
+2025-09-17 21:31:46|   0.0|  0.0|INFORM|Temporary License: 15 days left.
+2025-09-17 21:31:46|   0.0|  0.0|INFORM|Machine host name is: MSI
+2025-09-17 21:31:46|   0.0|  0.0|INFORM|OS Locale Name     : en_US
+2025-09-17 21:31:46|   0.0|  0.0|INFORM|OS Locale Encoding : windows-1252
+2025-09-17 21:31:46|   0.0|  0.0|INFORM|Process Encoding   : UTF-8
+2025-09-17 21:31:46|   0.0|  0.0|INFORM|FME API version: '4.0 20240722'
+2025-09-17 21:31:46|   0.0|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2025-09-17 21:31:46|   0.0|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\02_Process\Final_FMW/'
+2025-09-17 21:31:46|   0.0|  0.0|INFORM|FME Configuration: FME_MF_NAME is '9_CSV_Processing_All_Year.fmw'
+2025-09-17 21:31:46|   0.0|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2025.0.1.0'
+2025-09-17 21:31:46|   0.0|  0.0|INFORM|Operating System: Microsoft Windows 11 64-bit  (Build 26100)
+2025-09-17 21:31:46|   0.0|  0.0|INFORM|FME Platform: WIN64
+2025-09-17 21:31:46|   0.0|  0.0|INFORM|System Status: 120.36 GB of disk space available in the FME temporary folder (C:\Users\adhis\AppData\Local\Temp\wbrun_1758136491855_20288\fmetmp_5)
+2025-09-17 21:31:46|   0.0|  0.0|INFORM|System Status: 15.71 GB of physical memory available
+2025-09-17 21:31:46|   0.0|  0.0|INFORM|System Status: 62.84 GB of virtual memory available
+2025-09-17 21:31:46|   0.0|  0.0|INFORM|START - ProcessID: 22268, peak process memory usage: 42456 kB, current process memory usage: 42456 kB
+2025-09-17 21:31:46|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `C:\Program Files\FME\fme.exe' `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\02_Process\Final_FMW\wb-xlate-1758137412053_20288' `--FME_LAUNCH_VIEWER_APP' `WORKBENCH' `LOG_STANDARDOUT' `YES' `LOG_TIMINGS' `YES' `LogCountServerName' `60271' `LOG_STANDARDOUT' `No' `WORKBENCH_LOG_SERVER' `60208'
+2025-09-17 21:31:46|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: 'C:\Users\adhis\AppData\Roaming\Safe Software\FME\'
+2025-09-17 21:31:52|   0.0|  0.0|INFORM|Shared folders for formats are : C:\Program Files\FME\datasources;C:\Users\adhis\OneDrive\Documents\FME\Formats
+2025-09-17 21:31:52|   0.0|  0.0|INFORM|Shared folders for transformers are : C:\Users\adhis\AppData\Roaming\Safe Software\FME\Packages\25220-win64\transformers;C:\Program Files\FME\transformers;C:\Users\adhis\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2025-09-17 21:31:52|   0.0|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\adhis\OneDrive\Documents\FME\CoordinateSystems
+2025-09-17 21:31:52|   0.0|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\adhis\OneDrive\Documents\FME\CoordinateSystemExceptions
+2025-09-17 21:31:52|   0.0|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\adhis\OneDrive\Documents\FME\CoordinateSystemGridOverrides
+2025-09-17 21:31:52|   0.0|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\adhis\OneDrive\Documents\FME\CsmapTransformationExceptions
+2025-09-17 21:31:52|   0.0|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\adhis\OneDrive\Documents\FME\TransformerCategories
+2025-09-17 21:31:52|   0.0|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2025-09-17 21:31:52|   0.0|  0.0|INFORM|FME Configuration: Current working folder is `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\02_Process\Final_FMW'
+2025-09-17 21:31:52|   0.0|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\adhis\AppData\Local\Temp\wbrun_1758136491855_20288\fmetmp_5', set from environment variable `FME_TEMP'
+2025-09-17 21:31:52|   0.0|  0.0|INFORM|FME Configuration: Cache folder is 'C:\Users\adhis\AppData\Local\Temp'
+2025-09-17 21:31:52|   0.0|  0.0|INFORM|FME Configuration: FME_HOME is `C:\Program Files\FME\'
+2025-09-17 21:31:52|   0.0|  0.0|INFORM|FME Configuration: Start freeing memory when the process exceeds 47.13 GB
+2025-09-17 21:31:52|   0.0|  0.0|INFORM|FME Configuration: Stop freeing memory when the process is below 35.35 GB
+2025-09-17 21:31:52|   0.0|  0.0|INFORM|Creating writer for format: 
+2025-09-17 21:31:52|   0.0|  0.0|INFORM|Creating reader for format: 
+2025-09-17 21:31:52|   0.1|  0.1|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2025-09-17 21:31:52|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding CSV2 Reader with keyword CSV2_2
+2025-09-17 21:31:52|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding CITYGML Reader with keyword CITYGML_1
+2025-09-17 21:31:52|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding CSV2 Reader with keyword CSV2_3
+2025-09-17 21:31:52|   0.1|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2025-09-17 21:31:53|   0.2|  0.1|INFORM|Creating reader for format: CSV (Comma Separated Value)
+2025-09-17 21:31:53|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `CSV2'
+2025-09-17 21:31:53|   0.2|  0.0|INFORM|Loaded module 'CSV2' from file 'C:\Program Files\FME\plugins\CSV2.dll'
+2025-09-17 21:31:53|   0.2|  0.0|INFORM|FME API version of module 'CSV2' matches current internal version (4.0 20240722)
+2025-09-17 21:31:53|   0.2|  0.0|INFORM|CSV reader: Opening dataset 'C:\MSc\Q2_2\Cooling_Rotterdam\SIM_2023\KopVanZuid_2023.proj\01_HeatDemand.flow\04_MonthlyEnergyBalance.step\Kvz_NoTree_50_10_2023_DIN18599_HEATING_AND_COOLING.csv'
+2025-09-17 21:31:53|   0.2|  0.0|INFORM|CSV reader: Directive '_TRIM_FEATURE_TYPE_NAME' has the value 'Yes'
+2025-09-17 21:31:53|   0.2|  0.0|INFORM|CSV reader: Directive '_SUPPORTED_READER_ARCHIVE_EXTENSIONS' has the value 'csv.gz,txt.gz'
+2025-09-17 21:31:53|   0.2|  0.0|INFORM|CSV reader: Directive '_DELIMITER' has the value ';'
+2025-09-17 21:31:53|   0.2|  0.0|INFORM|CSV reader: Directive '_DELIMITER_DETECTION_ALGORITHM' has the value 'EQUAL_FIELDS_PER_LINE'
+2025-09-17 21:31:53|   0.2|  0.0|INFORM|CSV reader: Directive '_FIELD_NAMES_LINE' has the value '20'
+2025-09-17 21:31:53|   0.2|  0.0|INFORM|CSV reader: Directive '_DATA_START_LINE' has the value '21'
+2025-09-17 21:31:53|   0.2|  0.0|INFORM|CSV reader: Directive '_SCAN_MAX_ROWS' has the value '250000'
+2025-09-17 21:31:53|   0.2|  0.0|INFORM|CSV reader: Directive '_READ_SKIPPED_LINES' has the value 'No'
+2025-09-17 21:31:53|   0.2|  0.0|INFORM|CSV reader: Directive '_ENCODING' has the value 'windows-1252'
+2025-09-17 21:31:53|   0.3|  0.1|INFORM|CSV reader: Directive 'FME_NAMES_ENCODING' has the value 'UTF-8'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CSV reader: Directive '_SKIP_DUPLICATE_DELIMITERS' has the value 'No'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CSV reader: Directive '_FIELD_QUALIFIER_CHARACTER' has the value '"'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CSV reader: Directive '_FIELD_QUALIFIER_ESCAPE_CHARACTER' has the value '"'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CSV reader: Directive '_TRIM_FIELD_NAME_QUALIFIERS' has the value 'Yes'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CSV reader: Directive '_TRIM_FIELD_VALUE_QUALIFIERS' has the value 'Yes'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CSV reader: Directive '_PRESERVE_SOURCE_ENCODING' has the value 'No'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CSV reader: Directive '_CASE_SENSITIVE_FIELD_NAMES' has the value 'Yes'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CSV reader: Directive '_ENFORCE_STRICT_SCHEMA' has the value 'No'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CSV reader: Directive '_SCAN_TYPES' has the value 'Yes'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CSV reader: Directive '_TYPE_ATTRIBUTE_HANDLING' has the value 'STANDARD_TYPES'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CSV reader: Directive '_STRING_TYPE_ATTRIBUTE_HANDLING' has the value 'EXPLICIT_WIDTH'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CSV reader: Directive '_SCAN_ADDITIONAL_FIELDS' has the value 'No'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CSV reader: Directive '_DATE_INPUT_FORMAT' has the value 'ISO'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CSV reader: Directive '_CHUNK_SIZE' has the value '100000'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CSV reader: Directive '_TRIM_FIELD_NAME_WHITESPACE' has the value 'Yes'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CSV reader: Directive '_READ_EMPTY_VALUES_AS' has the value 'Null'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CSV reader: Directive '_REPLACE_ATTR_NAME_INVALID_CHARS' has the value 'No'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|Using MultiWriter with keyword `PRIMARY_DEST' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\Program Files\FME\plugins\LogCount_func.dll'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (4.0 20240722)
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|Loaded module 'AttributeKeeperFactory' from file 'C:\Program Files\FME\plugins\AttributeKeeperFactory.dll'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|FME API version of module 'AttributeKeeperFactory' matches current internal version (4.0 20240722)
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|Loaded module 'Geometry_func' from file 'C:\Program Files\FME\plugins\Geometry_func.dll'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|FME API version of module 'Geometry_func' matches current internal version (4.0 20240722)
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CSV Feature Recorder -1 2147549189 (RecorderFactory): Splitting bulk features into individual features
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|Creating reader for format: OGC CityGML
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `CITYGML'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|Loaded module 'CITYGML' from file 'C:\Program Files\FME\plugins\CITYGML.dll'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|FME API version of module 'CITYGML' matches current internal version (4.0 20240722)
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|Opening the CITYGML reader with source dataset 'C:\MSc\Q2_2\Cooling_Rotterdam\Data\Processed\clean_fix_enriched\Kop van Zuid_buildings_cl_fi.gml'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|Parsing XML document 'C:\MSc\Q2_2\Cooling_Rotterdam\Data\Processed\clean_fix_enriched\Kop van Zuid_buildings_cl_fi.gml'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_aixm.xml' is being used to map from URI to URI
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_inspire.xml' is being used to map from URI to URI
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_sosi.xml' is being used to map from URI to URI
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_urimap.xml' is being used to map from URI to URI
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_citygml.xml' is being used to map from URI to URI
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CityGML Reader: Using namespace declarations in dataset to determine schemas - XML Namespace 'http://www.opengis.net/citygml/cityobjectgroup/2.0' mapped to schema 'cityObjectGroup.xsd'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CityGML Reader: Using namespace declarations in dataset to determine schemas - XML Namespace 'http://www.opengis.net/citygml/building/2.0' mapped to schema 'building.xsd'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CityGML Reader: Using namespace declarations in dataset to determine schemas - XML Namespace 'http://www.opengis.net/citygml/generics/2.0' mapped to schema 'generics.xsd'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CityGML Reader: Using namespace declarations in dataset to determine schemas - XML Namespace 'http://www.opengis.net/citygml/landuse/2.0' mapped to schema 'landUse.xsd'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CityGML Reader: Using namespace declarations in dataset to determine schemas - XML Namespace 'http://www.opengis.net/citygml/profiles/base/2.0' mapped to schema 'CityGML.xsd'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CityGML Reader: Using namespace declarations in dataset to determine schemas - XML Namespace 'http://www.opengis.net/citygml/relief/2.0' mapped to schema 'relief.xsd'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CityGML Reader: Using namespace declarations in dataset to determine schemas - XML Namespace 'http://www.opengis.net/citygml/appearance/2.0' mapped to schema 'appearance.xsd'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CityGML Reader: Using namespace declarations in dataset to determine schemas - XML Namespace 'http://www.opengis.net/citygml/texturedsurface/2.0' mapped to schema 'texturedSurface.xsd'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CityGML Reader: Using namespace declarations in dataset to determine schemas - XML Namespace 'http://www.w3.org/1999/xlink' mapped to schema 'xlink.xsd'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CityGML Reader: Using namespace declarations in dataset to determine schemas - XML Namespace 'http://www.opengis.net/citygml/vegetation/2.0' mapped to schema 'vegetation.xsd'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CityGML Reader: Using namespace declarations in dataset to determine schemas - XML Namespace 'http://www.opengis.net/citygml/2.0' mapped to schema 'cityGMLBase.xsd'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CityGML Reader: Using namespace declarations in dataset to determine schemas - XML Namespace 'http://www.opengis.net/citygml/tunnel/2.0' mapped to schema 'tunnel.xsd'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CityGML Reader: Using namespace declarations in dataset to determine schemas - XML Namespace 'http://www.opengis.net/citygml/waterbody/2.0' mapped to schema 'waterBody.xsd'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CityGML Reader: Using namespace declarations in dataset to determine schemas - XML Namespace 'http://www.opengis.net/citygml/cityfurniture/2.0' mapped to schema 'cityFurniture.xsd'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CityGML Reader: Using namespace declarations in dataset to determine schemas - XML Namespace 'http://www.opengis.net/citygml/transportation/2.0' mapped to schema 'transportation.xsd'
+2025-09-17 21:31:53|   0.3|  0.0|INFORM|CityGML Reader: Using namespace declarations in dataset to determine schemas - XML Namespace 'http://www.opengis.net/citygml/bridge/2.0' mapped to schema 'bridge.xsd'
+2025-09-17 21:31:53|   0.4|  0.1|INFORM|CityGML Reader: Using cached xfMap 'C:\Users\adhis\AppData\Local\Temp\GML_XFMAP_CACHE\CACHED_AUTOGEN_1758024069137_7076.xfmap'
+2025-09-17 21:31:53|   0.4|  0.0|INFORM|FME Configuration: Using FME Reprojection Engine
+2025-09-17 21:31:53|   0.5|  0.1|INFORM|The XML Reader is using xfMap 'C:\Users\adhis\AppData\Local\Temp\GML_XFMAP_CACHE\CACHED_AUTOGEN_1758024069137_7076.xfmap'
+2025-09-17 21:31:53|   0.5|  0.0|INFORM|Parsing XML document 'C:\MSc\Q2_2\Cooling_Rotterdam\Data\Processed\clean_fix_enriched\Kop van Zuid_buildings_cl_fi.gml'
+2025-09-17 21:31:54|   1.5|  1.0|INFORM|XML Reader mapped feature # 5000  (xfMap: CityGML XFMAP auto-gen)
+2025-09-17 21:31:54|   1.9|  0.4|INFORM|FME Configuration: Source coordinate system for reader CITYGML_1[CITYGML] set to `EPSG:28992' as read from input data
+2025-09-17 21:31:54|   1.9|  0.0|INFORM|Coordinate System `EPSG:28992' parameters: CS_NAME=`Netherlands-RDNew-2008' DESC_NM=`Netherlands, Amersfoort RD 2008 datum, New System' DT_NAME=`Amersfoort-RD-2008' GROUP=`EUROPE' MAP_SCL=`1' ORG_LAT=`52.15616055555556' ORG_LNG=`5.387638888888889' PROJ=`OSTERO' QUAD=`1' SCL_RED=`0.9999079' SOURCE=`Kadaster' UNIT=`METER' X_OFF=`155000' Y_OFF=`463000'
+2025-09-17 21:31:55|   2.4|  0.5|INFORM|Creating reader for format: CSV (Comma Separated Value)
+2025-09-17 21:31:55|   2.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `CSV2'
+2025-09-17 21:31:55|   2.4|  0.0|INFORM|CSV reader: Opening dataset 'C:\MSc\Q2_2\Cooling_Rotterdam\SIM_2023\KopVanZuid_2023.proj\01_HeatDemand.flow\04_MonthlyEnergyBalance.step\Kvz_NoTree_50_10_2023_DIN18599_HEATING_AND_COOLING.csv'
+2025-09-17 21:31:55|   2.4|  0.0|INFORM|CSV reader: Directive '_TRIM_FEATURE_TYPE_NAME' has the value 'Yes'
+2025-09-17 21:31:55|   2.4|  0.0|INFORM|CSV reader: Directive '_SUPPORTED_READER_ARCHIVE_EXTENSIONS' has the value 'csv.gz,txt.gz'
+2025-09-17 21:31:55|   2.4|  0.0|INFORM|CSV reader: Directive '_DELIMITER' has the value ';'
+2025-09-17 21:31:55|   2.4|  0.0|INFORM|CSV reader: Directive '_DELIMITER_DETECTION_ALGORITHM' has the value 'EQUAL_FIELDS_PER_LINE'
+2025-09-17 21:31:55|   2.4|  0.0|INFORM|CSV reader: Directive '_FIELD_NAMES_LINE' has the value '20'
+2025-09-17 21:31:55|   2.4|  0.0|INFORM|CSV reader: Directive '_DATA_START_LINE' has the value '21'
+2025-09-17 21:31:55|   2.4|  0.0|INFORM|CSV reader: Directive '_SCAN_MAX_ROWS' has the value '250000'
+2025-09-17 21:31:55|   2.4|  0.0|INFORM|CSV reader: Directive '_READ_SKIPPED_LINES' has the value 'No'
+2025-09-17 21:31:55|   2.4|  0.0|INFORM|CSV reader: Directive '_ENCODING' has the value 'windows-1252'
+2025-09-17 21:31:55|   2.4|  0.0|INFORM|CSV reader: Directive 'FME_NAMES_ENCODING' has the value 'UTF-8'
+2025-09-17 21:31:55|   2.4|  0.0|INFORM|CSV reader: Directive '_SKIP_DUPLICATE_DELIMITERS' has the value 'No'
+2025-09-17 21:31:55|   2.4|  0.0|INFORM|CSV reader: Directive '_FIELD_QUALIFIER_CHARACTER' has the value '"'
+2025-09-17 21:31:55|   2.4|  0.0|INFORM|CSV reader: Directive '_FIELD_QUALIFIER_ESCAPE_CHARACTER' has the value '"'
+2025-09-17 21:31:55|   2.4|  0.0|INFORM|CSV reader: Directive '_TRIM_FIELD_NAME_QUALIFIERS' has the value 'Yes'
+2025-09-17 21:31:55|   2.4|  0.0|INFORM|CSV reader: Directive '_TRIM_FIELD_VALUE_QUALIFIERS' has the value 'Yes'
+2025-09-17 21:31:55|   2.4|  0.0|INFORM|CSV reader: Directive '_PRESERVE_SOURCE_ENCODING' has the value 'No'
+2025-09-17 21:31:55|   2.4|  0.0|INFORM|CSV reader: Directive '_CASE_SENSITIVE_FIELD_NAMES' has the value 'Yes'
+2025-09-17 21:31:55|   2.4|  0.0|INFORM|CSV reader: Directive '_ENFORCE_STRICT_SCHEMA' has the value 'No'
+2025-09-17 21:31:55|   2.4|  0.0|INFORM|CSV reader: Directive '_SCAN_TYPES' has the value 'Yes'
+2025-09-17 21:31:55|   2.4|  0.0|INFORM|CSV reader: Directive '_TYPE_ATTRIBUTE_HANDLING' has the value 'STANDARD_TYPES'
+2025-09-17 21:31:55|   2.4|  0.0|INFORM|CSV reader: Directive '_STRING_TYPE_ATTRIBUTE_HANDLING' has the value 'EXPLICIT_WIDTH'
+2025-09-17 21:31:55|   2.4|  0.0|INFORM|CSV reader: Directive '_SCAN_ADDITIONAL_FIELDS' has the value 'No'
+2025-09-17 21:31:55|   2.4|  0.0|INFORM|CSV reader: Directive '_DATE_INPUT_FORMAT' has the value 'ISO'
+2025-09-17 21:31:55|   2.4|  0.0|INFORM|CSV reader: Directive '_CHUNK_SIZE' has the value '100000'
+2025-09-17 21:31:55|   2.4|  0.0|INFORM|CSV reader: Directive '_TRIM_FIELD_NAME_WHITESPACE' has the value 'Yes'
+2025-09-17 21:31:55|   2.4|  0.0|INFORM|CSV reader: Directive '_READ_EMPTY_VALUES_AS' has the value 'Null'
+2025-09-17 21:31:55|   2.4|  0.0|INFORM|CSV reader: Directive '_REPLACE_ATTR_NAME_INVALID_CHARS' has the value 'No'
+2025-09-17 21:31:55|   2.4|  0.0|INFORM|CSV Feature Recorder -1 2147549213 (RecorderFactory): Splitting bulk features into individual features
+2025-09-17 21:31:55|   2.4|  0.0|INFORM|MULTI_READER(MULTI_READER): Done reading 7387 features from 3 readers
+2025-09-17 21:31:55|   2.4|  0.0|INFORM|Emptying factory pipeline
+2025-09-17 21:31:55|   2.4|  0.0|STATS |Router and Unexpected Input Remover (RoutingFactory): Tested 7387 input feature(s), wrote 7387 output feature(s): 7387 matched merge filters, 7387 were routed to output, 0 could not be routed.
+2025-09-17 21:31:55|   2.4|  0.0|STATS |Unwanted Router Input Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2025-09-17 21:31:55|   2.4|  0.0|STATS |CSV_CSV2_2 Splitter (TeeFactory): Cloned 122 input feature(s) into 122 output feature(s)
+2025-09-17 21:31:55|   2.4|  0.0|STATS |CSV_CSV2_3 Splitter (TeeFactory): Cloned 122 input feature(s) into 122 output feature(s)
+2025-09-17 21:31:55|   2.4|  0.0|STATS |WallSurface_CITYGML_1 Splitter (TeeFactory): Cloned 4521 input feature(s) into 0 output feature(s)
+2025-09-17 21:31:55|   2.4|  0.0|STATS |RoofSurface_CITYGML_1 Splitter (TeeFactory): Cloned 749 input feature(s) into 0 output feature(s)
+2025-09-17 21:31:55|   2.4|  0.0|STATS |OuterFloorSurface_CITYGML_1 Splitter (TeeFactory): Cloned 14 input feature(s) into 0 output feature(s)
+2025-09-17 21:31:55|   2.4|  0.0|STATS |OuterCeilingSurface_CITYGML_1 Splitter (TeeFactory): Cloned 98 input feature(s) into 0 output feature(s)
+2025-09-17 21:31:55|   2.4|  0.0|STATS |GroundSurface_CITYGML_1 Splitter (TeeFactory): Cloned 315 input feature(s) into 0 output feature(s)
+2025-09-17 21:31:55|   2.4|  0.0|STATS |ClosureSurface_CITYGML_1 Splitter (TeeFactory): Cloned 1180 input feature(s) into 0 output feature(s)
+2025-09-17 21:31:55|   2.4|  0.0|STATS |CityModel_CITYGML_1 Splitter (TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2025-09-17 21:31:55|   2.4|  0.0|STATS |BuildingPart_CITYGML_1 Splitter (TeeFactory): Cloned 129 input feature(s) into 129 output feature(s)
+2025-09-17 21:31:55|   2.4|  0.0|STATS |BuildingInstallation_CITYGML_1 Splitter (TeeFactory): Cloned 37 input feature(s) into 0 output feature(s)
+2025-09-17 21:31:55|   2.4|  0.0|STATS |Building_CITYGML_1 Splitter (TeeFactory): Cloned 35 input feature(s) into 35 output feature(s)
+2025-09-17 21:31:55|   2.4|  0.0|STATS |Address_CITYGML_1 Splitter (TeeFactory): Cloned 64 input feature(s) into 0 output feature(s)
+2025-09-17 21:31:55|   2.5|  0.1|STATS |Storing feature(s) to FME feature store file `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\02_Process\Final_FMW\9_CSV_Processing_All_Year_log.ffs'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Failed to evaluate numeric expression '[kWh]'.  Result is set to null
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Failed to evaluate numeric expression '[kWh]'.  Result is set to null
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Failed to evaluate numeric expression '[kWh]'.  Result is set to null
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Failed to evaluate numeric expression '[kWh]'.  Result is set to null
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Failed to evaluate numeric expression '[kWh]'.  Result is set to null
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Failed to evaluate numeric expression '[kWh]'.  Result is set to null
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Failed to evaluate numeric expression '[kWh]'.  Result is set to null
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Failed to evaluate numeric expression '[kWh]'.  Result is set to null
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Failed to evaluate numeric expression '[kWh]'.  Result is set to null
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Failed to evaluate numeric expression '[kWh]'.  Result is set to null
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Failed to evaluate numeric expression '[kWh]'.  Result is set to null
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Failed to evaluate numeric expression '[kWh]'.  Result is set to null
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Feature Type: `FeatureMerger_3_MERGED'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `April Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `April Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `August Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `August Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `December Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `December Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `February Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `February Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `Footprint area' has value `[m²]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `GMLId' has value `[-]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `January Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `January Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `July Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `July Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `June Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `June Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `March Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `March Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `May Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `May Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `November Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `November Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `October Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `October Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `September Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `September Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{0}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{0}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{0}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{10}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{10}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{10}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{11}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{11}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{11}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{1}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{1}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{1}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{2}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{2}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{2}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{3}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{3}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{3}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{4}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{4}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{4}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{5}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{5}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{5}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{6}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{6}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{6}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{7}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{7}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{7}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{8}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{8}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{8}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{9}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{9}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{9}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_feature_type' has value `CSV'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(indirect: string: UTF-8): `fme_geometry' has value `fme_undefined'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_type' has value `fme_no_geom'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |===========================================================================
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Geometry Name: <no name>
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Coordinate System: `Unknown'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Geometry Type: Null
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Coordinate Dimension: 2
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |===========================================================================
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Failed to evaluate numeric expression '[kWh]'.  Result is set to null
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Failed to evaluate numeric expression '[kWh]'.  Result is set to null
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Failed to evaluate numeric expression '[kWh]'.  Result is set to null
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Failed to evaluate numeric expression '[kWh]'.  Result is set to null
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Failed to evaluate numeric expression '[kWh]'.  Result is set to null
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Failed to evaluate numeric expression '[kWh]'.  Result is set to null
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Failed to evaluate numeric expression '[kWh]'.  Result is set to null
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Failed to evaluate numeric expression '[kWh]'.  Result is set to null
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Failed to evaluate numeric expression '[kWh]'.  Result is set to null
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Failed to evaluate numeric expression '[kWh]'.  Result is set to null
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Failed to evaluate numeric expression '[kWh]'.  Result is set to null
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Failed to evaluate numeric expression '[kWh]'.  Result is set to null
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Feature Type: `FeatureMerger_3_MERGED'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `April Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `April Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `August Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `August Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `December Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `December Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `February Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `February Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `Footprint area' has value `[m²]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `GMLId' has value `[-]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `January Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `January Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `July Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `July Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `June Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `June Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `March Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `March Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `May Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `May Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `November Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `November Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `October Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `October Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `September Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `September Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(64 bit real)            : `Yearly Cooling Demand (kWh/year)' is <null>
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{0}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{0}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{0}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{10}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{10}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{10}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{11}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{11}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{11}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{12}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{12}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{12}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{13}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{13}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{13}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{14}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{14}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{14}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{15}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{15}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{15}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{16}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{16}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{16}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{17}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{17}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{17}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{18}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{18}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{18}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{19}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{19}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{19}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{1}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{1}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{1}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{20}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{20}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{20}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{21}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{21}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{21}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{22}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{22}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{22}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{23}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{23}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{23}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{2}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{2}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{2}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{3}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{3}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{3}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{4}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{4}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{4}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{5}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{5}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{5}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{6}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{6}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{6}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{7}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{7}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{7}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{8}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{8}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{8}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{9}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{9}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{9}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_feature_type' has value `CSV'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(indirect: string: UTF-8): `fme_geometry' has value `fme_undefined'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_type' has value `fme_no_geom'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |===========================================================================
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Geometry Name: <no name>
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Coordinate System: `Unknown'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Geometry Type: Null
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Coordinate Dimension: 2
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |===========================================================================
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Failed to evaluate numeric expression '[m²]'.  Result is set to null
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Feature Type: `FeatureMerger_3_MERGED'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `April Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `April Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `August Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `August Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `December Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `December Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `February Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `February Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `Footprint area' has value `[m²]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `GMLId' has value `[-]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `January Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `January Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `July Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `July Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `June Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `June Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `March Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `March Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `May Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `May Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `November Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `November Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `October Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `October Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `September Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `September Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(64 bit real)            : `Yearly Cooling Demand (kWh/year)' is <null>
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(64 bit real)            : `Yearly Heating Demand (kWh/year)' is <null>
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{0}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{0}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{0}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{10}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{10}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{10}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{11}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{11}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{11}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{12}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{12}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{12}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{13}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{13}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{13}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{14}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{14}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{14}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{15}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{15}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{15}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{16}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{16}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{16}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{17}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{17}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{17}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{18}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{18}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{18}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{19}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{19}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{19}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{1}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{1}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{1}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{20}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{20}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{20}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{21}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{21}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{21}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{22}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{22}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{22}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{23}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{23}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{23}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{24}.attributeName' has value `N_YCD (kWh/m²/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{24}.message' has value `Failed to evaluate numeric expression '[m²]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{24}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{2}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{2}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{2}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{3}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{3}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{3}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{4}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{4}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{4}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{5}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{5}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{5}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{6}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{6}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{6}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{7}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{7}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{7}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{8}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{8}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{8}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{9}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{9}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{9}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_feature_type' has value `CSV'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(indirect: string: UTF-8): `fme_geometry' has value `fme_undefined'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_type' has value `fme_no_geom'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |===========================================================================
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Geometry Name: <no name>
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Coordinate System: `Unknown'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Geometry Type: Null
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Coordinate Dimension: 2
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |===========================================================================
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Failed to evaluate numeric expression '[m²]'.  Result is set to null
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Feature Type: `FeatureMerger_3_MERGED'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `April Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `April Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `August Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `August Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `December Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `December Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `February Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `February Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `Footprint area' has value `[m²]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `GMLId' has value `[-]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `January Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `January Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `July Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `July Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `June Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `June Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `March Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `March Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `May Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `May Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(64 bit real)            : `N_YCD (kWh/m²/year)' is <null>
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `November Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `November Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `October Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `October Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `September Cooling demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `September Heating demand' has value `[kWh]'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(64 bit real)            : `Yearly Cooling Demand (kWh/year)' is <null>
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(64 bit real)            : `Yearly Heating Demand (kWh/year)' is <null>
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{0}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{0}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{0}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{10}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{10}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{10}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{11}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{11}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{11}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{12}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{12}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{12}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{13}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{13}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{13}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{14}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{14}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{14}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{15}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{15}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{15}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{16}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{16}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{16}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{17}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{17}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{17}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{18}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{18}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{18}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{19}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{19}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{19}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{1}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{1}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{1}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{20}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{20}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{20}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{21}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{21}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{21}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{22}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{22}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{22}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{23}.attributeName' has value `Yearly Heating Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{23}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{23}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{24}.attributeName' has value `N_YCD (kWh/m²/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{24}.message' has value `Failed to evaluate numeric expression '[m²]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{24}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{25}.attributeName' has value `N_HCD (kWh/m²/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{25}.message' has value `Failed to evaluate numeric expression '[m²]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{25}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{2}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{2}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{2}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{3}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{3}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{3}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{4}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{4}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{4}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{5}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{5}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{5}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{6}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{6}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{6}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{7}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{7}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{7}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{8}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{8}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{8}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_expression_warnings{9}.attributeName' has value `Yearly Cooling Demand (kWh/year)'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{9}.message' has value `Failed to evaluate numeric expression '[kWh]'.  Result is set to null'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_expression_warnings{9}.transformerName' has value `AttributeManager_4'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string; UTF-8)          : `fme_feature_type' has value `CSV'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(indirect: string: UTF-8): `fme_geometry' has value `fme_undefined'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Attribute(string: UTF-8)          : `fme_type' has value `fme_no_geom'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |===========================================================================
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Geometry Name: <no name>
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Coordinate System: `Unknown'
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Geometry Type: Null
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |Coordinate Dimension: 2
+2025-09-17 21:31:55|   2.5|  0.0|WARN  |===========================================================================
+2025-09-17 21:31:55|   2.5|  0.0|STATS |FeatureMerger_3 (ReferenceFactory): Total Results: 122 Complete Feature(s), 0 Incomplete Feature(s), 122 Referenced Feature(s), 0 Unreferenced Feature(s), 0 Referencer Feature(s) (NO REFERENCES), 0 Referencee Feature(s) (NO Referencee fields defined), and 0 Duplicate Referencee Feature(s)
+2025-09-17 21:31:55|   2.7|  0.2|INFORM|Creating writer for format: SpatiaLite
+2025-09-17 21:31:55|   2.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `SPATIALITE_NATIVE'
+2025-09-17 21:31:55|   2.7|  0.0|INFORM|Loaded module 'SPATIALITE_NATIVE' from file 'C:\Program Files\FME\plugins\FME_SQLITE3.dll'
+2025-09-17 21:31:55|   2.7|  0.0|INFORM|FME API version of module 'FME_SQLITE3' matches current internal version (4.0 20240722)
+2025-09-17 21:31:55|   2.7|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2025-09-17 21:31:55|   2.7|  0.0|INFORM|Writer `SPATIALITE_NATIVE_1' of type `SPATIALITE_NATIVE' using group definition keyword `SPATIALITE_NATIVE_1_DEF'
+2025-09-17 21:31:55|   2.7|  0.0|INFORM|SpatiaLite Writer: Opening `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\2Buurt\Compare\New_2023_2050\All_Year_2023\02_Kvz_NT_All_year.sqlite' for write operation
+2025-09-17 21:31:55|   2.9|  0.2|INFORM|SpatiaLite Writer: Detected geometry_columns table with 'SpatiaLite 4.0+' schema
+2025-09-17 21:31:55|   2.9|  0.0|INFORM|SPATIALITE_NATIVE writer: Creating bulk features from individual features
+2025-09-17 21:31:56|   3.4|  0.5|STATS |FeatureMerger_4 (ReferenceFactory): Total Results: 121 Complete Feature(s), 43 Incomplete Feature(s), 121 Referenced Feature(s), 1 Unreferenced Feature(s), 0 Referencer Feature(s) (NO REFERENCES), 0 Referencee Feature(s) (NO Referencee fields defined), and 0 Duplicate Referencee Feature(s)
+2025-09-17 21:31:56|   3.4|  0.0|STATS |SurfaceFootprintReplacer_Rejector (ExecuteFunctionFactory): Executed FME Functions on 121 input feature(s) -- 121 feature(s) completed and 0 feature(s) rejected
+2025-09-17 21:31:56|   3.4|  0.0|STATS |SurfaceFootprintReplacer FOOTPRINT Splitter (TeeFactory): Cloned 121 input feature(s) into 242 output feature(s)
+2025-09-17 21:31:56|   3.4|  0.0|STATS |GeometryRemover_2 (TeeFactory): Cloned 121 input feature(s) into 121 output feature(s)
+2025-09-17 21:31:56|   3.5|  0.1|STATS |Aggregator_2 (AggregateFactory): Combined 121 input feature(s) into 1 output feature(s), including 0 singleton(s)
+2025-09-17 21:31:56|   3.5|  0.0|STATS |AttributeExposer_2 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2025-09-17 21:31:57|   3.6|  0.1|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 122 input feature(s), wrote 122 output feature(s): 0 matched merge filters, 122 were routed to output, 0 could not be routed.
+2025-09-17 21:31:57|   3.6|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2025-09-17 21:31:57|   3.6|  0.0|INFORM|SpatiaLite Writer: Spatial Column SRID for feature type 'Table1' table creation is '28992'
+2025-09-17 21:31:57|   3.6|  0.0|INFORM|SpatiaLite Writer: Creating table 'Table1'
+2025-09-17 21:31:57|   3.6|  0.0|INFORM|SpatiaLite Writer: Creating spatial index for table 'Table1'
+2025-09-17 21:31:57|   3.6|  0.0|INFORM|SpatiaLite Writer: Closing `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\2Buurt\Compare\New_2023_2050\All_Year_2023\02_Kvz_NT_All_year.sqlite' . Write operation complete
+2025-09-17 21:31:57|   3.6|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-09-17 21:31:57|   3.6|  0.0|INFORM|Feature output statistics for `SPATIALITE_NATIVE' writer using keyword `SPATIALITE_NATIVE_1':
+2025-09-17 21:31:57|   3.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-09-17 21:31:57|   3.6|  0.0|STATS |                               Features Written
+2025-09-17 21:31:57|   3.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-09-17 21:31:57|   3.6|  0.0|STATS |Table1                                                                     121
+2025-09-17 21:31:57|   3.6|  0.0|STATS |==============================================================================
+2025-09-17 21:31:57|   3.6|  0.0|STATS |Total Features Written                                                     121
+2025-09-17 21:31:57|   3.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-09-17 21:31:57|   3.6|  0.0|INFORM|MULTI_WRITER: multi_writer_id `1': Started outputting features
+2025-09-17 21:31:57|   3.7|  0.1|INFORM|Creating writer for format: CSV (Comma Separated Value)
+2025-09-17 21:31:57|   3.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `CSV2'
+2025-09-17 21:31:57|   3.7|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2025-09-17 21:31:57|   3.7|  0.0|INFORM|Writer `CSV2_1' of type `CSV2' using group definition keyword `CSV2_1_DEF'
+2025-09-17 21:31:57|   3.7|  0.0|INFORM|CSV writer: Directive '_EXTENSION' has the value 'csv'
+2025-09-17 21:31:57|   3.7|  0.0|INFORM|CSV writer: Directive '_DELIMITER' has the value ','
+2025-09-17 21:31:57|   3.7|  0.0|INFORM|CSV writer: Directive '_ENCODING' has the value 'UTF-8'
+2025-09-17 21:31:57|   3.7|  0.0|INFORM|CSV writer: Directive '_WRITE_BOM_FOR_UNICODE' has the value 'Yes'
+2025-09-17 21:31:57|   3.7|  0.0|INFORM|CSV writer: Directive '_QUALIFY_FIELD_NAMES' has the value 'if_needed'
+2025-09-17 21:31:57|   3.7|  0.0|INFORM|CSV writer: Directive '_QUALIFY_FIELD_VALUES' has the value 'if_needed'
+2025-09-17 21:31:57|   3.7|  0.0|INFORM|CSV writer: Directive '_TREAT_EMBEDDED_FIELD_QUALIFIERS_AS_UNSAFE' has the value 'Yes'
+2025-09-17 21:31:57|   3.7|  0.0|INFORM|CSV writer: Directive '_FIELD_QUALIFIER_CHARACTER' has the value '"'
+2025-09-17 21:31:57|   3.7|  0.0|INFORM|CSV writer: Directive '_FIELD_QUALIFIER_ESCAPE_CHARACTER' has the value '"'
+2025-09-17 21:31:57|   3.7|  0.0|INFORM|CSV writer: Directive '_ROW_TERMINATION' has the value 'System'
+2025-09-17 21:31:57|   3.7|  0.0|INFORM|CSV writer: Directive '_WRITE_SCHEMA_FILE' has the value 'NO'
+2025-09-17 21:31:57|   3.7|  0.0|INFORM|CSV writer: Opening dataset 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\2Buurt\Compare\New_2023_2050\All_Year_2023\02_Kvz_2023_All_Year_NT.csv'
+2025-09-17 21:31:57|   3.7|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-09-17 21:31:57|   3.7|  0.0|INFORM|Feature output statistics for `CSV2' writer using keyword `CSV2_1':
+2025-09-17 21:31:57|   3.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-09-17 21:31:57|   3.7|  0.0|STATS |                               Features Written
+2025-09-17 21:31:57|   3.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-09-17 21:31:57|   3.7|  0.0|STATS |02_Kvz_2023_All_Year_NT                                                      1
+2025-09-17 21:31:57|   3.7|  0.0|STATS |==============================================================================
+2025-09-17 21:31:57|   3.7|  0.0|STATS |Total Features Written                                                       1
+2025-09-17 21:31:57|   3.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-09-17 21:31:57|   3.7|  0.0|INFORM|MULTI_WRITER: multi_writer_id `1': done writing 1 feature(s) 
+2025-09-17 21:31:57|   3.7|  0.0|INFORM|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-09-17 21:31:57|   3.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-09-17 21:31:57|   3.7|  0.0|STATS |                            Features Read Summary
+2025-09-17 21:31:57|   3.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-09-17 21:31:57|   3.7|  0.0|STATS |Address                                                                     64
+2025-09-17 21:31:57|   3.7|  0.0|STATS |Building                                                                    35
+2025-09-17 21:31:57|   3.7|  0.0|STATS |BuildingInstallation                                                        37
+2025-09-17 21:31:57|   3.7|  0.0|STATS |BuildingPart                                                               129
+2025-09-17 21:31:57|   3.7|  0.0|STATS |CSV                                                                        244
+2025-09-17 21:31:57|   3.7|  0.0|STATS |CityModel                                                                    1
+2025-09-17 21:31:57|   3.7|  0.0|STATS |ClosureSurface                                                            1180
+2025-09-17 21:31:57|   3.7|  0.0|STATS |GroundSurface                                                              315
+2025-09-17 21:31:57|   3.7|  0.0|STATS |OuterCeilingSurface                                                         98
+2025-09-17 21:31:57|   3.7|  0.0|STATS |OuterFloorSurface                                                           14
+2025-09-17 21:31:57|   3.7|  0.0|STATS |RoofSurface                                                                749
+2025-09-17 21:31:57|   3.7|  0.0|STATS |WallSurface                                                               4521
+2025-09-17 21:31:57|   3.7|  0.0|STATS |==============================================================================
+2025-09-17 21:31:57|   3.7|  0.0|STATS |Total Features Read                                                       7387
+2025-09-17 21:31:57|   3.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-09-17 21:31:57|   3.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-09-17 21:31:57|   3.7|  0.0|STATS |                           Features Written Summary
+2025-09-17 21:31:57|   3.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-09-17 21:31:57|   3.7|  0.0|STATS |02_Kvz_2023_All_Year_NT                                                      1
+2025-09-17 21:31:57|   3.7|  0.0|STATS |Table1                                                                     121
+2025-09-17 21:31:57|   3.7|  0.0|STATS |==============================================================================
+2025-09-17 21:31:57|   3.7|  0.0|STATS |Total Features Written                                                     122
+2025-09-17 21:31:57|   3.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-09-17 21:31:57|   3.7|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2025-09-17 21:31:57|   3.7|  0.0|WARN  |-~                                                                             ~-
+2025-09-17 21:31:57|   3.7|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
+2025-09-17 21:31:57|   3.7|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
+2025-09-17 21:31:57|   3.7|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
+2025-09-17 21:31:57|   3.7|  0.0|WARN  |-~                                                                             ~-
+2025-09-17 21:31:57|   3.7|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2025-09-17 21:31:57|   3.7|  0.0|INFORM|Translation was SUCCESSFUL with 11 warning(s) (122 feature(s) output)
+2025-09-17 21:31:57|   3.7|  0.0|STATS |Stored 4 feature(s) to FME feature store file `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\02_Process\Final_FMW\9_CSV_Processing_All_Year_log.ffs'
+2025-09-17 21:31:57|   3.7|  0.0|INFORM|FME Session Duration: 16.3 seconds. (CPU: 2.7s user, 1.0s system)
+2025-09-17 21:31:57|   3.7|  0.0|INFORM|END - ProcessID: 22268, peak process memory usage: 276516 kB, current process memory usage: 159516 kB

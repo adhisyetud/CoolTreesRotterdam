@@ -1,0 +1,191 @@
+2025-08-22 13:20:05|   0.0|  0.0|INFORM|Current FME version: FME 2025.0.1.0 (20250327 - Build 25220 - WIN64)
+2025-08-22 13:20:05|   0.0|  0.0|INFORM|System Time: 20250822112005 UTC
+2025-08-22 13:20:05|   0.0|  0.0|INFORM|FME_HOME is 'C:\Program Files\FME\'
+2025-08-22 13:20:11|   0.0|  0.0|INFORM|FME for September (node locked-crc)
+2025-08-22 13:20:11|   0.0|  0.0|INFORM|Serial Number: 0
+2025-08-22 13:20:11|   0.0|  0.0|INFORM|Temporary License: 41 days left.
+2025-08-22 13:20:11|   0.0|  0.0|INFORM|Machine host name is: MSI
+2025-08-22 13:20:11|   0.0|  0.0|INFORM|OS Locale Name     : en_US
+2025-08-22 13:20:11|   0.0|  0.0|INFORM|OS Locale Encoding : windows-1252
+2025-08-22 13:20:11|   0.0|  0.0|INFORM|Process Encoding   : UTF-8
+2025-08-22 13:20:11|   0.0|  0.0|INFORM|FME API version: '4.0 20240722'
+2025-08-22 13:20:11|   0.0|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2025-08-22 13:20:11|   0.0|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\02_Process\Final_FMW/'
+2025-08-22 13:20:11|   0.0|  0.0|INFORM|FME Configuration: FME_MF_NAME is '15_to_winter_cpt.fmw'
+2025-08-22 13:20:11|   0.0|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2025.0.1.0'
+2025-08-22 13:20:11|   0.0|  0.0|INFORM|Operating System: Microsoft Windows 11 64-bit  (Build 26100)
+2025-08-22 13:20:11|   0.0|  0.0|INFORM|FME Platform: WIN64
+2025-08-22 13:20:11|   0.0|  0.0|INFORM|System Status: 133.23 GB of disk space available in the FME temporary folder (C:\Users\adhis\AppData\Local\Temp\wbrun_1755861238406_3168\fmetmp_2)
+2025-08-22 13:20:11|   0.0|  0.0|INFORM|System Status: 15.71 GB of physical memory available
+2025-08-22 13:20:11|   0.0|  0.0|INFORM|System Status: 62.84 GB of virtual memory available
+2025-08-22 13:20:11|   0.0|  0.0|INFORM|START - ProcessID: 13524, peak process memory usage: 42160 kB, current process memory usage: 42160 kB
+2025-08-22 13:20:11|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `C:\Program Files\FME\fme.exe' `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\02_Process\Final_FMW\wb-xlate-1755861526050_3168' `--FME_LAUNCH_VIEWER_APP' `WORKBENCH' `LOG_STANDARDOUT' `YES' `LOG_TIMINGS' `YES' `LogCountServerName' `50619' `LOG_STANDARDOUT' `No' `WORKBENCH_LOG_SERVER' `50540'
+2025-08-22 13:20:11|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: 'C:\Users\adhis\AppData\Roaming\Safe Software\FME\'
+2025-08-22 13:20:17|   0.0|  0.0|INFORM|Shared folders for formats are : C:\Program Files\FME\datasources;C:\Users\adhis\OneDrive\Documents\FME\Formats
+2025-08-22 13:20:17|   0.0|  0.0|INFORM|Shared folders for transformers are : C:\Users\adhis\AppData\Roaming\Safe Software\FME\Packages\25220-win64\transformers;C:\Program Files\FME\transformers;C:\Users\adhis\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2025-08-22 13:20:17|   0.0|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\adhis\OneDrive\Documents\FME\CoordinateSystems
+2025-08-22 13:20:17|   0.0|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\adhis\OneDrive\Documents\FME\CoordinateSystemExceptions
+2025-08-22 13:20:17|   0.0|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\adhis\OneDrive\Documents\FME\CoordinateSystemGridOverrides
+2025-08-22 13:20:17|   0.0|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\adhis\OneDrive\Documents\FME\CsmapTransformationExceptions
+2025-08-22 13:20:17|   0.0|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\adhis\OneDrive\Documents\FME\TransformerCategories
+2025-08-22 13:20:17|   0.0|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2025-08-22 13:20:17|   0.0|  0.0|INFORM|FME Configuration: Current working folder is `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\02_Process\Final_FMW'
+2025-08-22 13:20:17|   0.0|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\adhis\AppData\Local\Temp\wbrun_1755861238406_3168\fmetmp_2', set from environment variable `FME_TEMP'
+2025-08-22 13:20:17|   0.0|  0.0|INFORM|FME Configuration: Cache folder is 'C:\Users\adhis\AppData\Local\Temp'
+2025-08-22 13:20:17|   0.0|  0.0|INFORM|FME Configuration: FME_HOME is `C:\Program Files\FME\'
+2025-08-22 13:20:17|   0.0|  0.0|INFORM|FME Configuration: Start freeing memory when the process exceeds 47.13 GB
+2025-08-22 13:20:17|   0.0|  0.0|INFORM|FME Configuration: Stop freeing memory when the process is below 35.35 GB
+2025-08-22 13:20:17|   0.0|  0.0|INFORM|Creating writer for format: 
+2025-08-22 13:20:17|   0.0|  0.0|INFORM|Creating reader for format: 
+2025-08-22 13:20:17|   0.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2025-08-22 13:20:17|   0.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding SPATIALITE_NATIVE Reader with keyword SPATIALITE_NATIVE_7
+2025-08-22 13:20:17|   0.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding SPATIALITE_NATIVE Reader with keyword SPATIALITE_NATIVE_1
+2025-08-22 13:20:17|   0.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding SPATIALITE_NATIVE Reader with keyword SPATIALITE_NATIVE_2
+2025-08-22 13:20:17|   0.0|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2025-08-22 13:20:17|   0.0|  0.0|INFORM|FME Configuration: Reading 2 dataset(s) with SPATIALITE_NATIVE reader identified by SPATIALITE_NATIVE_7
+2025-08-22 13:20:17|   0.0|  0.0|INFORM|Creating reader for format: SpatiaLite
+2025-08-22 13:20:17|   0.0|  0.0|INFORM|MULTI_READER(SPATIALITE_NATIVE_7): Will continue past member reader failures
+2025-08-22 13:20:17|   0.0|  0.0|INFORM|Using Multi Reader with keyword `SPATIALITE_NATIVE_7' to read multiple datasets
+2025-08-22 13:20:19|   0.7|  0.7|INFORM|Creating reader for format: SpatiaLite
+2025-08-22 13:20:19|   0.8|  0.1|INFORM|Trying to find a DYNAMIC plugin for reader named `SPATIALITE_NATIVE'
+2025-08-22 13:20:19|   0.8|  0.0|INFORM|Loaded module 'SPATIALITE_NATIVE' from file 'C:\Program Files\FME\plugins\FME_SQLITE3.dll'
+2025-08-22 13:20:19|   0.8|  0.0|INFORM|FME API version of module 'FME_SQLITE3' matches current internal version (4.0 20240722)
+2025-08-22 13:20:19|   0.9|  0.1|INFORM|SpatiaLite Reader: Opening `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\BGT_Feijenoord\Afrikaanderwijk_Building.sqlite' for read operation
+2025-08-22 13:20:19|   0.9|  0.0|WARN  |Database query 'PRAGMA table_info("KNN2");' failed. SQLite3 Engine error: 'no such module: VirtualKNN2'
+2025-08-22 13:20:19|   0.9|  0.0|WARN  |SpatiaLite Reader: Unable to read table 'KNN2'. Table exists but may lack valid columns, definition, or may be a spatial table
+2025-08-22 13:20:19|   0.9|  0.0|INFORM|SpatiaLite Reader: Detected geometry_columns table with 'SpatiaLite 4.0+' schema
+2025-08-22 13:20:20|   1.3|  0.4|INFORM|The EPSG number of the FME coordinate system 'Netherlands-RDNew-2008' is '28992'
+2025-08-22 13:20:20|   1.3|  0.0|INFORM|Using MultiWriter with keyword `PRIMARY_DEST' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2025-08-22 13:20:20|   1.3|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2025-08-22 13:20:20|   1.4|  0.1|INFORM|Loaded module 'LogCount_func' from file 'C:\Program Files\FME\plugins\LogCount_func.dll'
+2025-08-22 13:20:20|   1.4|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (4.0 20240722)
+2025-08-22 13:20:20|   1.4|  0.0|INFORM|Loaded module 'ClipperFactory' from file 'C:\Program Files\FME\plugins\ClipperFactory.dll'
+2025-08-22 13:20:20|   1.4|  0.0|INFORM|FME API version of module 'ClipperFactory' matches current internal version (4.0 20240722)
+2025-08-22 13:20:20|   1.4|  0.0|INFORM|FME Configuration: Source coordinate system for reader SPATIALITE_NATIVE_7[SPATIALITE_NATIVE] set to `Netherlands-RDNew-2008' as read from input data
+2025-08-22 13:20:20|   1.4|  0.0|INFORM|Coordinate System `Netherlands-RDNew-2008' parameters: CS_NAME=`Netherlands-RDNew-2008' DESC_NM=`Netherlands, Amersfoort RD 2008 datum, New System' DT_NAME=`Amersfoort-RD-2008' GROUP=`EUROPE' MAP_SCL=`1' ORG_LAT=`52.15616055555556' ORG_LNG=`5.387638888888889' PROJ=`OSTERO' QUAD=`1' SCL_RED=`0.9999079' SOURCE=`Kadaster' UNIT=`METER' X_OFF=`155000' Y_OFF=`463000'
+2025-08-22 13:20:20|   1.4|  0.0|INFORM|building Feature Recorder -1 2147549249 (RecorderFactory): Splitting bulk features into individual features
+2025-08-22 13:20:23|   2.5|  1.1|INFORM|SpatiaLite Reader: Database read complete.  Retrieved 1130 feature(s)
+2025-08-22 13:20:23|   2.5|  0.0|INFORM|SpatiaLite Reader: Closing `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\BGT_Feijenoord\Afrikaanderwijk_Building.sqlite' . Read operation complete
+2025-08-22 13:20:23|   2.5|  0.0|INFORM|Creating reader for format: SpatiaLite
+2025-08-22 13:20:23|   2.5|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SPATIALITE_NATIVE'
+2025-08-22 13:20:23|   2.5|  0.0|INFORM|SpatiaLite Reader: Opening `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\BGT_Feijenoord\KVZ_Building.sqlite' for read operation
+2025-08-22 13:20:23|   2.5|  0.0|WARN  |Database query 'PRAGMA table_info("KNN2");' failed. SQLite3 Engine error: 'no such module: VirtualKNN2'
+2025-08-22 13:20:23|   2.5|  0.0|WARN  |SpatiaLite Reader: Unable to read table 'KNN2'. Table exists but may lack valid columns, definition, or may be a spatial table
+2025-08-22 13:20:23|   2.5|  0.0|INFORM|SpatiaLite Reader: Detected geometry_columns table with 'SpatiaLite 4.0+' schema
+2025-08-22 13:20:23|   2.5|  0.0|INFORM|FME Configuration: Source coordinate system for reader SPATIALITE_NATIVE_7[SPATIALITE_NATIVE] set to `Netherlands-RDNew-2008' as read from input data
+2025-08-22 13:20:23|   2.5|  0.0|INFORM|Coordinate System `Netherlands-RDNew-2008' parameters: CS_NAME=`Netherlands-RDNew-2008' DESC_NM=`Netherlands, Amersfoort RD 2008 datum, New System' DT_NAME=`Amersfoort-RD-2008' GROUP=`EUROPE' MAP_SCL=`1' ORG_LAT=`52.15616055555556' ORG_LNG=`5.387638888888889' PROJ=`OSTERO' QUAD=`1' SCL_RED=`0.9999079' SOURCE=`Kadaster' UNIT=`METER' X_OFF=`155000' Y_OFF=`463000'
+2025-08-22 13:20:23|   2.5|  0.0|INFORM|building Feature Recorder -1 2147549249 (RecorderFactory): Splitting bulk features into individual features
+2025-08-22 13:20:23|   2.7|  0.2|INFORM|SpatiaLite Reader: Database read complete.  Retrieved 121 feature(s)
+2025-08-22 13:20:23|   2.7|  0.0|INFORM|SpatiaLite Reader: Closing `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\BGT_Feijenoord\KVZ_Building.sqlite' . Read operation complete
+2025-08-22 13:20:23|   2.7|  0.0|INFORM|MULTI_READER(SPATIALITE_NATIVE_7): Done reading 1251 features from 2 readers
+2025-08-22 13:20:23|   2.7|  0.0|INFORM|Creating reader for format: SpatiaLite
+2025-08-22 13:20:23|   2.7|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SPATIALITE_NATIVE'
+2025-08-22 13:20:23|   2.7|  0.0|INFORM|SpatiaLite Reader: Opening `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\2Buurt\CPT\S\Round_CPT_Afr_Summer.sqlite' for read operation
+2025-08-22 13:20:23|   2.7|  0.0|WARN  |Database query 'PRAGMA table_info("KNN2");' failed. SQLite3 Engine error: 'no such module: VirtualKNN2'
+2025-08-22 13:20:23|   2.7|  0.0|WARN  |SpatiaLite Reader: Unable to read table 'KNN2'. Table exists but may lack valid columns, definition, or may be a spatial table
+2025-08-22 13:20:23|   2.7|  0.0|INFORM|SpatiaLite Reader: Detected geometry_columns table with 'SpatiaLite 4.0+' schema
+2025-08-22 13:20:23|   2.7|  0.0|INFORM|FME Configuration: Source coordinate system for reader SPATIALITE_NATIVE_1[SPATIALITE_NATIVE] set to `Netherlands-RDNew-2008' as read from input data
+2025-08-22 13:20:23|   2.7|  0.0|INFORM|Coordinate System `Netherlands-RDNew-2008' parameters: CS_NAME=`Netherlands-RDNew-2008' DESC_NM=`Netherlands, Amersfoort RD 2008 datum, New System' DT_NAME=`Amersfoort-RD-2008' GROUP=`EUROPE' MAP_SCL=`1' ORG_LAT=`52.15616055555556' ORG_LNG=`5.387638888888889' PROJ=`OSTERO' QUAD=`1' SCL_RED=`0.9999079' SOURCE=`Kadaster' UNIT=`METER' X_OFF=`155000' Y_OFF=`463000'
+2025-08-22 13:20:23|   2.7|  0.0|INFORM|chosen_proposed_trees Feature Recorder -1 2147549212 (RecorderFactory): Splitting bulk features into individual features
+2025-08-22 13:20:24|   3.1|  0.4|INFORM|SpatiaLite Reader: Database read complete.  Retrieved 961 feature(s)
+2025-08-22 13:20:24|   3.1|  0.0|INFORM|SpatiaLite Reader: Closing `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\2Buurt\CPT\S\Round_CPT_Afr_Summer.sqlite' . Read operation complete
+2025-08-22 13:20:24|   3.1|  0.0|INFORM|Creating reader for format: SpatiaLite
+2025-08-22 13:20:24|   3.1|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SPATIALITE_NATIVE'
+2025-08-22 13:20:24|   3.1|  0.0|INFORM|SpatiaLite Reader: Opening `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\2Buurt\CPT\S\Round_CPT_Kvz_Summer.sqlite' for read operation
+2025-08-22 13:20:24|   3.1|  0.0|WARN  |Database query 'PRAGMA table_info("KNN2");' failed. SQLite3 Engine error: 'no such module: VirtualKNN2'
+2025-08-22 13:20:24|   3.1|  0.0|WARN  |SpatiaLite Reader: Unable to read table 'KNN2'. Table exists but may lack valid columns, definition, or may be a spatial table
+2025-08-22 13:20:24|   3.1|  0.0|INFORM|SpatiaLite Reader: Detected geometry_columns table with 'SpatiaLite 4.0+' schema
+2025-08-22 13:20:24|   3.1|  0.0|INFORM|FME Configuration: Source coordinate system for reader SPATIALITE_NATIVE_2[SPATIALITE_NATIVE] set to `Netherlands-RDNew-2008' as read from input data
+2025-08-22 13:20:24|   3.1|  0.0|INFORM|Coordinate System `Netherlands-RDNew-2008' parameters: CS_NAME=`Netherlands-RDNew-2008' DESC_NM=`Netherlands, Amersfoort RD 2008 datum, New System' DT_NAME=`Amersfoort-RD-2008' GROUP=`EUROPE' MAP_SCL=`1' ORG_LAT=`52.15616055555556' ORG_LNG=`5.387638888888889' PROJ=`OSTERO' QUAD=`1' SCL_RED=`0.9999079' SOURCE=`Kadaster' UNIT=`METER' X_OFF=`155000' Y_OFF=`463000'
+2025-08-22 13:20:24|   3.1|  0.0|INFORM|round_pt_kvz_summer__table1 Feature Recorder -1 2147549213 (RecorderFactory): Splitting bulk features into individual features
+2025-08-22 13:20:25|   3.3|  0.2|INFORM|SpatiaLite Reader: Database read complete.  Retrieved 194 feature(s)
+2025-08-22 13:20:25|   3.3|  0.0|INFORM|SpatiaLite Reader: Closing `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\2Buurt\CPT\S\Round_CPT_Kvz_Summer.sqlite' . Read operation complete
+2025-08-22 13:20:25|   3.3|  0.0|INFORM|MULTI_READER(MULTI_READER): Done reading 2406 features from 3 readers
+2025-08-22 13:20:25|   3.3|  0.0|INFORM|Emptying factory pipeline
+2025-08-22 13:20:25|   3.3|  0.0|STATS |Router and Unexpected Input Remover (RoutingFactory): Tested 2406 input feature(s), wrote 2406 output feature(s): 2406 matched merge filters, 2406 were routed to output, 0 could not be routed.
+2025-08-22 13:20:25|   3.3|  0.0|STATS |Unwanted Router Input Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2025-08-22 13:20:25|   3.3|  0.0|STATS |chosen_proposed_trees_SPATIALITE_NATIVE_1 Splitter (TeeFactory): Cloned 961 input feature(s) into 961 output feature(s)
+2025-08-22 13:20:25|   3.3|  0.0|STATS |building_SPATIALITE_NATIVE_7 Splitter (TeeFactory): Cloned 1251 input feature(s) into 1251 output feature(s)
+2025-08-22 13:20:25|   3.3|  0.0|STATS |round_pt_kvz_summer__table1_SPATIALITE_NATIVE_2 Splitter (TeeFactory): Cloned 194 input feature(s) into 194 output feature(s)
+2025-08-22 13:20:25|   3.3|  0.0|STATS |Bufferer_17 BUFFERED Splitter (TeeFactory): Cloned 1251 input feature(s) into 2502 output feature(s)
+2025-08-22 13:20:26|   3.7|  0.4|INFORM|Clipper_17 (ClipperFactory): Clipping.  Processed 2 candidates so far.
+2025-08-22 13:20:26|   3.7|  0.0|INFORM|Clipper_17 (ClipperFactory): Clipping with an automatic tolerance of 8.698624179999999e-10
+2025-08-22 13:20:26|   4.0|  0.3|STATS |3DForcer_5 (TeeFactory): Cloned 961 input feature(s) into 961 output feature(s)
+2025-08-22 13:20:26|   4.0|  0.0|STATS |3DForcer_5_Rejector (TestFactory): Tested 961 input feature(s) -- 0 feature(s) passed and 961 feature(s) failed
+2025-08-22 13:20:26|   4.0|  0.0|INFORM|Clipper_19 (ClipperFactory): Clipping.  Processed 1 candidates so far.
+2025-08-22 13:20:27|   4.1|  0.1|STATS |3DForcer_7 (TeeFactory): Cloned 194 input feature(s) into 194 output feature(s)
+2025-08-22 13:20:27|   4.1|  0.0|STATS |3DForcer_7_Rejector (TestFactory): Tested 194 input feature(s) -- 0 feature(s) passed and 194 feature(s) failed
+2025-08-22 13:20:27|   4.1|  0.0|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 1155 input feature(s), wrote 1155 output feature(s): 0 matched merge filters, 1155 were routed to output, 0 could not be routed.
+2025-08-22 13:20:27|   4.1|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2025-08-22 13:20:27|   4.2|  0.1|INFORM|MULTI_WRITER: multi_writer_id `1': Started outputting features
+2025-08-22 13:20:27|   4.3|  0.1|INFORM|Creating writer for format: SpatiaLite
+2025-08-22 13:20:27|   4.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `SPATIALITE_NATIVE'
+2025-08-22 13:20:27|   4.3|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2025-08-22 13:20:27|   4.3|  0.0|INFORM|Writer `SPATIALITE_NATIVE_25' of type `SPATIALITE_NATIVE' using group definition keyword `SPATIALITE_NATIVE_25_DEF'
+2025-08-22 13:20:27|   4.3|  0.0|INFORM|SpatiaLite Writer: Opening `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\2Buurt\CPT\W\Round_CPT_Afr_Winter.sqlite' for write operation
+2025-08-22 13:20:28|   4.6|  0.3|INFORM|SpatiaLite Writer: Detected geometry_columns table with 'SpatiaLite 4.0+' schema
+2025-08-22 13:20:28|   4.6|  0.0|INFORM|SPATIALITE_NATIVE writer: Creating bulk features from individual features
+2025-08-22 13:20:28|   4.6|  0.0|INFORM|SpatiaLite Writer: Spatial Column SRID for feature type 'Table1' table creation is '28992'
+2025-08-22 13:20:28|   4.6|  0.0|INFORM|SpatiaLite Writer: Creating table 'Table1'
+2025-08-22 13:20:28|   4.6|  0.0|INFORM|SpatiaLite Writer: Creating spatial index for table 'Table1'
+2025-08-22 13:20:28|   4.6|  0.0|INFORM|SpatiaLite Writer: Closing `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\2Buurt\CPT\W\Round_CPT_Afr_Winter.sqlite' . Write operation complete
+2025-08-22 13:20:28|   4.6|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-22 13:20:28|   4.6|  0.0|INFORM|Feature output statistics for `SPATIALITE_NATIVE' writer using keyword `SPATIALITE_NATIVE_25':
+2025-08-22 13:20:28|   4.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-22 13:20:28|   4.6|  0.0|STATS |                               Features Written
+2025-08-22 13:20:28|   4.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-22 13:20:28|   4.6|  0.0|STATS |Table1                                                                     961
+2025-08-22 13:20:28|   4.6|  0.0|STATS |==============================================================================
+2025-08-22 13:20:28|   4.6|  0.0|STATS |Total Features Written                                                     961
+2025-08-22 13:20:28|   4.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-22 13:20:28|   4.6|  0.0|INFORM|MULTI_WRITER: multi_writer_id `1': done writing 961 feature(s) 
+2025-08-22 13:20:28|   4.6|  0.0|INFORM|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-08-22 13:20:28|   4.6|  0.0|INFORM|MULTI_WRITER: multi_writer_id `2': Started outputting features
+2025-08-22 13:20:28|   4.6|  0.0|INFORM|Creating writer for format: SpatiaLite
+2025-08-22 13:20:28|   4.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `SPATIALITE_NATIVE'
+2025-08-22 13:20:28|   4.6|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2025-08-22 13:20:28|   4.6|  0.0|INFORM|Writer `SPATIALITE_NATIVE_26' of type `SPATIALITE_NATIVE' using group definition keyword `SPATIALITE_NATIVE_26_DEF'
+2025-08-22 13:20:28|   4.6|  0.0|INFORM|SpatiaLite Writer: Opening `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\2Buurt\CPT\W\Round_CPT_Kvz_Winter.sqlite' for write operation
+2025-08-22 13:20:28|   4.8|  0.2|INFORM|SpatiaLite Writer: Detected geometry_columns table with 'SpatiaLite 4.0+' schema
+2025-08-22 13:20:28|   4.8|  0.0|INFORM|SPATIALITE_NATIVE writer: Creating bulk features from individual features
+2025-08-22 13:20:28|   4.8|  0.0|INFORM|SpatiaLite Writer: Spatial Column SRID for feature type 'Table1' table creation is '28992'
+2025-08-22 13:20:28|   4.8|  0.0|INFORM|SpatiaLite Writer: Creating table 'Table1'
+2025-08-22 13:20:28|   4.8|  0.0|INFORM|SpatiaLite Writer: Creating spatial index for table 'Table1'
+2025-08-22 13:20:28|   4.8|  0.0|INFORM|SpatiaLite Writer: Closing `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\2Buurt\CPT\W\Round_CPT_Kvz_Winter.sqlite' . Write operation complete
+2025-08-22 13:20:28|   4.8|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-22 13:20:28|   4.8|  0.0|INFORM|Feature output statistics for `SPATIALITE_NATIVE' writer using keyword `SPATIALITE_NATIVE_26':
+2025-08-22 13:20:28|   4.8|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-22 13:20:28|   4.8|  0.0|STATS |                               Features Written
+2025-08-22 13:20:28|   4.8|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-22 13:20:28|   4.8|  0.0|STATS |Table1                                                                     194
+2025-08-22 13:20:28|   4.8|  0.0|STATS |==============================================================================
+2025-08-22 13:20:28|   4.8|  0.0|STATS |Total Features Written                                                     194
+2025-08-22 13:20:28|   4.8|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-22 13:20:28|   4.8|  0.0|INFORM|MULTI_WRITER: multi_writer_id `2': done writing 194 feature(s) 
+2025-08-22 13:20:28|   4.8|  0.0|INFORM|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-08-22 13:20:28|   4.8|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-22 13:20:28|   4.8|  0.0|STATS |                            Features Read Summary
+2025-08-22 13:20:28|   4.8|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-22 13:20:28|   4.8|  0.0|STATS |building                                                                  1251
+2025-08-22 13:20:28|   4.8|  0.0|STATS |chosen_proposed_trees                                                      961
+2025-08-22 13:20:28|   4.8|  0.0|STATS |round_pt_kvz_summer__table1                                                194
+2025-08-22 13:20:28|   4.8|  0.0|STATS |==============================================================================
+2025-08-22 13:20:28|   4.8|  0.0|STATS |Total Features Read                                                       2406
+2025-08-22 13:20:28|   4.8|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-22 13:20:28|   4.8|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-22 13:20:28|   4.8|  0.0|STATS |                           Features Written Summary
+2025-08-22 13:20:28|   4.8|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-22 13:20:28|   4.8|  0.0|STATS |Table1                                                                    1155
+2025-08-22 13:20:28|   4.8|  0.0|STATS |==============================================================================
+2025-08-22 13:20:28|   4.8|  0.0|STATS |Total Features Written                                                    1155
+2025-08-22 13:20:28|   4.8|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-22 13:20:28|   4.8|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2025-08-22 13:20:28|   4.8|  0.0|WARN  |-~                                                                             ~-
+2025-08-22 13:20:28|   4.8|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
+2025-08-22 13:20:28|   4.8|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
+2025-08-22 13:20:28|   4.8|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
+2025-08-22 13:20:28|   4.8|  0.0|WARN  |-~                                                                             ~-
+2025-08-22 13:20:28|   4.8|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2025-08-22 13:20:28|   4.8|  0.0|INFORM|Translation was SUCCESSFUL with 15 warning(s) (1155 feature(s) output)
+2025-08-22 13:20:28|   4.8|  0.0|INFORM|FME Session Duration: 23.5 seconds. (CPU: 2.7s user, 2.1s system)
+2025-08-22 13:20:28|   4.8|  0.0|INFORM|END - ProcessID: 13524, peak process memory usage: 168736 kB, current process memory usage: 129380 kB

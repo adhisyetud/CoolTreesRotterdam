@@ -1,0 +1,503 @@
+2025-09-06 08:36:10|   0.0|  0.0|INFORM|Current FME version: FME 2025.0.1.0 (20250327 - Build 25220 - WIN64)
+2025-09-06 08:36:10|   0.0|  0.0|INFORM|System Time: 20250906063611 UTC
+2025-09-06 08:36:10|   0.0|  0.0|INFORM|FME_HOME is 'C:\Program Files\FME\'
+2025-09-06 08:36:16|   0.0|  0.0|INFORM|FME for September (node locked-crc)
+2025-09-06 08:36:16|   0.0|  0.0|INFORM|Serial Number: 0
+2025-09-06 08:36:16|   0.0|  0.0|INFORM|Temporary License: 26 days left.
+2025-09-06 08:36:16|   0.0|  0.0|INFORM|Machine host name is: MSI
+2025-09-06 08:36:16|   0.0|  0.0|INFORM|OS Locale Name     : en_US
+2025-09-06 08:36:16|   0.0|  0.0|INFORM|OS Locale Encoding : windows-1252
+2025-09-06 08:36:16|   0.0|  0.0|INFORM|Process Encoding   : UTF-8
+2025-09-06 08:36:16|   0.0|  0.0|INFORM|FME API version: '4.0 20240722'
+2025-09-06 08:36:16|   0.0|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2025-09-06 08:36:16|   0.0|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\02_Process\Final_FMW/'
+2025-09-06 08:36:16|   0.0|  0.0|INFORM|FME Configuration: FME_MF_NAME is '1_gmltrees_to_sqltree_constant.fmw'
+2025-09-06 08:36:16|   0.0|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2025.0.1.0'
+2025-09-06 08:36:16|   0.0|  0.0|INFORM|Operating System: Microsoft Windows 11 64-bit  (Build 26100)
+2025-09-06 08:36:16|   0.0|  0.0|INFORM|FME Platform: WIN64
+2025-09-06 08:36:16|   0.0|  0.0|INFORM|System Status: 130.35 GB of disk space available in the FME temporary folder (C:\Users\adhis\AppData\Local\Temp\wbrun_1757140402870_7540\fmetmp_0)
+2025-09-06 08:36:16|   0.0|  0.0|INFORM|System Status: 15.71 GB of physical memory available
+2025-09-06 08:36:16|   0.0|  0.0|INFORM|System Status: 62.84 GB of virtual memory available
+2025-09-06 08:36:16|   0.0|  0.0|INFORM|START - ProcessID: 28224, peak process memory usage: 43108 kB, current process memory usage: 43108 kB
+2025-09-06 08:36:16|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `C:\Program Files\FME\fme.exe' `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\02_Process\Final_FMW\wb-xlate-1757140549397_7540' `--FME_LAUNCH_VIEWER_APP' `WORKBENCH' `LOG_STANDARDOUT' `YES' `LOG_TIMINGS' `YES' `LogCountServerName' `52502' `LOG_STANDARDOUT' `No' `WORKBENCH_LOG_SERVER' `52292'
+2025-09-06 08:36:16|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: 'C:\Users\adhis\AppData\Roaming\Safe Software\FME\'
+2025-09-06 08:36:22|   0.1|  0.1|INFORM|Shared folders for formats are : C:\Program Files\FME\datasources;C:\Users\adhis\OneDrive\Documents\FME\Formats
+2025-09-06 08:36:22|   0.1|  0.0|INFORM|Shared folders for transformers are : C:\Users\adhis\AppData\Roaming\Safe Software\FME\Packages\25220-win64\transformers;C:\Program Files\FME\transformers;C:\Users\adhis\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2025-09-06 08:36:22|   0.1|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\adhis\OneDrive\Documents\FME\CoordinateSystems
+2025-09-06 08:36:22|   0.1|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\adhis\OneDrive\Documents\FME\CoordinateSystemExceptions
+2025-09-06 08:36:22|   0.1|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\adhis\OneDrive\Documents\FME\CoordinateSystemGridOverrides
+2025-09-06 08:36:22|   0.1|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\adhis\OneDrive\Documents\FME\CsmapTransformationExceptions
+2025-09-06 08:36:22|   0.1|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\adhis\OneDrive\Documents\FME\TransformerCategories
+2025-09-06 08:36:22|   0.1|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2025-09-06 08:36:22|   0.1|  0.0|INFORM|FME Configuration: Current working folder is `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\02_Process\Final_FMW'
+2025-09-06 08:36:22|   0.1|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\adhis\AppData\Local\Temp\wbrun_1757140402870_7540\fmetmp_0', set from environment variable `FME_TEMP'
+2025-09-06 08:36:22|   0.1|  0.0|INFORM|FME Configuration: Cache folder is 'C:\Users\adhis\AppData\Local\Temp'
+2025-09-06 08:36:22|   0.1|  0.0|INFORM|FME Configuration: FME_HOME is `C:\Program Files\FME\'
+2025-09-06 08:36:22|   0.1|  0.0|INFORM|FME Configuration: Start freeing memory when the process exceeds 47.13 GB
+2025-09-06 08:36:22|   0.1|  0.0|INFORM|FME Configuration: Stop freeing memory when the process is below 35.35 GB
+2025-09-06 08:36:23|   0.1|  0.0|INFORM|Creating writer for format: 
+2025-09-06 08:36:23|   0.1|  0.0|INFORM|Creating reader for format: 
+2025-09-06 08:36:23|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2025-09-06 08:36:23|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding SPATIALITE_NATIVE Reader with keyword SPATIALITE_NATIVE_1
+2025-09-06 08:36:23|   0.1|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding CITYGML Reader with keyword CITYGML_1
+2025-09-06 08:36:23|   0.1|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2025-09-06 08:36:23|   0.3|  0.2|INFORM|Creating reader for format: SpatiaLite
+2025-09-06 08:36:23|   0.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SPATIALITE_NATIVE'
+2025-09-06 08:36:23|   0.3|  0.0|INFORM|Loaded module 'SPATIALITE_NATIVE' from file 'C:\Program Files\FME\plugins\FME_SQLITE3.dll'
+2025-09-06 08:36:23|   0.3|  0.0|INFORM|FME API version of module 'FME_SQLITE3' matches current internal version (4.0 20240722)
+2025-09-06 08:36:23|   0.4|  0.1|INFORM|SpatiaLite Reader: Opening `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\Wijken_Feijenoord.sqlite' for read operation
+2025-09-06 08:36:23|   0.4|  0.0|WARN  |Database query 'PRAGMA table_info("KNN2");' failed. SQLite3 Engine error: 'no such module: VirtualKNN2'
+2025-09-06 08:36:23|   0.4|  0.0|WARN  |SpatiaLite Reader: Unable to read table 'KNN2'. Table exists but may lack valid columns, definition, or may be a spatial table
+2025-09-06 08:36:23|   0.4|  0.0|INFORM|SpatiaLite Reader: Detected geometry_columns table with 'SpatiaLite 4.0+' schema
+2025-09-06 08:36:23|   0.7|  0.3|INFORM|The EPSG number of the FME coordinate system 'Netherlands-RDNew-2008' is '28992'
+2025-09-06 08:36:23|   0.7|  0.0|INFORM|Using MultiWriter with keyword `PRIMARY_DEST' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2025-09-06 08:36:23|   0.7|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2025-09-06 08:36:23|   0.7|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\Program Files\FME\plugins\LogCount_func.dll'
+2025-09-06 08:36:23|   0.7|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (4.0 20240722)
+2025-09-06 08:36:23|   0.7|  0.0|INFORM|Loaded module 'DuplicateRemoverFactory' from file 'C:\Program Files\FME\plugins\DuplicateRemoverFactory.dll'
+2025-09-06 08:36:23|   0.7|  0.0|INFORM|FME API version of module 'DuplicateRemoverFactory' matches current internal version (4.0 20240722)
+2025-09-06 08:36:24|   0.7|  0.0|INFORM|Loaded module 'ClipperFactory' from file 'C:\Program Files\FME\plugins\ClipperFactory.dll'
+2025-09-06 08:36:24|   0.7|  0.0|INFORM|FME API version of module 'ClipperFactory' matches current internal version (4.0 20240722)
+2025-09-06 08:36:24|   0.7|  0.0|INFORM|Loaded module 'Geometry_func' from file 'C:\Program Files\FME\plugins\Geometry_func.dll'
+2025-09-06 08:36:24|   0.7|  0.0|INFORM|FME API version of module 'Geometry_func' matches current internal version (4.0 20240722)
+2025-09-06 08:36:24|   0.7|  0.0|INFORM|FME Configuration: Source coordinate system for reader SPATIALITE_NATIVE_1[SPATIALITE_NATIVE] set to `Netherlands-RDNew-2008' as read from input data
+2025-09-06 08:36:24|   0.7|  0.0|INFORM|Coordinate System `Netherlands-RDNew-2008' parameters: CS_NAME=`Netherlands-RDNew-2008' DESC_NM=`Netherlands, Amersfoort RD 2008 datum, New System' DT_NAME=`Amersfoort-RD-2008' GROUP=`EUROPE' MAP_SCL=`1' ORG_LAT=`52.15616055555556' ORG_LNG=`5.387638888888889' PROJ=`OSTERO' QUAD=`1' SCL_RED=`0.9999079' SOURCE=`Kadaster' UNIT=`METER' X_OFF=`155000' Y_OFF=`463000'
+2025-09-06 08:36:24|   0.7|  0.0|INFORM|wijken Feature Recorder -1 2147549209 (RecorderFactory): Splitting bulk features into individual features
+2025-09-06 08:36:24|   0.7|  0.0|INFORM|SpatiaLite Reader: Database read complete.  Retrieved 1 feature(s)
+2025-09-06 08:36:24|   0.7|  0.0|INFORM|SpatiaLite Reader: Closing `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\Wijken_Feijenoord.sqlite' . Read operation complete
+2025-09-06 08:36:24|   0.7|  0.0|INFORM|FME Configuration: Reading 10 dataset(s) with CITYGML reader identified by CITYGML_1
+2025-09-06 08:36:24|   0.7|  0.0|INFORM|Creating reader for format: OGC CityGML
+2025-09-06 08:36:24|   0.7|  0.0|INFORM|MULTI_READER(CITYGML_1): Will continue past member reader failures
+2025-09-06 08:36:24|   0.7|  0.0|INFORM|Using Multi Reader with keyword `CITYGML_1' to read multiple datasets
+2025-09-06 08:36:24|   0.8|  0.1|INFORM|Creating reader for format: OGC CityGML
+2025-09-06 08:36:24|   0.8|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `CITYGML'
+2025-09-06 08:36:24|   0.8|  0.0|INFORM|Loaded module 'CITYGML' from file 'C:\Program Files\FME\plugins\CITYGML.dll'
+2025-09-06 08:36:24|   0.8|  0.0|INFORM|FME API version of module 'CITYGML' matches current internal version (4.0 20240722)
+2025-09-06 08:36:24|   0.8|  0.0|INFORM|Opening the CITYGML reader with source dataset 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\citygml_rotterdam\01_Katendrecht.gml'
+2025-09-06 08:36:24|   0.8|  0.0|INFORM|Parsing XML document 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\citygml_rotterdam\01_Katendrecht.gml'
+2025-09-06 08:36:24|   0.8|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_aixm.xml' is being used to map from URI to URI
+2025-09-06 08:36:24|   0.8|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_inspire.xml' is being used to map from URI to URI
+2025-09-06 08:36:24|   0.8|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_sosi.xml' is being used to map from URI to URI
+2025-09-06 08:36:24|   0.8|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_urimap.xml' is being used to map from URI to URI
+2025-09-06 08:36:24|   0.8|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_citygml.xml' is being used to map from URI to URI
+2025-09-06 08:36:24|   0.9|  0.1|INFORM|URI 'http://schemas.opengis.net/citygml/generics/2.0/generics.xsd' mapped to 'file:///C%3A%5CProgram%20Files%5CFME%5Cxml%5Cschemas%5CCityGML%5CCityGML%5C2.0%5CCityGML%5Cgenerics.xsd'
+2025-09-06 08:36:24|   0.9|  0.0|INFORM|Parsing schema document 'file:///C%3A%5CProgram%20Files%5CFME%5Cxml%5Cschemas%5CCityGML%5CCityGML%5C2.0%5CCityGML%5Cgenerics.xsd' ...
+2025-09-06 08:36:24|   0.9|  0.0|INFORM|A <schemaLocation> in the uri-map is overriding the namespace 'http://www.w3.org/1999/xlink' xsd location from '../xlink/xlinks.xsd' to 'xlink.xsd'
+2025-09-06 08:36:24|   0.9|  0.0|INFORM|URI 'http://schemas.opengis.net/citygml/2.0/cityGMLBase.xsd' mapped to 'file:///C%3A%5CProgram%20Files%5CFME%5Cxml%5Cschemas%5CCityGML%5CCityGML%5C2.0%5CCityGML%5CcityGMLBase.xsd'
+2025-09-06 08:36:24|   0.9|  0.0|INFORM|URI 'http://schemas.opengis.net/citygml/vegetation/2.0/vegetation.xsd' mapped to 'file:///C%3A%5CProgram%20Files%5CFME%5Cxml%5Cschemas%5CCityGML%5CCityGML%5C2.0%5CCityGML%5Cvegetation.xsd'
+2025-09-06 08:36:24|   0.9|  0.0|INFORM|Parsing schema document 'file:///C%3A%5CProgram%20Files%5CFME%5Cxml%5Cschemas%5CCityGML%5CCityGML%5C2.0%5CCityGML%5Cvegetation.xsd' ...
+2025-09-06 08:36:24|   1.0|  0.1|INFORM|Using XSD semantics configuration file 'file:///C:/Program Files/FME/xml/CityGML/CityGML_config.xml'.
+2025-09-06 08:36:24|   1.0|  0.0|INFORM|Using prefix 'xAL' for uri 'urn:oasis:names:tc:ciq:xsdschema:xAL:2.0'
+2025-09-06 08:36:24|   1.0|  0.0|INFORM|Using prefix 'xlink' for uri 'http://www.w3.org/1999/xlink'
+2025-09-06 08:36:24|   1.0|  0.0|INFORM|Using prefix 'gml' for uri 'http://www.opengis.net/gml'
+2025-09-06 08:36:24|   1.0|  0.0|INFORM|Using prefix 'sch' for uri 'http://www.ascc.net/xml/schematron'
+2025-09-06 08:36:24|   1.0|  0.0|INFORM|Using prefix 'smil20' for uri 'http://www.w3.org/2001/SMIL20/'
+2025-09-06 08:36:24|   1.0|  0.0|INFORM|Using prefix 'xsi' for uri 'http://www.w3.org/2001/XMLSchema-instance'
+2025-09-06 08:36:24|   1.0|  0.0|INFORM|Using prefix 'core' for uri 'http://www.opengis.net/citygml/2.0'
+2025-09-06 08:36:24|   1.0|  0.0|INFORM|Using prefix 'smil20lang' for uri 'http://www.w3.org/2001/SMIL20/Language'
+2025-09-06 08:36:24|   1.0|  0.0|INFORM|Using prefix 'gen' for uri 'http://www.opengis.net/citygml/generics/2.0'
+2025-09-06 08:36:24|   1.0|  0.0|INFORM|Using prefix 'veg' for uri 'http://www.opengis.net/citygml/vegetation/2.0'
+2025-09-06 08:36:24|   1.0|  0.0|INFORM|Pre-processing xfMap 'C:\Users\adhis\AppData\Local\Temp\GML_XFMAP_CACHE\CACHED_AUTOGEN_1757140584743_28224.xfmap' with macro stylesheet 'C:\Program Files\FME\xfmap\xfmap_macro.xslt' into 'C:\Users\adhis\AppData\Local\Temp\GML_XFMAP_CACHE\CACHED_AUTOGEN_1757140584834_28224.xfmap'
+2025-09-06 08:36:24|   1.1|  0.1|INFORM|CityGML Reader: Caching xfMap file for subsequent reads 'C:\Users\adhis\AppData\Local\Temp\GML_XFMAP_CACHE\CACHED_AUTOGEN_1757140584834_28224.xfmap'
+2025-09-06 08:36:24|   1.1|  0.0|INFORM|FME Configuration: Using FME Reprojection Engine
+2025-09-06 08:36:24|   1.1|  0.0|INFORM|The XML Reader is using xfMap 'C:\Users\adhis\AppData\Local\Temp\GML_XFMAP_CACHE\CACHED_AUTOGEN_1757140584834_28224.xfmap'
+2025-09-06 08:36:24|   1.1|  0.0|INFORM|Parsing XML document 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\citygml_rotterdam\01_Katendrecht.gml'
+2025-09-06 08:36:27|   3.7|  2.6|INFORM|FME Configuration: Source coordinate system for reader CITYGML_1[CITYGML] set to `EPSG:28992' as read from input data
+2025-09-06 08:36:27|   3.7|  0.0|INFORM|Coordinate System `EPSG:28992' parameters: CS_NAME=`Netherlands-RDNew-2008' DESC_NM=`Netherlands, Amersfoort RD 2008 datum, New System' DT_NAME=`Amersfoort-RD-2008' GROUP=`EUROPE' MAP_SCL=`1' ORG_LAT=`52.15616055555556' ORG_LNG=`5.387638888888889' PROJ=`OSTERO' QUAD=`1' SCL_RED=`0.9999079' SOURCE=`Kadaster' UNIT=`METER' X_OFF=`155000' Y_OFF=`463000'
+2025-09-06 08:36:28|   4.1|  0.4|INFORM|Reading source feature # 2000
+2025-09-06 08:36:28|   4.6|  0.5|INFORM|Creating reader for format: OGC CityGML
+2025-09-06 08:36:28|   4.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `CITYGML'
+2025-09-06 08:36:28|   4.6|  0.0|INFORM|Opening the CITYGML reader with source dataset 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\citygml_rotterdam\02_Kop_Van_Zuid.gml'
+2025-09-06 08:36:28|   4.6|  0.0|INFORM|Parsing XML document 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\citygml_rotterdam\02_Kop_Van_Zuid.gml'
+2025-09-06 08:36:28|   4.6|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_aixm.xml' is being used to map from URI to URI
+2025-09-06 08:36:28|   4.6|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_inspire.xml' is being used to map from URI to URI
+2025-09-06 08:36:28|   4.6|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_sosi.xml' is being used to map from URI to URI
+2025-09-06 08:36:28|   4.6|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_urimap.xml' is being used to map from URI to URI
+2025-09-06 08:36:28|   4.6|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_citygml.xml' is being used to map from URI to URI
+2025-09-06 08:36:28|   4.6|  0.0|INFORM|CityGML Reader: Using cached xfMap 'C:\Users\adhis\AppData\Local\Temp\GML_XFMAP_CACHE\CACHED_AUTOGEN_1757140584834_28224.xfmap'
+2025-09-06 08:36:28|   4.6|  0.0|INFORM|The XML Reader is using xfMap 'C:\Users\adhis\AppData\Local\Temp\GML_XFMAP_CACHE\CACHED_AUTOGEN_1757140584834_28224.xfmap'
+2025-09-06 08:36:28|   4.6|  0.0|INFORM|Parsing XML document 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\citygml_rotterdam\02_Kop_Van_Zuid.gml'
+2025-09-06 08:36:29|   5.7|  1.1|INFORM|FME Configuration: Source coordinate system for reader CITYGML_1[CITYGML] set to `EPSG:28992' as read from input data
+2025-09-06 08:36:29|   5.7|  0.0|INFORM|Coordinate System `EPSG:28992' parameters: CS_NAME=`Netherlands-RDNew-2008' DESC_NM=`Netherlands, Amersfoort RD 2008 datum, New System' DT_NAME=`Amersfoort-RD-2008' GROUP=`EUROPE' MAP_SCL=`1' ORG_LAT=`52.15616055555556' ORG_LNG=`5.387638888888889' PROJ=`OSTERO' QUAD=`1' SCL_RED=`0.9999079' SOURCE=`Kadaster' UNIT=`METER' X_OFF=`155000' Y_OFF=`463000'
+2025-09-06 08:36:30|   6.1|  0.4|INFORM|Creating reader for format: OGC CityGML
+2025-09-06 08:36:30|   6.1|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `CITYGML'
+2025-09-06 08:36:30|   6.1|  0.0|INFORM|Opening the CITYGML reader with source dataset 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\citygml_rotterdam\03_Noordereiland.gml'
+2025-09-06 08:36:30|   6.1|  0.0|INFORM|Parsing XML document 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\citygml_rotterdam\03_Noordereiland.gml'
+2025-09-06 08:36:30|   6.1|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_aixm.xml' is being used to map from URI to URI
+2025-09-06 08:36:30|   6.1|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_inspire.xml' is being used to map from URI to URI
+2025-09-06 08:36:30|   6.1|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_sosi.xml' is being used to map from URI to URI
+2025-09-06 08:36:30|   6.1|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_urimap.xml' is being used to map from URI to URI
+2025-09-06 08:36:30|   6.1|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_citygml.xml' is being used to map from URI to URI
+2025-09-06 08:36:30|   6.1|  0.0|INFORM|CityGML Reader: Using cached xfMap 'C:\Users\adhis\AppData\Local\Temp\GML_XFMAP_CACHE\CACHED_AUTOGEN_1757140584834_28224.xfmap'
+2025-09-06 08:36:30|   6.1|  0.0|INFORM|The XML Reader is using xfMap 'C:\Users\adhis\AppData\Local\Temp\GML_XFMAP_CACHE\CACHED_AUTOGEN_1757140584834_28224.xfmap'
+2025-09-06 08:36:30|   6.1|  0.0|INFORM|Parsing XML document 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\citygml_rotterdam\03_Noordereiland.gml'
+2025-09-06 08:36:31|   7.1|  1.0|INFORM|FME Configuration: Source coordinate system for reader CITYGML_1[CITYGML] set to `EPSG:28992' as read from input data
+2025-09-06 08:36:31|   7.1|  0.0|INFORM|Coordinate System `EPSG:28992' parameters: CS_NAME=`Netherlands-RDNew-2008' DESC_NM=`Netherlands, Amersfoort RD 2008 datum, New System' DT_NAME=`Amersfoort-RD-2008' GROUP=`EUROPE' MAP_SCL=`1' ORG_LAT=`52.15616055555556' ORG_LNG=`5.387638888888889' PROJ=`OSTERO' QUAD=`1' SCL_RED=`0.9999079' SOURCE=`Kadaster' UNIT=`METER' X_OFF=`155000' Y_OFF=`463000'
+2025-09-06 08:36:31|   7.4|  0.3|INFORM|Creating reader for format: OGC CityGML
+2025-09-06 08:36:31|   7.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `CITYGML'
+2025-09-06 08:36:31|   7.4|  0.0|INFORM|Opening the CITYGML reader with source dataset 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\citygml_rotterdam\04_Feijenoord.gml'
+2025-09-06 08:36:31|   7.4|  0.0|INFORM|Parsing XML document 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\citygml_rotterdam\04_Feijenoord.gml'
+2025-09-06 08:36:31|   7.4|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_aixm.xml' is being used to map from URI to URI
+2025-09-06 08:36:31|   7.4|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_inspire.xml' is being used to map from URI to URI
+2025-09-06 08:36:31|   7.4|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_sosi.xml' is being used to map from URI to URI
+2025-09-06 08:36:31|   7.4|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_urimap.xml' is being used to map from URI to URI
+2025-09-06 08:36:31|   7.4|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_citygml.xml' is being used to map from URI to URI
+2025-09-06 08:36:31|   7.4|  0.0|INFORM|CityGML Reader: Using cached xfMap 'C:\Users\adhis\AppData\Local\Temp\GML_XFMAP_CACHE\CACHED_AUTOGEN_1757140584834_28224.xfmap'
+2025-09-06 08:36:31|   7.4|  0.0|INFORM|The XML Reader is using xfMap 'C:\Users\adhis\AppData\Local\Temp\GML_XFMAP_CACHE\CACHED_AUTOGEN_1757140584834_28224.xfmap'
+2025-09-06 08:36:31|   7.4|  0.0|INFORM|Parsing XML document 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\citygml_rotterdam\04_Feijenoord.gml'
+2025-09-06 08:36:34|   9.9|  2.5|INFORM|XML Reader mapped feature # 5000  (xfMap: CityGML XFMAP auto-gen)
+2025-09-06 08:36:35|  10.4|  0.5|INFORM|FME Configuration: Source coordinate system for reader CITYGML_1[CITYGML] set to `EPSG:28992' as read from input data
+2025-09-06 08:36:35|  10.4|  0.0|INFORM|Coordinate System `EPSG:28992' parameters: CS_NAME=`Netherlands-RDNew-2008' DESC_NM=`Netherlands, Amersfoort RD 2008 datum, New System' DT_NAME=`Amersfoort-RD-2008' GROUP=`EUROPE' MAP_SCL=`1' ORG_LAT=`52.15616055555556' ORG_LNG=`5.387638888888889' PROJ=`OSTERO' QUAD=`1' SCL_RED=`0.9999079' SOURCE=`Kadaster' UNIT=`METER' X_OFF=`155000' Y_OFF=`463000'
+2025-09-06 08:36:35|  10.4|  0.0|INFORM|Reading source feature # 8500
+2025-09-06 08:36:36|  11.4|  1.0|INFORM|Creating reader for format: OGC CityGML
+2025-09-06 08:36:36|  11.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `CITYGML'
+2025-09-06 08:36:36|  11.4|  0.0|INFORM|Opening the CITYGML reader with source dataset 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\citygml_rotterdam\05_KVZ_Entrepot.gml'
+2025-09-06 08:36:36|  11.4|  0.0|INFORM|Parsing XML document 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\citygml_rotterdam\05_KVZ_Entrepot.gml'
+2025-09-06 08:36:36|  11.4|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_aixm.xml' is being used to map from URI to URI
+2025-09-06 08:36:36|  11.4|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_inspire.xml' is being used to map from URI to URI
+2025-09-06 08:36:36|  11.4|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_sosi.xml' is being used to map from URI to URI
+2025-09-06 08:36:36|  11.4|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_urimap.xml' is being used to map from URI to URI
+2025-09-06 08:36:36|  11.4|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_citygml.xml' is being used to map from URI to URI
+2025-09-06 08:36:36|  11.4|  0.0|INFORM|CityGML Reader: Using cached xfMap 'C:\Users\adhis\AppData\Local\Temp\GML_XFMAP_CACHE\CACHED_AUTOGEN_1757140584834_28224.xfmap'
+2025-09-06 08:36:36|  11.5|  0.1|INFORM|The XML Reader is using xfMap 'C:\Users\adhis\AppData\Local\Temp\GML_XFMAP_CACHE\CACHED_AUTOGEN_1757140584834_28224.xfmap'
+2025-09-06 08:36:36|  11.5|  0.0|INFORM|Parsing XML document 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\citygml_rotterdam\05_KVZ_Entrepot.gml'
+2025-09-06 08:36:39|  14.0|  2.5|INFORM|XML Reader mapped feature # 5000  (xfMap: CityGML XFMAP auto-gen)
+2025-09-06 08:36:39|  14.4|  0.4|INFORM|FME Configuration: Source coordinate system for reader CITYGML_1[CITYGML] set to `EPSG:28992' as read from input data
+2025-09-06 08:36:39|  14.4|  0.0|INFORM|Coordinate System `EPSG:28992' parameters: CS_NAME=`Netherlands-RDNew-2008' DESC_NM=`Netherlands, Amersfoort RD 2008 datum, New System' DT_NAME=`Amersfoort-RD-2008' GROUP=`EUROPE' MAP_SCL=`1' ORG_LAT=`52.15616055555556' ORG_LNG=`5.387638888888889' PROJ=`OSTERO' QUAD=`1' SCL_RED=`0.9999079' SOURCE=`Kadaster' UNIT=`METER' X_OFF=`155000' Y_OFF=`463000'
+2025-09-06 08:36:40|  15.0|  0.6|INFORM|Reading source feature # 17500
+2025-09-06 08:36:40|  15.5|  0.5|INFORM|Creating reader for format: OGC CityGML
+2025-09-06 08:36:40|  15.5|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `CITYGML'
+2025-09-06 08:36:40|  15.5|  0.0|INFORM|Opening the CITYGML reader with source dataset 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\citygml_rotterdam\06_Afrikaanderwijk.gml'
+2025-09-06 08:36:41|  15.5|  0.0|INFORM|Parsing XML document 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\citygml_rotterdam\06_Afrikaanderwijk.gml'
+2025-09-06 08:36:41|  15.5|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_aixm.xml' is being used to map from URI to URI
+2025-09-06 08:36:41|  15.5|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_inspire.xml' is being used to map from URI to URI
+2025-09-06 08:36:41|  15.5|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_sosi.xml' is being used to map from URI to URI
+2025-09-06 08:36:41|  15.5|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_urimap.xml' is being used to map from URI to URI
+2025-09-06 08:36:41|  15.5|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_citygml.xml' is being used to map from URI to URI
+2025-09-06 08:36:41|  15.6|  0.1|INFORM|CityGML Reader: Using cached xfMap 'C:\Users\adhis\AppData\Local\Temp\GML_XFMAP_CACHE\CACHED_AUTOGEN_1757140584834_28224.xfmap'
+2025-09-06 08:36:41|  15.6|  0.0|INFORM|The XML Reader is using xfMap 'C:\Users\adhis\AppData\Local\Temp\GML_XFMAP_CACHE\CACHED_AUTOGEN_1757140584834_28224.xfmap'
+2025-09-06 08:36:41|  15.6|  0.0|INFORM|Parsing XML document 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\citygml_rotterdam\06_Afrikaanderwijk.gml'
+2025-09-06 08:36:43|  17.7|  2.1|INFORM|XML Reader mapped feature # 5000  (xfMap: CityGML XFMAP auto-gen)
+2025-09-06 08:36:44|  18.6|  0.9|INFORM|FME Configuration: Source coordinate system for reader CITYGML_1[CITYGML] set to `EPSG:28992' as read from input data
+2025-09-06 08:36:44|  18.6|  0.0|INFORM|Coordinate System `EPSG:28992' parameters: CS_NAME=`Netherlands-RDNew-2008' DESC_NM=`Netherlands, Amersfoort RD 2008 datum, New System' DT_NAME=`Amersfoort-RD-2008' GROUP=`EUROPE' MAP_SCL=`1' ORG_LAT=`52.15616055555556' ORG_LNG=`5.387638888888889' PROJ=`OSTERO' QUAD=`1' SCL_RED=`0.9999079' SOURCE=`Kadaster' UNIT=`METER' X_OFF=`155000' Y_OFF=`463000'
+2025-09-06 08:36:45|  19.5|  0.9|INFORM|Reading source feature # 26000
+2025-09-06 08:36:45|  19.6|  0.1|INFORM|Creating reader for format: OGC CityGML
+2025-09-06 08:36:45|  19.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `CITYGML'
+2025-09-06 08:36:45|  19.6|  0.0|INFORM|Opening the CITYGML reader with source dataset 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\citygml_rotterdam\07_Hillesluis.gml'
+2025-09-06 08:36:45|  19.6|  0.0|INFORM|Parsing XML document 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\citygml_rotterdam\07_Hillesluis.gml'
+2025-09-06 08:36:45|  19.6|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_aixm.xml' is being used to map from URI to URI
+2025-09-06 08:36:45|  19.6|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_inspire.xml' is being used to map from URI to URI
+2025-09-06 08:36:45|  19.6|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_sosi.xml' is being used to map from URI to URI
+2025-09-06 08:36:45|  19.6|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_urimap.xml' is being used to map from URI to URI
+2025-09-06 08:36:45|  19.6|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_citygml.xml' is being used to map from URI to URI
+2025-09-06 08:36:45|  19.6|  0.0|INFORM|CityGML Reader: Using cached xfMap 'C:\Users\adhis\AppData\Local\Temp\GML_XFMAP_CACHE\CACHED_AUTOGEN_1757140584834_28224.xfmap'
+2025-09-06 08:36:45|  19.6|  0.0|INFORM|The XML Reader is using xfMap 'C:\Users\adhis\AppData\Local\Temp\GML_XFMAP_CACHE\CACHED_AUTOGEN_1757140584834_28224.xfmap'
+2025-09-06 08:36:45|  19.7|  0.1|INFORM|Parsing XML document 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\citygml_rotterdam\07_Hillesluis.gml'
+2025-09-06 08:36:48|  22.0|  2.3|INFORM|XML Reader mapped feature # 5000  (xfMap: CityGML XFMAP auto-gen)
+2025-09-06 08:36:48|  22.5|  0.5|INFORM|FME Configuration: Source coordinate system for reader CITYGML_1[CITYGML] set to `EPSG:28992' as read from input data
+2025-09-06 08:36:48|  22.5|  0.0|INFORM|Coordinate System `EPSG:28992' parameters: CS_NAME=`Netherlands-RDNew-2008' DESC_NM=`Netherlands, Amersfoort RD 2008 datum, New System' DT_NAME=`Amersfoort-RD-2008' GROUP=`EUROPE' MAP_SCL=`1' ORG_LAT=`52.15616055555556' ORG_LNG=`5.387638888888889' PROJ=`OSTERO' QUAD=`1' SCL_RED=`0.9999079' SOURCE=`Kadaster' UNIT=`METER' X_OFF=`155000' Y_OFF=`463000'
+2025-09-06 08:36:49|  23.5|  1.0|INFORM|Creating reader for format: OGC CityGML
+2025-09-06 08:36:49|  23.5|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `CITYGML'
+2025-09-06 08:36:49|  23.5|  0.0|INFORM|Opening the CITYGML reader with source dataset 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\citygml_rotterdam\08_Bloemhof.gml'
+2025-09-06 08:36:50|  23.5|  0.0|INFORM|Parsing XML document 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\citygml_rotterdam\08_Bloemhof.gml'
+2025-09-06 08:36:50|  23.5|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_aixm.xml' is being used to map from URI to URI
+2025-09-06 08:36:50|  23.5|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_inspire.xml' is being used to map from URI to URI
+2025-09-06 08:36:50|  23.5|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_sosi.xml' is being used to map from URI to URI
+2025-09-06 08:36:50|  23.5|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_urimap.xml' is being used to map from URI to URI
+2025-09-06 08:36:50|  23.5|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_citygml.xml' is being used to map from URI to URI
+2025-09-06 08:36:50|  23.5|  0.0|INFORM|CityGML Reader: Using cached xfMap 'C:\Users\adhis\AppData\Local\Temp\GML_XFMAP_CACHE\CACHED_AUTOGEN_1757140584834_28224.xfmap'
+2025-09-06 08:36:50|  23.5|  0.0|INFORM|The XML Reader is using xfMap 'C:\Users\adhis\AppData\Local\Temp\GML_XFMAP_CACHE\CACHED_AUTOGEN_1757140584834_28224.xfmap'
+2025-09-06 08:36:50|  23.5|  0.0|INFORM|Parsing XML document 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\citygml_rotterdam\08_Bloemhof.gml'
+2025-09-06 08:36:53|  26.0|  2.5|INFORM|XML Reader mapped feature # 5000  (xfMap: CityGML XFMAP auto-gen)
+2025-09-06 08:36:54|  27.5|  1.5|INFORM|FME Configuration: Source coordinate system for reader CITYGML_1[CITYGML] set to `EPSG:28992' as read from input data
+2025-09-06 08:36:54|  27.5|  0.0|INFORM|Coordinate System `EPSG:28992' parameters: CS_NAME=`Netherlands-RDNew-2008' DESC_NM=`Netherlands, Amersfoort RD 2008 datum, New System' DT_NAME=`Amersfoort-RD-2008' GROUP=`EUROPE' MAP_SCL=`1' ORG_LAT=`52.15616055555556' ORG_LNG=`5.387638888888889' PROJ=`OSTERO' QUAD=`1' SCL_RED=`0.9999079' SOURCE=`Kadaster' UNIT=`METER' X_OFF=`155000' Y_OFF=`463000'
+2025-09-06 08:36:54|  27.5|  0.0|INFORM|Reading source feature # 33000
+2025-09-06 08:36:56|  29.0|  1.5|INFORM|Creating reader for format: OGC CityGML
+2025-09-06 08:36:56|  29.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `CITYGML'
+2025-09-06 08:36:56|  29.0|  0.0|INFORM|Opening the CITYGML reader with source dataset 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\citygml_rotterdam\09_Vreewijk_1.gml'
+2025-09-06 08:36:57|  29.0|  0.0|INFORM|Parsing XML document 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\citygml_rotterdam\09_Vreewijk_1.gml'
+2025-09-06 08:36:57|  29.0|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_aixm.xml' is being used to map from URI to URI
+2025-09-06 08:36:57|  29.0|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_inspire.xml' is being used to map from URI to URI
+2025-09-06 08:36:57|  29.0|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_sosi.xml' is being used to map from URI to URI
+2025-09-06 08:36:57|  29.0|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_urimap.xml' is being used to map from URI to URI
+2025-09-06 08:36:57|  29.0|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_citygml.xml' is being used to map from URI to URI
+2025-09-06 08:36:57|  29.0|  0.0|INFORM|CityGML Reader: Using cached xfMap 'C:\Users\adhis\AppData\Local\Temp\GML_XFMAP_CACHE\CACHED_AUTOGEN_1757140584834_28224.xfmap'
+2025-09-06 08:36:57|  29.0|  0.0|INFORM|The XML Reader is using xfMap 'C:\Users\adhis\AppData\Local\Temp\GML_XFMAP_CACHE\CACHED_AUTOGEN_1757140584834_28224.xfmap'
+2025-09-06 08:36:57|  29.0|  0.0|INFORM|Parsing XML document 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\citygml_rotterdam\09_Vreewijk_1.gml'
+2025-09-06 08:37:00|  32.0|  3.0|INFORM|XML Reader mapped feature # 5000  (xfMap: CityGML XFMAP auto-gen)
+2025-09-06 08:37:02|  34.2|  2.2|INFORM|FME Configuration: Source coordinate system for reader CITYGML_1[CITYGML] set to `EPSG:28992' as read from input data
+2025-09-06 08:37:02|  34.2|  0.0|INFORM|Coordinate System `EPSG:28992' parameters: CS_NAME=`Netherlands-RDNew-2008' DESC_NM=`Netherlands, Amersfoort RD 2008 datum, New System' DT_NAME=`Amersfoort-RD-2008' GROUP=`EUROPE' MAP_SCL=`1' ORG_LAT=`52.15616055555556' ORG_LNG=`5.387638888888889' PROJ=`OSTERO' QUAD=`1' SCL_RED=`0.9999079' SOURCE=`Kadaster' UNIT=`METER' X_OFF=`155000' Y_OFF=`463000'
+2025-09-06 08:37:02|  34.2|  0.0|INFORM|Reading source feature # 41000
+2025-09-06 08:37:04|  36.2|  2.0|INFORM|Creating reader for format: OGC CityGML
+2025-09-06 08:37:04|  36.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `CITYGML'
+2025-09-06 08:37:04|  36.2|  0.0|INFORM|Opening the CITYGML reader with source dataset 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\citygml_rotterdam\10_Vreewijk_2.gml'
+2025-09-06 08:37:04|  36.2|  0.0|INFORM|Parsing XML document 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\citygml_rotterdam\10_Vreewijk_2.gml'
+2025-09-06 08:37:04|  36.2|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_aixm.xml' is being used to map from URI to URI
+2025-09-06 08:37:04|  36.2|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_inspire.xml' is being used to map from URI to URI
+2025-09-06 08:37:04|  36.2|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_sosi.xml' is being used to map from URI to URI
+2025-09-06 08:37:04|  36.2|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_urimap.xml' is being used to map from URI to URI
+2025-09-06 08:37:04|  36.2|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_citygml.xml' is being used to map from URI to URI
+2025-09-06 08:37:04|  36.2|  0.0|INFORM|CityGML Reader: Using cached xfMap 'C:\Users\adhis\AppData\Local\Temp\GML_XFMAP_CACHE\CACHED_AUTOGEN_1757140584834_28224.xfmap'
+2025-09-06 08:37:04|  36.2|  0.0|INFORM|The XML Reader is using xfMap 'C:\Users\adhis\AppData\Local\Temp\GML_XFMAP_CACHE\CACHED_AUTOGEN_1757140584834_28224.xfmap'
+2025-09-06 08:37:04|  36.2|  0.0|INFORM|Parsing XML document 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\citygml_rotterdam\10_Vreewijk_2.gml'
+2025-09-06 08:37:07|  38.8|  2.6|INFORM|FME Configuration: Source coordinate system for reader CITYGML_1[CITYGML] set to `EPSG:28992' as read from input data
+2025-09-06 08:37:07|  38.8|  0.0|INFORM|Coordinate System `EPSG:28992' parameters: CS_NAME=`Netherlands-RDNew-2008' DESC_NM=`Netherlands, Amersfoort RD 2008 datum, New System' DT_NAME=`Amersfoort-RD-2008' GROUP=`EUROPE' MAP_SCL=`1' ORG_LAT=`52.15616055555556' ORG_LNG=`5.387638888888889' PROJ=`OSTERO' QUAD=`1' SCL_RED=`0.9999079' SOURCE=`Kadaster' UNIT=`METER' X_OFF=`155000' Y_OFF=`463000'
+2025-09-06 08:37:07|  38.8|  0.0|INFORM|Reading source feature # 51000
+2025-09-06 08:37:08|  39.6|  0.8|INFORM|MULTI_READER(CITYGML_1): Done reading 55399 features from 10 readers
+2025-09-06 08:37:08|  39.6|  0.0|INFORM|MULTI_READER(MULTI_READER): Done reading 55400 features from 2 readers
+2025-09-06 08:37:08|  39.6|  0.0|INFORM|Emptying factory pipeline
+2025-09-06 08:37:08|  39.6|  0.0|STATS |Router and Unexpected Input Remover (RoutingFactory): Tested 55400 input feature(s), wrote 55400 output feature(s): 55400 matched merge filters, 55400 were routed to output, 0 could not be routed.
+2025-09-06 08:37:08|  39.6|  0.0|STATS |Unwanted Router Input Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2025-09-06 08:37:08|  39.6|  0.0|STATS |extracted_location_SPATIALITE_NATIVE_2 Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2025-09-06 08:37:08|  39.6|  0.0|STATS |SolitaryVegetationObject_CITYGML_1 Splitter (TeeFactory): Cloned 55389 input feature(s) into 55389 output feature(s)
+2025-09-06 08:37:08|  39.6|  0.0|STATS |CityModel_CITYGML_1 Splitter (TeeFactory): Cloned 10 input feature(s) into 0 output feature(s)
+2025-09-06 08:37:08|  39.6|  0.0|STATS |building_SPATIALITE_NATIVE_4 Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2025-09-06 08:37:08|  39.6|  0.0|STATS |wijken_SPATIALITE_NATIVE_1 Splitter (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2025-09-06 08:37:08|  39.6|  0.0|STATS |TestFilter_2_INPUT (TeeFactory): Cloned 55389 input feature(s) into 55389 output feature(s)
+2025-09-06 08:37:08|  39.6|  0.0|STATS |TestFilter_2 (TestFactory): Tested 55389 input feature(s) -- 18549 feature(s) passed and 36840 feature(s) failed
+2025-09-06 08:37:08|  39.6|  0.0|STATS |DuplicateFilter_4 UNIQUE Splitter (TeeFactory): Cloned 14090 input feature(s) into 42270 output feature(s)
+2025-09-06 08:37:08|  39.6|  0.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 1 candidates so far.
+2025-09-06 08:37:13|  44.5|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 58 candidates so far.
+2025-09-06 08:37:18|  49.4|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 122 candidates so far.
+2025-09-06 08:37:23|  54.4|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 183 candidates so far.
+2025-09-06 08:37:28|  59.2|  4.8|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 247 candidates so far.
+2025-09-06 08:37:33|  64.3|  5.1|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 314 candidates so far.
+2025-09-06 08:37:38|  69.2|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 377 candidates so far.
+2025-09-06 08:37:43|  74.2|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 445 candidates so far.
+2025-09-06 08:37:48|  79.2|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 510 candidates so far.
+2025-09-06 08:37:53|  84.2|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 578 candidates so far.
+2025-09-06 08:37:58|  89.2|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 642 candidates so far.
+2025-09-06 08:38:04|  94.3|  5.1|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 703 candidates so far.
+2025-09-06 08:38:09|  99.3|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 764 candidates so far.
+2025-09-06 08:38:14| 104.2|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 835 candidates so far.
+2025-09-06 08:38:19| 109.2|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 906 candidates so far.
+2025-09-06 08:38:24| 114.2|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 977 candidates so far.
+2025-09-06 08:38:29| 119.2|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 1049 candidates so far.
+2025-09-06 08:38:34| 124.2|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 1125 candidates so far.
+2025-09-06 08:38:39| 129.2|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 1197 candidates so far.
+2025-09-06 08:38:44| 134.2|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 1273 candidates so far.
+2025-09-06 08:38:49| 139.1|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 1349 candidates so far.
+2025-09-06 08:38:54| 144.2|  5.1|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 1411 candidates so far.
+2025-09-06 08:38:59| 149.2|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 1454 candidates so far.
+2025-09-06 08:39:04| 154.2|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 1524 candidates so far.
+2025-09-06 08:39:09| 159.2|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 1583 candidates so far.
+2025-09-06 08:39:14| 164.1|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 1641 candidates so far.
+2025-09-06 08:39:19| 169.2|  5.1|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 1699 candidates so far.
+2025-09-06 08:39:24| 174.2|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 1760 candidates so far.
+2025-09-06 08:39:29| 179.2|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 1820 candidates so far.
+2025-09-06 08:39:34| 184.2|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 1882 candidates so far.
+2025-09-06 08:39:40| 189.1|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 1943 candidates so far.
+2025-09-06 08:39:45| 194.0|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 2004 candidates so far.
+2025-09-06 08:39:50| 199.0|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 2071 candidates so far.
+2025-09-06 08:39:55| 203.9|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 2136 candidates so far.
+2025-09-06 08:40:00| 208.9|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 2200 candidates so far.
+2025-09-06 08:40:05| 213.8|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 2267 candidates so far.
+2025-09-06 08:40:10| 218.8|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 2325 candidates so far.
+2025-09-06 08:40:15| 223.8|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 2393 candidates so far.
+2025-09-06 08:40:20| 228.8|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 2456 candidates so far.
+2025-09-06 08:40:25| 233.7|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 2517 candidates so far.
+2025-09-06 08:40:30| 238.7|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 2580 candidates so far.
+2025-09-06 08:40:35| 243.7|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 2644 candidates so far.
+2025-09-06 08:40:40| 248.7|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 2701 candidates so far.
+2025-09-06 08:40:45| 253.5|  4.8|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 2758 candidates so far.
+2025-09-06 08:40:50| 258.5|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 2820 candidates so far.
+2025-09-06 08:40:55| 263.5|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 2892 candidates so far.
+2025-09-06 08:41:00| 268.5|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 2957 candidates so far.
+2025-09-06 08:41:05| 273.4|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 3022 candidates so far.
+2025-09-06 08:41:10| 278.4|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 3085 candidates so far.
+2025-09-06 08:41:15| 283.4|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 3147 candidates so far.
+2025-09-06 08:41:20| 288.4|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 3213 candidates so far.
+2025-09-06 08:41:26| 293.5|  5.1|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 3274 candidates so far.
+2025-09-06 08:41:31| 298.5|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 3333 candidates so far.
+2025-09-06 08:41:36| 303.3|  4.8|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 3391 candidates so far.
+2025-09-06 08:41:41| 308.3|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 3450 candidates so far.
+2025-09-06 08:41:46| 313.2|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 3511 candidates so far.
+2025-09-06 08:41:51| 318.2|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 3581 candidates so far.
+2025-09-06 08:41:56| 323.2|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 3647 candidates so far.
+2025-09-06 08:42:01| 328.1|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 3711 candidates so far.
+2025-09-06 08:42:06| 333.1|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 3768 candidates so far.
+2025-09-06 08:42:11| 338.1|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 3829 candidates so far.
+2025-09-06 08:42:16| 343.0|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 3891 candidates so far.
+2025-09-06 08:42:21| 348.0|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 3956 candidates so far.
+2025-09-06 08:42:26| 352.9|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 4017 candidates so far.
+2025-09-06 08:42:31| 357.9|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 4075 candidates so far.
+2025-09-06 08:42:36| 362.9|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 4132 candidates so far.
+2025-09-06 08:42:41| 367.7|  4.8|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 4200 candidates so far.
+2025-09-06 08:42:46| 372.7|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 4308 candidates so far.
+2025-09-06 08:42:51| 377.6|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 4365 candidates so far.
+2025-09-06 08:42:56| 382.6|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 4421 candidates so far.
+2025-09-06 08:43:01| 387.6|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 4471 candidates so far.
+2025-09-06 08:43:06| 392.6|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 4578 candidates so far.
+2025-09-06 08:43:11| 397.6|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 4644 candidates so far.
+2025-09-06 08:43:17| 402.6|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 4711 candidates so far.
+2025-09-06 08:43:22| 407.6|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 4767 candidates so far.
+2025-09-06 08:43:27| 412.5|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 4820 candidates so far.
+2025-09-06 08:43:32| 417.5|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 4879 candidates so far.
+2025-09-06 08:43:37| 422.4|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 4936 candidates so far.
+2025-09-06 08:43:42| 427.3|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 4996 candidates so far.
+2025-09-06 08:43:47| 432.1|  4.8|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 5078 candidates so far.
+2025-09-06 08:43:52| 437.1|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 5159 candidates so far.
+2025-09-06 08:43:57| 442.1|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 5230 candidates so far.
+2025-09-06 08:44:02| 447.0|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 5306 candidates so far.
+2025-09-06 08:44:07| 451.9|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 5373 candidates so far.
+2025-09-06 08:44:12| 457.0|  5.1|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 5444 candidates so far.
+2025-09-06 08:44:17| 462.0|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 5519 candidates so far.
+2025-09-06 08:44:22| 466.9|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 5577 candidates so far.
+2025-09-06 08:44:27| 472.0|  5.1|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 5639 candidates so far.
+2025-09-06 08:44:32| 476.9|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 5710 candidates so far.
+2025-09-06 08:44:37| 481.8|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 5777 candidates so far.
+2025-09-06 08:44:42| 486.7|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 5848 candidates so far.
+2025-09-06 08:44:47| 491.6|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 5915 candidates so far.
+2025-09-06 08:44:52| 496.6|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 5984 candidates so far.
+2025-09-06 08:44:57| 501.5|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 6054 candidates so far.
+2025-09-06 08:45:02| 506.5|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 6129 candidates so far.
+2025-09-06 08:45:07| 511.5|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 6190 candidates so far.
+2025-09-06 08:45:12| 516.5|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 6257 candidates so far.
+2025-09-06 08:45:18| 521.5|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 6331 candidates so far.
+2025-09-06 08:45:23| 526.4|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 6397 candidates so far.
+2025-09-06 08:45:28| 531.4|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 6468 candidates so far.
+2025-09-06 08:45:33| 536.3|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 6535 candidates so far.
+2025-09-06 08:45:38| 541.2|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 6594 candidates so far.
+2025-09-06 08:45:43| 546.3|  5.1|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 6656 candidates so far.
+2025-09-06 08:45:48| 551.2|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 6716 candidates so far.
+2025-09-06 08:45:53| 556.3|  5.1|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 6782 candidates so far.
+2025-09-06 08:45:58| 561.0|  4.7|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 6844 candidates so far.
+2025-09-06 08:46:03| 565.9|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 6912 candidates so far.
+2025-09-06 08:46:08| 570.9|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 6975 candidates so far.
+2025-09-06 08:46:13| 575.8|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 7028 candidates so far.
+2025-09-06 08:46:18| 580.8|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 7100 candidates so far.
+2025-09-06 08:46:23| 585.9|  5.1|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 7172 candidates so far.
+2025-09-06 08:46:28| 590.7|  4.8|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 7247 candidates so far.
+2025-09-06 08:46:33| 595.7|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 7317 candidates so far.
+2025-09-06 08:46:38| 600.6|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 7384 candidates so far.
+2025-09-06 08:46:43| 605.5|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 7448 candidates so far.
+2025-09-06 08:46:48| 610.4|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 7512 candidates so far.
+2025-09-06 08:46:53| 615.5|  5.1|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 7570 candidates so far.
+2025-09-06 08:46:59| 620.5|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 7628 candidates so far.
+2025-09-06 08:47:04| 625.4|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 7697 candidates so far.
+2025-09-06 08:47:09| 630.3|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 7765 candidates so far.
+2025-09-06 08:47:14| 635.3|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 7827 candidates so far.
+2025-09-06 08:47:19| 640.2|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 7896 candidates so far.
+2025-09-06 08:47:24| 645.2|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 7968 candidates so far.
+2025-09-06 08:47:29| 650.0|  4.8|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 8038 candidates so far.
+2025-09-06 08:47:34| 655.0|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 8105 candidates so far.
+2025-09-06 08:47:39| 660.0|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 8175 candidates so far.
+2025-09-06 08:47:44| 665.0|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 8243 candidates so far.
+2025-09-06 08:47:49| 669.9|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 8302 candidates so far.
+2025-09-06 08:47:54| 674.7|  4.8|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 8364 candidates so far.
+2025-09-06 08:47:59| 679.6|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 8424 candidates so far.
+2025-09-06 08:48:04| 684.6|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 8488 candidates so far.
+2025-09-06 08:48:09| 689.5|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 8558 candidates so far.
+2025-09-06 08:48:14| 694.4|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 8630 candidates so far.
+2025-09-06 08:48:19| 699.4|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 8768 candidates so far.
+2025-09-06 08:48:24| 704.3|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 8849 candidates so far.
+2025-09-06 08:48:29| 709.3|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 8926 candidates so far.
+2025-09-06 08:48:34| 714.2|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 9001 candidates so far.
+2025-09-06 08:48:39| 719.1|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 9064 candidates so far.
+2025-09-06 08:48:45| 724.2|  5.1|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 9133 candidates so far.
+2025-09-06 08:48:50| 729.1|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 9207 candidates so far.
+2025-09-06 08:48:55| 734.1|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 9284 candidates so far.
+2025-09-06 08:49:00| 739.0|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 9366 candidates so far.
+2025-09-06 08:49:05| 743.9|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 9438 candidates so far.
+2025-09-06 08:49:10| 748.8|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 9512 candidates so far.
+2025-09-06 08:49:15| 753.7|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 9583 candidates so far.
+2025-09-06 08:49:20| 758.8|  5.1|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 9670 candidates so far.
+2025-09-06 08:49:25| 763.7|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 9750 candidates so far.
+2025-09-06 08:49:30| 768.6|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 9821 candidates so far.
+2025-09-06 08:49:35| 773.6|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 9904 candidates so far.
+2025-09-06 08:49:40| 778.5|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 10049 candidates so far.
+2025-09-06 08:49:45| 783.5|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 10173 candidates so far.
+2025-09-06 08:49:50| 788.5|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 10249 candidates so far.
+2025-09-06 08:49:55| 793.5|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 10326 candidates so far.
+2025-09-06 08:50:00| 798.5|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 10403 candidates so far.
+2025-09-06 08:50:05| 803.5|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 10476 candidates so far.
+2025-09-06 08:50:10| 808.5|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 10551 candidates so far.
+2025-09-06 08:50:15| 813.4|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 10615 candidates so far.
+2025-09-06 08:50:20| 818.5|  5.1|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 10682 candidates so far.
+2025-09-06 08:50:25| 823.4|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 10747 candidates so far.
+2025-09-06 08:50:30| 828.5|  5.1|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 10820 candidates so far.
+2025-09-06 08:50:35| 833.3|  4.8|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 10896 candidates so far.
+2025-09-06 08:50:40| 838.3|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 10977 candidates so far.
+2025-09-06 08:50:45| 843.3|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 11058 candidates so far.
+2025-09-06 08:50:50| 848.3|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 11134 candidates so far.
+2025-09-06 08:50:56| 853.3|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 11208 candidates so far.
+2025-09-06 08:51:01| 858.2|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 11281 candidates so far.
+2025-09-06 08:51:06| 863.2|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 11345 candidates so far.
+2025-09-06 08:51:11| 868.2|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 11410 candidates so far.
+2025-09-06 08:51:16| 873.2|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 11467 candidates so far.
+2025-09-06 08:51:21| 878.2|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 11524 candidates so far.
+2025-09-06 08:51:26| 882.8|  4.6|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 11575 candidates so far.
+2025-09-06 08:51:31| 887.6|  4.8|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 11606 candidates so far.
+2025-09-06 08:51:36| 892.6|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 11656 candidates so far.
+2025-09-06 08:51:41| 897.7|  5.1|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 11709 candidates so far.
+2025-09-06 08:51:47| 902.7|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 11774 candidates so far.
+2025-09-06 08:51:52| 907.7|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 11824 candidates so far.
+2025-09-06 08:51:57| 912.7|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 11877 candidates so far.
+2025-09-06 08:52:02| 917.7|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 11937 candidates so far.
+2025-09-06 08:52:07| 922.7|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 11996 candidates so far.
+2025-09-06 08:52:12| 927.7|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 12059 candidates so far.
+2025-09-06 08:52:17| 932.6|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 12115 candidates so far.
+2025-09-06 08:52:22| 937.6|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 12173 candidates so far.
+2025-09-06 08:52:27| 942.6|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 12228 candidates so far.
+2025-09-06 08:52:32| 947.5|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 12287 candidates so far.
+2025-09-06 08:52:37| 952.5|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 12346 candidates so far.
+2025-09-06 08:52:42| 957.4|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 12405 candidates so far.
+2025-09-06 08:52:47| 962.4|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 12700 candidates so far.
+2025-09-06 08:52:52| 967.4|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 12830 candidates so far.
+2025-09-06 08:52:57| 972.4|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 12901 candidates so far.
+2025-09-06 08:53:03| 977.5|  5.1|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 12986 candidates so far.
+2025-09-06 08:53:08| 982.3|  4.8|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 13058 candidates so far.
+2025-09-06 08:53:13| 987.3|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 13128 candidates so far.
+2025-09-06 08:53:18| 992.1|  4.8|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 13186 candidates so far.
+2025-09-06 08:53:23| 997.2|  5.1|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 13242 candidates so far.
+2025-09-06 08:53:28|1002.3|  5.1|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 13296 candidates so far.
+2025-09-06 08:53:33|1007.3|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 13347 candidates so far.
+2025-09-06 08:53:38|1012.2|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 13396 candidates so far.
+2025-09-06 08:53:43|1017.1|  4.9|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 13442 candidates so far.
+2025-09-06 08:53:48|1022.1|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 13494 candidates so far.
+2025-09-06 08:53:53|1027.1|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 13559 candidates so far.
+2025-09-06 08:53:58|1032.1|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 13678 candidates so far.
+2025-09-06 08:54:03|1036.9|  4.8|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 13883 candidates so far.
+2025-09-06 08:54:08|1041.9|  5.0|INFORM|Clipper_4 (ClipperFactory): Clipping.  Processed 14057 candidates so far.
+2025-09-06 08:54:10|1043.9|  2.0|STATS |AttributeValueMapper_3 (TeeFactory): Cloned 13038 input feature(s) into 13038 output feature(s)
+2025-09-06 08:54:10|1043.9|  0.0|STATS |BoundsExtractor (TeeFactory): Cloned 13038 input feature(s) into 13038 output feature(s)
+2025-09-06 08:54:10|1043.9|  0.0|STATS |SurfaceFootprintReplacer_Rejector (ExecuteFunctionFactory): Executed FME Functions on 13038 input feature(s) -- 13038 feature(s) completed and 0 feature(s) rejected
+2025-09-06 08:54:10|1043.9|  0.0|STATS |AttributeValueMapper (TeeFactory): Cloned 13038 input feature(s) into 13038 output feature(s)
+2025-09-06 08:54:10|1043.9|  0.0|STATS |AttributeValueMapper_2 (TeeFactory): Cloned 13038 input feature(s) into 13038 output feature(s)
+2025-09-06 08:54:12|1045.2|  1.3|STATS |AttributeValueMapper_2 OUTPUT Splitter (TeeFactory): Cloned 13038 input feature(s) into 26076 output feature(s)
+2025-09-06 08:54:12|1045.2|  0.0|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 54256 input feature(s), wrote 54256 output feature(s): 0 matched merge filters, 0 were routed to output, 54256 could not be routed.
+2025-09-06 08:54:12|1045.2|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 54256 input feature(s) into 0 output feature(s)
+2025-09-06 08:54:12|1045.2|  0.0|WARN  |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-09-06 08:54:12|1045.2|  0.0|WARN  |      Features not written - verify feature type fanout/dynamic settings
+2025-09-06 08:54:12|1045.2|  0.0|WARN  |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-09-06 08:54:12|1045.2|  0.0|WARN  |  (Check that fanout/dynamic feature type attribute exists and has a value)
+2025-09-06 08:54:12|1045.2|  0.0|WARN  |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-09-06 08:54:12|1045.2|  0.0|WARN  |                                                                         54256
+2025-09-06 08:54:12|1045.2|  0.0|WARN  |==============================================================================
+2025-09-06 08:54:12|1045.2|  0.0|WARN  |Total features not written                                               54256
+2025-09-06 08:54:12|1045.2|  0.0|WARN  |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-09-06 08:54:12|1045.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-09-06 08:54:12|1045.2|  0.0|STATS |                            Features Read Summary
+2025-09-06 08:54:12|1045.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-09-06 08:54:12|1045.2|  0.0|STATS |CityModel                                                                   10
+2025-09-06 08:54:12|1045.2|  0.0|STATS |SolitaryVegetationObject                                                 55389
+2025-09-06 08:54:12|1045.2|  0.0|STATS |wijken                                                                       1
+2025-09-06 08:54:12|1045.2|  0.0|STATS |==============================================================================
+2025-09-06 08:54:12|1045.2|  0.0|STATS |Total Features Read                                                      55400
+2025-09-06 08:54:12|1045.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-09-06 08:54:12|1045.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-09-06 08:54:12|1045.2|  0.0|STATS |                           Features Written Summary
+2025-09-06 08:54:12|1045.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-09-06 08:54:12|1045.2|  0.0|STATS |==============================================================================
+2025-09-06 08:54:12|1045.2|  0.0|STATS |Total Features Written                                                       0
+2025-09-06 08:54:12|1045.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-09-06 08:54:12|1045.2|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2025-09-06 08:54:12|1045.2|  0.0|WARN  |-~                                                                             ~-
+2025-09-06 08:54:12|1045.2|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
+2025-09-06 08:54:12|1045.2|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
+2025-09-06 08:54:12|1045.2|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
+2025-09-06 08:54:12|1045.2|  0.0|WARN  |-~                                                                             ~-
+2025-09-06 08:54:12|1045.2|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2025-09-06 08:54:12|1045.2|  0.0|INFORM|Translation was SUCCESSFUL with 18 warning(s) (0 feature(s) output)
+2025-09-06 08:54:12|1045.3|  0.1|INFORM|FME Session Duration: 18 minutes 1.4 seconds. (CPU: 1011.8s user, 33.5s system)
+2025-09-06 08:54:12|1045.3|  0.0|INFORM|END - ProcessID: 28224, peak process memory usage: 466812 kB, current process memory usage: 133248 kB

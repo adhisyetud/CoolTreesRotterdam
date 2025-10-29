@@ -1,0 +1,234 @@
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|Current FME version: FME 2025.0.1.0 (20250327 - Build 25220 - WIN64)
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|System Time: 20251016145427 UTC
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|FME_HOME is 'C:\Program Files\FME\'
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|FME Form (floating)
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|Temporary License: 360 days left.
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|Machine host name is: MSI
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|OS Locale Name     : en_US
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|OS Locale Encoding : windows-1252
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|Process Encoding   : UTF-8
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|FME API version: '4.0 20240722'
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\02_Process/'
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|FME Configuration: FME_MF_NAME is '2_sqltree_to_modeltree_perbuurt_new_final.fmw'
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2025.0.1.0'
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|Operating System: Microsoft Windows 11 64-bit  (Build 26100)
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|FME Platform: WIN64
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|System Status: 95.04 GB of disk space available in the FME temporary folder (C:\Users\adhis\AppData\Local\Temp\wbrun_1760623624710_27420\fmetmp_0)
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|System Status: 15.71 GB of physical memory available
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|System Status: 62.84 GB of virtual memory available
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|START - ProcessID: 20652, peak process memory usage: 42616 kB, current process memory usage: 42616 kB
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `C:\Program Files\FME\fme.exe' `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\02_Process\wb-xlate-1760626462182_27420' `--FME_LAUNCH_VIEWER_APP' `WORKBENCH' `LOG_STANDARDOUT' `YES' `LOG_TIMINGS' `YES' `LogCountServerName' `61026' `LOG_STANDARDOUT' `No' `WORKBENCH_LOG_SERVER' `62747'
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: 'C:\Users\adhis\AppData\Roaming\Safe Software\FME\'
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|Shared folders for formats are : C:\Program Files\FME\datasources;C:\Users\adhis\OneDrive\Documents\FME\Formats
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|Shared folders for transformers are : C:\Users\adhis\AppData\Roaming\Safe Software\FME\Packages\25220-win64\transformers;C:\Program Files\FME\transformers;C:\Users\adhis\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\adhis\OneDrive\Documents\FME\CoordinateSystems
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\adhis\OneDrive\Documents\FME\CoordinateSystemExceptions
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\adhis\OneDrive\Documents\FME\CoordinateSystemGridOverrides
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\adhis\OneDrive\Documents\FME\CsmapTransformationExceptions
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\adhis\OneDrive\Documents\FME\TransformerCategories
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|FME Configuration: Current working folder is `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\02_Process'
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\adhis\AppData\Local\Temp\wbrun_1760623624710_27420\fmetmp_0', set from environment variable `FME_TEMP'
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|FME Configuration: Cache folder is 'C:\Users\adhis\AppData\Local\Temp'
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|FME Configuration: FME_HOME is `C:\Program Files\FME\'
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|FME Configuration: Start freeing memory when the process exceeds 47.13 GB
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|FME Configuration: Stop freeing memory when the process is below 35.35 GB
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|Creating writer for format: 
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|Creating reader for format: 
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding SPATIALITE_NATIVE Reader with keyword SPATIALITE_NATIVE_1
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding SPATIALITE_NATIVE Reader with keyword SPATIALITE_NATIVE_3
+2025-10-16 16:54:26|   0.0|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2025-10-16 16:54:26|   0.2|  0.2|INFORM|Creating reader for format: SpatiaLite
+2025-10-16 16:54:27|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SPATIALITE_NATIVE'
+2025-10-16 16:54:27|   0.2|  0.0|INFORM|Loaded module 'SPATIALITE_NATIVE' from file 'C:\Program Files\FME\plugins\FME_SQLITE3.dll'
+2025-10-16 16:54:27|   0.2|  0.0|INFORM|FME API version of module 'FME_SQLITE3' matches current internal version (4.0 20240722)
+2025-10-16 16:54:27|   0.2|  0.0|INFORM|SpatiaLite Reader: Opening `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\2Buurt\Afrikaanderwijk_Building.sqlite' for read operation
+2025-10-16 16:54:27|   0.2|  0.0|WARN  |Database query 'PRAGMA table_info("KNN2");' failed. SQLite3 Engine error: 'no such module: VirtualKNN2'
+2025-10-16 16:54:27|   0.2|  0.0|WARN  |SpatiaLite Reader: Unable to read table 'KNN2'. Table exists but may lack valid columns, definition, or may be a spatial table
+2025-10-16 16:54:27|   0.2|  0.0|INFORM|SpatiaLite Reader: Detected geometry_columns table with 'SpatiaLite 4.0+' schema
+2025-10-16 16:54:27|   0.5|  0.3|INFORM|The EPSG number of the FME coordinate system 'Netherlands-RDNew-2008' is '28992'
+2025-10-16 16:54:27|   0.5|  0.0|INFORM|Using MultiWriter with keyword `PRIMARY_DEST' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2025-10-16 16:54:27|   0.5|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2025-10-16 16:54:27|   0.5|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\Program Files\FME\plugins\LogCount_func.dll'
+2025-10-16 16:54:27|   0.5|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (4.0 20240722)
+2025-10-16 16:54:27|   0.5|  0.0|INFORM|Loaded module 'Geometry_func' from file 'C:\Program Files\FME\plugins\Geometry_func.dll'
+2025-10-16 16:54:27|   0.5|  0.0|INFORM|FME API version of module 'Geometry_func' matches current internal version (4.0 20240722)
+2025-10-16 16:54:27|   0.5|  0.0|INFORM|Loaded module 'ClipperFactory' from file 'C:\Program Files\FME\plugins\ClipperFactory.dll'
+2025-10-16 16:54:27|   0.5|  0.0|INFORM|FME API version of module 'ClipperFactory' matches current internal version (4.0 20240722)
+2025-10-16 16:54:27|   0.5|  0.0|INFORM|Loaded module 'StringValueFactory' from file 'C:\Program Files\FME\plugins\StringValueFactory.dll'
+2025-10-16 16:54:27|   0.5|  0.0|INFORM|FME API version of module 'StringValueFactory' matches current internal version (4.0 20240722)
+2025-10-16 16:54:27|   0.5|  0.0|INFORM|Loaded module 'InspectorFactory' from file 'C:\Program Files\FME\plugins\InspectorFactory.dll'
+2025-10-16 16:54:27|   0.5|  0.0|INFORM|FME API version of module 'InspectorFactory' matches current internal version (4.0 20240722)
+2025-10-16 16:54:27|   0.5|  0.0|INFORM|Loaded module 'AttributeKeeperFactory' from file 'C:\Program Files\FME\plugins\AttributeKeeperFactory.dll'
+2025-10-16 16:54:27|   0.5|  0.0|INFORM|FME API version of module 'AttributeKeeperFactory' matches current internal version (4.0 20240722)
+2025-10-16 16:54:27|   0.5|  0.0|INFORM|Loaded module 'TransformPointCloud_func' from file 'C:\Program Files\FME\plugins\TransformPointCloud_func.dll'
+2025-10-16 16:54:27|   0.5|  0.0|INFORM|FME API version of module 'TransformPointCloud_func' matches current internal version (4.0 20240722)
+2025-10-16 16:54:27|   0.5|  0.0|INFORM|Loaded module 'UUID_func' from file 'C:\Program Files\FME\plugins\UUID_func.dll'
+2025-10-16 16:54:27|   0.5|  0.0|INFORM|FME API version of module 'UUID_func' matches current internal version (4.0 20240722)
+2025-10-16 16:54:27|   0.5|  0.0|INFORM|Loaded module 'GQueryFactory' from file 'C:\Program Files\FME\plugins\GQueryFactory.dll'
+2025-10-16 16:54:27|   0.5|  0.0|INFORM|FME API version of module 'GQueryFactory' matches current internal version (4.0 20240722)
+2025-10-16 16:54:27|   0.5|  0.0|INFORM|FME Configuration: Source coordinate system for reader SPATIALITE_NATIVE_1[SPATIALITE_NATIVE] set to `Netherlands-RDNew-2008' as read from input data
+2025-10-16 16:54:27|   0.5|  0.0|INFORM|Coordinate System `Netherlands-RDNew-2008' parameters: CS_NAME=`Netherlands-RDNew-2008' DESC_NM=`Netherlands, Amersfoort RD 2008 datum, New System' DT_NAME=`Amersfoort-RD-2008' GROUP=`EUROPE' MAP_SCL=`1' ORG_LAT=`52.15616055555556' ORG_LNG=`5.387638888888889' PROJ=`OSTERO' QUAD=`1' SCL_RED=`0.9999079' SOURCE=`Kadaster' UNIT=`METER' X_OFF=`155000' Y_OFF=`463000'
+2025-10-16 16:54:27|   0.5|  0.0|INFORM|FFS writer: Writing 1130 feature(s) to file 'C:\Users\adhis\AppData\Local\Temp\wb-cache-2_sqltree_to_modeltree_perbuurt_-avEhZM\Main_building -1 100 -1  0  fc905cc9b222b8e40d778e8780f7ee5bddb1d1a4.fts'
+2025-10-16 16:54:27|   0.5|  0.0|INFORM|Spatial Index: Adding 1130 features
+2025-10-16 16:54:27|   0.6|  0.1|INFORM|Creating writer for format: OGC CityGML
+2025-10-16 16:54:27|   0.7|  0.1|INFORM|Trying to find a DYNAMIC plugin for writer named `CITYGML'
+2025-10-16 16:54:27|   0.7|  0.0|INFORM|Loaded module 'CITYGML' from file 'C:\Program Files\FME\plugins\CITYGML.dll'
+2025-10-16 16:54:27|   0.7|  0.0|INFORM|FME API version of module 'CITYGML' matches current internal version (4.0 20240722)
+2025-10-16 16:54:27|   0.7|  0.0|INFORM|FME Configuration: Destination coordinate system set to `EPSG:28992'
+2025-10-16 16:54:27|   0.7|  0.0|INFORM|Coordinate System `EPSG:28992' parameters: CS_NAME=`Netherlands-RDNew-2008' DESC_NM=`Netherlands, Amersfoort RD 2008 datum, New System' DT_NAME=`Amersfoort-RD-2008' GROUP=`EUROPE' MAP_SCL=`1' ORG_LAT=`52.15616055555556' ORG_LNG=`5.387638888888889' PROJ=`OSTERO' QUAD=`1' SCL_RED=`0.9999079' SOURCE=`Kadaster' UNIT=`METER' X_OFF=`155000' Y_OFF=`463000'
+2025-10-16 16:54:27|   0.7|  0.0|INFORM|Writer `CITYGML_1' of type `CITYGML' using group definition keyword `CITYGML_1_DEF'
+2025-10-16 16:54:27|   0.8|  0.1|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_aixm.xml' is being used to map from URI to URI
+2025-10-16 16:54:27|   0.8|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_inspire.xml' is being used to map from URI to URI
+2025-10-16 16:54:27|   0.8|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_sosi.xml' is being used to map from URI to URI
+2025-10-16 16:54:27|   0.8|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_urimap.xml' is being used to map from URI to URI
+2025-10-16 16:54:27|   0.8|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_citygml.xml' is being used to map from URI to URI
+2025-10-16 16:54:27|   0.8|  0.0|INFORM|URI 'CityGML.xsd' mapped to 'file:///C%3A%5CProgram%20Files%5CFME%5Cxml%5Cschemas%5CCityGML%5CCityGML%5C2.0%5CCityGML.xsd'
+2025-10-16 16:54:27|   0.8|  0.0|INFORM|Parsing schema document 'file:///C%3A%5CProgram%20Files%5CFME%5Cxml%5Cschemas%5CCityGML%5CCityGML%5C2.0%5CCityGML.xsd' ...
+2025-10-16 16:54:27|   0.8|  0.0|INFORM|A <schemaLocation> in the uri-map is overriding the namespace 'http://www.w3.org/1999/xlink' xsd location from '../xlink/xlinks.xsd' to 'xlink.xsd'
+2025-10-16 16:54:27|   0.8|  0.0|INFORM|Using XSD semantics configuration file 'file:///C:/Program Files/FME/xml/CityGML/CityGML_config.xml'.
+2025-10-16 16:54:27|   0.8|  0.0|INFORM|Using prefix 'xlink' for uri 'http://www.w3.org/1999/xlink'
+2025-10-16 16:54:27|   0.8|  0.0|INFORM|Using prefix 'gml' for uri 'http://www.opengis.net/gml'
+2025-10-16 16:54:27|   0.8|  0.0|INFORM|Using prefix 'sch' for uri 'http://www.ascc.net/xml/schematron'
+2025-10-16 16:54:27|   0.8|  0.0|INFORM|Using prefix 'smil20' for uri 'http://www.w3.org/2001/SMIL20/'
+2025-10-16 16:54:27|   0.8|  0.0|INFORM|Using prefix 'xsi' for uri 'http://www.w3.org/2001/XMLSchema-instance'
+2025-10-16 16:54:27|   0.8|  0.0|INFORM|Using prefix 'core' for uri 'http://www.opengis.net/citygml/2.0'
+2025-10-16 16:54:27|   0.8|  0.0|INFORM|Using prefix 'smil20lang' for uri 'http://www.w3.org/2001/SMIL20/Language'
+2025-10-16 16:54:27|   0.8|  0.0|INFORM|Using prefix 'grp' for uri 'http://www.opengis.net/citygml/cityobjectgroup/2.0'
+2025-10-16 16:54:27|   0.8|  0.0|INFORM|Using prefix 'bldg' for uri 'http://www.opengis.net/citygml/building/2.0'
+2025-10-16 16:54:27|   0.8|  0.0|INFORM|Using prefix 'app' for uri 'http://www.opengis.net/citygml/appearance/2.0'
+2025-10-16 16:54:27|   0.8|  0.0|INFORM|Using prefix 'gen' for uri 'http://www.opengis.net/citygml/generics/2.0'
+2025-10-16 16:54:27|   0.8|  0.0|INFORM|Using prefix 'xAL' for uri 'urn:oasis:names:tc:ciq:xsdschema:xAL:2.0'
+2025-10-16 16:54:27|   0.8|  0.0|INFORM|Using prefix 'pbase' for uri 'http://www.opengis.net/citygml/profiles/base/2.0'
+2025-10-16 16:54:27|   0.8|  0.0|INFORM|Using prefix 'luse' for uri 'http://www.opengis.net/citygml/landuse/2.0'
+2025-10-16 16:54:27|   0.8|  0.0|INFORM|Using prefix 'dem' for uri 'http://www.opengis.net/citygml/relief/2.0'
+2025-10-16 16:54:27|   0.8|  0.0|INFORM|Using prefix 'tex' for uri 'http://www.opengis.net/citygml/texturedsurface/2.0'
+2025-10-16 16:54:27|   0.8|  0.0|INFORM|Using prefix 'veg' for uri 'http://www.opengis.net/citygml/vegetation/2.0'
+2025-10-16 16:54:27|   0.8|  0.0|INFORM|Using prefix 'tun' for uri 'http://www.opengis.net/citygml/tunnel/2.0'
+2025-10-16 16:54:27|   0.8|  0.0|INFORM|Using prefix 'wtr' for uri 'http://www.opengis.net/citygml/waterbody/2.0'
+2025-10-16 16:54:27|   0.8|  0.0|INFORM|Using prefix 'frn' for uri 'http://www.opengis.net/citygml/cityfurniture/2.0'
+2025-10-16 16:54:27|   0.8|  0.0|INFORM|Using prefix 'brid' for uri 'http://www.opengis.net/citygml/bridge/2.0'
+2025-10-16 16:54:27|   0.8|  0.0|INFORM|Using prefix 'tran' for uri 'http://www.opengis.net/citygml/transportation/2.0'
+2025-10-16 16:54:28|   1.0|  0.2|INFORM|Creating reader for format: XML (Extensible Markup Language)
+2025-10-16 16:54:28|   1.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XML'
+2025-10-16 16:54:28|   1.0|  0.0|INFORM|Loaded module 'XML' from file 'C:\Program Files\FME\plugins\XML.dll'
+2025-10-16 16:54:28|   1.0|  0.0|INFORM|FME API version of module 'XML' matches current internal version (4.0 20240722)
+2025-10-16 16:54:28|   1.0|  0.0|INFORM|Opening the XML reader with source dataset 'C:\Users\adhis\AppData\Local\Temp\wbrun_1760623624710_27420\fmetmp_0\FME_1760626468002_20652.xfmap'
+2025-10-16 16:54:28|   1.0|  0.0|INFORM|FME Configuration: Using FME Reprojection Engine
+2025-10-16 16:54:28|   1.0|  0.0|INFORM|The XML Reader is using xfMap 'C:\Program Files\FME\xml\CityGML\CityGML_meta_schema_xfmap.xml'
+2025-10-16 16:54:28|   1.0|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_aixm.xml' is being used to map from URI to URI
+2025-10-16 16:54:28|   1.0|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_citygml.xml' is being used to map from URI to URI
+2025-10-16 16:54:28|   1.0|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_inspire.xml' is being used to map from URI to URI
+2025-10-16 16:54:28|   1.0|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_sosi.xml' is being used to map from URI to URI
+2025-10-16 16:54:28|   1.0|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_urimap.xml' is being used to map from URI to URI
+2025-10-16 16:54:28|   1.0|  0.0|INFORM|Parsing XML document 'C:\Users\adhis\AppData\Local\Temp\wbrun_1760623624710_27420\fmetmp_0\FME_1760626468002_20652.xfmap'
+2025-10-16 16:54:28|   1.3|  0.3|INFORM|Spatial Index: Adding 1130 features
+2025-10-16 16:54:28|   1.3|  0.0|WARN  |Clipper (ClipperFactory): Bulk features are not supported for input port 'CLIPPER'
+2025-10-16 16:54:28|   1.3|  0.0|INFORM|Clipper (ClipperFactory): Splitting bulk features into individual features
+2025-10-16 16:54:28|   1.3|  0.0|INFORM|SpatiaLite Reader: Database read complete.  Retrieved 1130 feature(s)
+2025-10-16 16:54:28|   1.3|  0.0|INFORM|SpatiaLite Reader: Closing `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\01_Input\2Buurt\Afrikaanderwijk_Building.sqlite' . Read operation complete
+2025-10-16 16:54:28|   1.3|  0.0|INFORM|Creating reader for format: SpatiaLite
+2025-10-16 16:54:28|   1.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SPATIALITE_NATIVE'
+2025-10-16 16:54:28|   1.3|  0.0|INFORM|SpatiaLite Reader: Opening `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\2Buurt\CT\W\Round_CT_Afr_Winter.sqlite' for read operation
+2025-10-16 16:54:28|   1.3|  0.0|INFORM|SpatiaLite Reader: Detected geometry_columns table with 'SpatiaLite 4.0+' schema
+2025-10-16 16:54:28|   1.3|  0.0|INFORM|FME Configuration: Source coordinate system for reader SPATIALITE_NATIVE_3[SPATIALITE_NATIVE] set to `Netherlands-RDNew-2008' as read from input data
+2025-10-16 16:54:28|   1.3|  0.0|INFORM|Coordinate System `Netherlands-RDNew-2008' parameters: CS_NAME=`Netherlands-RDNew-2008' DESC_NM=`Netherlands, Amersfoort RD 2008 datum, New System' DT_NAME=`Amersfoort-RD-2008' GROUP=`EUROPE' MAP_SCL=`1' ORG_LAT=`52.15616055555556' ORG_LNG=`5.387638888888889' PROJ=`OSTERO' QUAD=`1' SCL_RED=`0.9999079' SOURCE=`Kadaster' UNIT=`METER' X_OFF=`155000' Y_OFF=`463000'
+2025-10-16 16:54:28|   1.3|  0.0|INFORM|FFS writer: Writing 1270 feature(s) to file 'C:\Users\adhis\AppData\Local\Temp\wb-cache-2_sqltree_to_modeltree_perbuurt_-avEhZM\Main_Table1 -1 106 -1  0  4592c3183bfe1407ea5e96f9363b0d10b8b31ec4.fts'
+2025-10-16 16:54:28|   1.3|  0.0|INFORM|Spatial Index: Adding 1270 features
+2025-10-16 16:54:28|   1.4|  0.1|INFORM|SpatiaLite Reader: Database read complete.  Retrieved 1270 feature(s)
+2025-10-16 16:54:28|   1.4|  0.0|INFORM|SpatiaLite Reader: Closing `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\2Buurt\CT\W\Round_CT_Afr_Winter.sqlite' . Read operation complete
+2025-10-16 16:54:28|   1.4|  0.0|INFORM|MULTI_READER(MULTI_READER): Done reading 2400 features from 2 readers
+2025-10-16 16:54:28|   1.4|  0.0|INFORM|Emptying factory pipeline
+2025-10-16 16:54:28|   1.4|  0.0|STATS |Router and Unexpected Input Remover (RoutingFactory): Tested 2400 input feature(s), wrote 2400 output feature(s): 2400 matched merge filters, 2400 were routed to output, 0 could not be routed.
+2025-10-16 16:54:28|   1.4|  0.0|STATS |Unwanted Router Input Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2025-10-16 16:54:28|   1.4|  0.0|STATS |Table1_SPATIALITE_NATIVE_3 Splitter (TeeFactory): Cloned 1270 input feature(s) into 1270 output feature(s)
+2025-10-16 16:54:28|   1.4|  0.0|STATS |building_SPATIALITE_NATIVE_1 Splitter (TeeFactory): Cloned 1130 input feature(s) into 1130 output feature(s)
+2025-10-16 16:54:28|   1.4|  0.0|STATS |Creator_XML_Creator (CreationFactory): Created 1 features
+2025-10-16 16:54:28|   1.4|  0.0|STATS |Creator_Cloner (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2025-10-16 16:54:28|   1.4|  0.0|STATS |Creator_CREATED Brancher -1 29 (BranchingFactory): Branched 1 input feature -- 1 feature routed to the target factory, and 0 features routed to the fallback factory.
+2025-10-16 16:54:28|   1.4|  0.0|STATS |_CREATOR_BRANCH_TARGET (TeeFactory): Cloned 2401 input feature(s) into 2401 output feature(s)
+2025-10-16 16:54:28|   1.4|  0.0|INFORM|Clipper (ClipperFactory): Clipping with an automatic tolerance of 8.708357459999988e-10
+2025-10-16 16:54:28|   1.4|  0.0|INFORM|Clipper (ClipperFactory): Clipping with an automatic tolerance of 8.701859268849218e-10
+2025-10-16 16:54:28|   1.4|  0.0|INFORM|Clipper (ClipperFactory): Clipping with an automatic tolerance of 8.698640180000006e-10
+2025-10-16 16:54:28|   1.4|  0.0|INFORM|Clipper (ClipperFactory): Clipping with an automatic tolerance of 8.703053399999999e-10
+2025-10-16 16:54:28|   1.4|  0.0|INFORM|Clipper (ClipperFactory): Clipping with an automatic tolerance of 8.695556200000007e-10
+2025-10-16 16:54:28|   1.4|  0.0|INFORM|Feature Type Index: Adding 41 features
+2025-10-16 16:54:28|   1.4|  0.0|INFORM|Spatial Index: Adding 1229 features
+2025-10-16 16:54:28|   1.5|  0.1|STATS |Storing feature(s) to FME feature store file `C:\Users\adhis\AppData\Local\Temp\wb-inspectors-nBpInC\inspector.ffs'
+2025-10-16 16:54:29|   1.8|  0.3|INFORM|AttributeManager_3 (AttrSetFactory): Splitting bulk features into individual features
+2025-10-16 16:54:33|   6.3|  4.5|INFORM|Spatial Index: Adding 12 features
+2025-10-16 16:54:33|   6.3|  0.0|INFORM|Clipper (ClipperFactory): Clipped 19 additional times with automatic tolerances between 8.696966599999975e-10 and 8.704307879999986e-10
+2025-10-16 16:54:33|   6.3|  0.0|STATS |AttributeManager_4 OUTPUT Splitter (TeeFactory): Cloned 1229 input feature(s) into 3687 output feature(s)
+2025-10-16 16:54:33|   6.3|  0.0|STATS |AttributeRemover (TeeFactory): Cloned 1229 input feature(s) into 1229 output feature(s)
+2025-10-16 16:54:33|   6.3|  0.0|STATS |GeometryRemover (TeeFactory): Cloned 1229 input feature(s) into 1229 output feature(s)
+2025-10-16 16:54:33|   6.3|  0.0|STATS |buildings_Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2025-10-16 16:54:33|   6.3|  0.0|STATS |Offsetter_Offsetter (ExecuteFunctionFactory): Executed FME Functions on 1229 input feature(s) -- 1229 feature(s) completed and 0 feature(s) rejected
+2025-10-16 16:54:33|   6.3|  0.0|STATS |Offsetter_PointCloudOffsetter (TestFactory): Tested 1229 input feature(s) -- 0 feature(s) passed and 1229 feature(s) failed
+2025-10-16 16:54:33|   6.3|  0.0|STATS |Offsetter OFFSET Splitter (TeeFactory): Cloned 1229 input feature(s) into 2458 output feature(s)
+2025-10-16 16:54:33|   6.3|  0.0|STATS |Orientor_Rejector (ExecuteFunctionFactory): Executed FME Functions on 1229 input feature(s) -- 1229 feature(s) completed and 0 feature(s) rejected
+2025-10-16 16:54:33|   6.3|  0.0|STATS |FaceReplacer_FaceCreator (ExecuteFunctionFactory): Executed FME Functions on 1229 input feature(s) -- 1229 feature(s) completed and 0 feature(s) rejected
+2025-10-16 16:54:34|   7.3|  1.0|STATS |Aggregator (AggregateFactory): Combined 1229 input feature(s) into 1229 output feature(s), including 0 singleton(s)
+2025-10-16 16:54:34|   7.3|  0.0|STATS |GeometryPropertySetter_Tester (TestFactory): Tested 1229 input feature(s) -- 1229 feature(s) passed and 0 feature(s) failed
+2025-10-16 16:54:34|   7.3|  0.0|STATS |GeometryPropertySetter_AttrRemover (TeeFactory): Cloned 1229 input feature(s) into 1229 output feature(s)
+2025-10-16 16:54:34|   7.3|  0.0|STATS |GeometryPropertySetter_Outputter (TeeFactory): Cloned 1229 input feature(s) into 1229 output feature(s)
+2025-10-16 16:54:34|   7.3|  0.0|STATS |Extruder_Rejector (ExecuteFunctionFactory): Executed FME Functions on 1229 input feature(s) -- 1229 feature(s) completed and 0 feature(s) rejected
+2025-10-16 16:54:34|   7.3|  0.0|STATS |GeometryPropertySetter_2_Tester (TestFactory): Tested 1229 input feature(s) -- 1229 feature(s) passed and 0 feature(s) failed
+2025-10-16 16:54:34|   7.3|  0.0|STATS |GeometryPropertySetter_2_AttrRemover (TeeFactory): Cloned 1229 input feature(s) into 1229 output feature(s)
+2025-10-16 16:54:34|   7.3|  0.0|STATS |GeometryPropertySetter_2_Outputter (TeeFactory): Cloned 1229 input feature(s) into 1229 output feature(s)
+2025-10-16 16:54:35|   7.5|  0.2|STATS |Aggregator_2 (AggregateFactory): Combined 3687 input feature(s) into 1229 output feature(s), including 0 singleton(s)
+2025-10-16 16:54:35|   7.5|  0.0|STATS |Stored 1229 feature(s) to FME feature store file `C:\Users\adhis\AppData\Local\Temp\wb-inspectors-nBpInC\inspector.ffs'
+2025-10-16 16:54:35|   7.5|  0.0|INFORM|Saving feature type index into file 'C:\Users\adhis\AppData\Local\Temp\wb-inspectors-nBpInC\inspector.fsi'
+2025-10-16 16:54:35|   7.5|  0.0|INFORM|Finished saving feature type index into file 'C:\Users\adhis\AppData\Local\Temp\wb-inspectors-nBpInC\inspector.fsi'
+2025-10-16 16:54:35|   7.6|  0.1|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 1230 input feature(s), wrote 1230 output feature(s): 0 matched merge filters, 1230 were routed to output, 0 could not be routed.
+2025-10-16 16:54:35|   7.6|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2025-10-16 16:54:35|   7.6|  0.0|STATS |VisualizerProcessor (CreationFactory): Created 1 features
+2025-10-16 16:54:35|   7.6|  0.0|STATS |VisualizerCleaner (TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2025-10-16 16:54:35|   7.9|  0.3|WARN  |<CityGMLWriter> -  registered 1229 messages of type: The 'Building' feature with geometry type 'IFMENull' will not be written because the geometry does not have a citygml_lod_name.
+2025-10-16 16:54:35|   7.9|  0.0|INFORM|XML Validation: Starting schema validation for 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\2Buurt\CT\W\Cyllinder_CT_Afr_Winter_New4.gml'
+2025-10-16 16:54:35|   7.9|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_aixm.xml' is being used to map from URI to URI
+2025-10-16 16:54:35|   7.9|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_inspire.xml' is being used to map from URI to URI
+2025-10-16 16:54:35|   7.9|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_sosi.xml' is being used to map from URI to URI
+2025-10-16 16:54:35|   7.9|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_urimap.xml' is being used to map from URI to URI
+2025-10-16 16:54:35|   7.9|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_citygml.xml' is being used to map from URI to URI
+2025-10-16 16:54:35|   7.9|  0.0|INFORM|Resolving XML Parser external entity 'CityGML.xsd' to 'file:///C:/Program Files/FME/xml/schemas/CityGML/CityGML/2.0/CityGML.xsd'
+2025-10-16 16:54:35|   7.9|  0.0|INFORM|A <schemaLocation> in the uri-map is overriding the namespace 'http://www.w3.org/1999/xlink' xsd location from '../xlink/xlinks.xsd' to 'xlink.xsd'
+2025-10-16 16:54:36|   8.3|  0.4|INFORM|XML Validation: '0' warning(s) found.
+2025-10-16 16:54:36|   8.3|  0.0|INFORM|XML Validation: '0' fatal error(s) and '0' error(s) in 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\2Buurt\CT\W\Cyllinder_CT_Afr_Winter_New4.gml'
+2025-10-16 16:54:36|   8.3|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-10-16 16:54:36|   8.3|  0.0|INFORM|Feature output statistics for `CITYGML' writer using keyword `CITYGML_1':
+2025-10-16 16:54:36|   8.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-10-16 16:54:36|   8.3|  0.0|STATS |                               Features Written
+2025-10-16 16:54:36|   8.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-10-16 16:54:36|   8.3|  0.0|STATS |Building                                                                  1229
+2025-10-16 16:54:36|   8.3|  0.0|STATS |CityModel                                                                    1
+2025-10-16 16:54:36|   8.3|  0.0|STATS |==============================================================================
+2025-10-16 16:54:36|   8.3|  0.0|STATS |Total Features Written                                                    1230
+2025-10-16 16:54:36|   8.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-10-16 16:54:36|   8.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-10-16 16:54:36|   8.3|  0.0|STATS |                            Features Read Summary
+2025-10-16 16:54:36|   8.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-10-16 16:54:36|   8.3|  0.0|STATS |Table1                                                                    1270
+2025-10-16 16:54:36|   8.3|  0.0|STATS |building                                                                  1130
+2025-10-16 16:54:36|   8.3|  0.0|STATS |==============================================================================
+2025-10-16 16:54:36|   8.3|  0.0|STATS |Total Features Read                                                       2400
+2025-10-16 16:54:36|   8.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-10-16 16:54:36|   8.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-10-16 16:54:36|   8.3|  0.0|STATS |                           Features Written Summary
+2025-10-16 16:54:36|   8.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-10-16 16:54:36|   8.3|  0.0|STATS |Building                                                                  1229
+2025-10-16 16:54:36|   8.3|  0.0|STATS |CityModel                                                                    1
+2025-10-16 16:54:36|   8.3|  0.0|STATS |==============================================================================
+2025-10-16 16:54:36|   8.3|  0.0|STATS |Total Features Written                                                    1230
+2025-10-16 16:54:36|   8.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-10-16 16:54:36|   8.3|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2025-10-16 16:54:36|   8.3|  0.0|WARN  |-~                                                                             ~-
+2025-10-16 16:54:36|   8.3|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
+2025-10-16 16:54:36|   8.3|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
+2025-10-16 16:54:36|   8.3|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
+2025-10-16 16:54:36|   8.3|  0.0|WARN  |-~                                                                             ~-
+2025-10-16 16:54:36|   8.3|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2025-10-16 16:54:36|   8.3|  0.0|INFORM|Translation was SUCCESSFUL with 11 warning(s) (1230 feature(s) output)
+2025-10-16 16:54:36|   8.3|  0.0|INFORM|FME Session Duration: 9.5 seconds. (CPU: 5.7s user, 2.6s system)
+2025-10-16 16:54:36|   8.3|  0.0|INFORM|END - ProcessID: 20652, peak process memory usage: 276836 kB, current process memory usage: 220220 kB

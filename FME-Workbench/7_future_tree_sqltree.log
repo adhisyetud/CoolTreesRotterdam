@@ -1,0 +1,889 @@
+2025-08-19 21:08:03|   0.0|  0.0|INFORM|Current FME version: FME 2025.0.1.0 (20250327 - Build 25220 - WIN64)
+2025-08-19 21:08:03|   0.0|  0.0|INFORM|System Time: 20250819190803 UTC
+2025-08-19 21:08:03|   0.0|  0.0|INFORM|FME_HOME is 'C:\Program Files\FME\'
+2025-08-19 21:08:09|   0.0|  0.0|INFORM|FME for September (node locked-crc)
+2025-08-19 21:08:09|   0.0|  0.0|INFORM|Serial Number: 0
+2025-08-19 21:08:09|   0.0|  0.0|INFORM|Temporary License: 44 days left.
+2025-08-19 21:08:09|   0.0|  0.0|INFORM|Machine host name is: MSI
+2025-08-19 21:08:09|   0.0|  0.0|INFORM|OS Locale Name     : en_US
+2025-08-19 21:08:09|   0.0|  0.0|INFORM|OS Locale Encoding : windows-1252
+2025-08-19 21:08:09|   0.0|  0.0|INFORM|Process Encoding   : UTF-8
+2025-08-19 21:08:09|   0.0|  0.0|INFORM|FME API version: '4.0 20240722'
+2025-08-19 21:08:09|   0.0|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2025-08-19 21:08:09|   0.0|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\02_Process\Final_FMW/'
+2025-08-19 21:08:09|   0.0|  0.0|INFORM|FME Configuration: FME_MF_NAME is '7_future_tree_sqltree.fmw'
+2025-08-19 21:08:09|   0.0|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2025.0.1.0'
+2025-08-19 21:08:09|   0.0|  0.0|INFORM|Operating System: Microsoft Windows 11 64-bit  (Build 26100)
+2025-08-19 21:08:09|   0.0|  0.0|INFORM|FME Platform: WIN64
+2025-08-19 21:08:09|   0.0|  0.0|INFORM|System Status: 136.52 GB of disk space available in the FME temporary folder (C:\Users\adhis\AppData\Local\Temp\wbrun_1755630061344_19436\fmetmp_0)
+2025-08-19 21:08:09|   0.0|  0.0|INFORM|System Status: 15.71 GB of physical memory available
+2025-08-19 21:08:09|   0.0|  0.0|INFORM|System Status: 62.84 GB of virtual memory available
+2025-08-19 21:08:09|   0.0|  0.0|INFORM|START - ProcessID: 27424, peak process memory usage: 42976 kB, current process memory usage: 42976 kB
+2025-08-19 21:08:09|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `C:\Program Files\FME\fme.exe' `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\02_Process\Final_FMW\wb-xlate-1755630460930_19436' `--FME_LAUNCH_VIEWER_APP' `WORKBENCH' `LOG_STANDARDOUT' `YES' `LOG_TIMINGS' `YES' `LogCountServerName' `53549' `LOG_STANDARDOUT' `No' `WORKBENCH_LOG_SERVER' `53526'
+2025-08-19 21:08:09|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: 'C:\Users\adhis\AppData\Roaming\Safe Software\FME\'
+2025-08-19 21:08:15|   0.0|  0.0|INFORM|Shared folders for formats are : C:\Program Files\FME\datasources;C:\Users\adhis\OneDrive\Documents\FME\Formats
+2025-08-19 21:08:15|   0.0|  0.0|INFORM|Shared folders for transformers are : C:\Users\adhis\AppData\Roaming\Safe Software\FME\Packages\25220-win64\transformers;C:\Program Files\FME\transformers;C:\Users\adhis\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2025-08-19 21:08:15|   0.0|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\adhis\OneDrive\Documents\FME\CoordinateSystems
+2025-08-19 21:08:15|   0.0|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\adhis\OneDrive\Documents\FME\CoordinateSystemExceptions
+2025-08-19 21:08:15|   0.0|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\adhis\OneDrive\Documents\FME\CoordinateSystemGridOverrides
+2025-08-19 21:08:15|   0.0|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\adhis\OneDrive\Documents\FME\CsmapTransformationExceptions
+2025-08-19 21:08:15|   0.0|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\adhis\OneDrive\Documents\FME\TransformerCategories
+2025-08-19 21:08:15|   0.0|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2025-08-19 21:08:15|   0.0|  0.0|INFORM|FME Configuration: Current working folder is `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\02_Process\Final_FMW'
+2025-08-19 21:08:15|   0.0|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\adhis\AppData\Local\Temp\wbrun_1755630061344_19436\fmetmp_0', set from environment variable `FME_TEMP'
+2025-08-19 21:08:15|   0.0|  0.0|INFORM|FME Configuration: Cache folder is 'C:\Users\adhis\AppData\Local\Temp'
+2025-08-19 21:08:15|   0.0|  0.0|INFORM|FME Configuration: FME_HOME is `C:\Program Files\FME\'
+2025-08-19 21:08:15|   0.0|  0.0|INFORM|FME Configuration: Start freeing memory when the process exceeds 47.13 GB
+2025-08-19 21:08:15|   0.0|  0.0|INFORM|FME Configuration: Stop freeing memory when the process is below 35.35 GB
+2025-08-19 21:08:15|   0.0|  0.0|INFORM|Creating writer for format: 
+2025-08-19 21:08:15|   0.0|  0.0|INFORM|Creating reader for format: 
+2025-08-19 21:08:15|   0.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2025-08-19 21:08:15|   0.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding SPATIALITE_NATIVE Reader with keyword SPATIALITE_NATIVE_1
+2025-08-19 21:08:15|   0.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding SPATIALITE_NATIVE Reader with keyword SPATIALITE_NATIVE_2
+2025-08-19 21:08:15|   0.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding SPATIALITE_NATIVE Reader with keyword SPATIALITE_NATIVE_3
+2025-08-19 21:08:15|   0.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding SPATIALITE_NATIVE Reader with keyword SPATIALITE_NATIVE_4
+2025-08-19 21:08:15|   0.0|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding SPATIALITE_NATIVE Reader with keyword SPATIALITE_NATIVE_5
+2025-08-19 21:08:15|   0.0|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2025-08-19 21:08:15|   0.2|  0.2|INFORM|Creating reader for format: SpatiaLite
+2025-08-19 21:08:15|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SPATIALITE_NATIVE'
+2025-08-19 21:08:15|   0.2|  0.0|INFORM|Loaded module 'SPATIALITE_NATIVE' from file 'C:\Program Files\FME\plugins\FME_SQLITE3.dll'
+2025-08-19 21:08:15|   0.2|  0.0|INFORM|FME API version of module 'FME_SQLITE3' matches current internal version (4.0 20240722)
+2025-08-19 21:08:15|   0.3|  0.1|INFORM|SpatiaLite Reader: Opening `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\01_Todays_Trees_Per_Buurt\Round\00_All_Feijenoord_Round.sqlite' for read operation
+2025-08-19 21:08:15|   0.3|  0.0|WARN  |Database query 'PRAGMA table_info("KNN2");' failed. SQLite3 Engine error: 'no such module: VirtualKNN2'
+2025-08-19 21:08:15|   0.3|  0.0|WARN  |SpatiaLite Reader: Unable to read table 'KNN2'. Table exists but may lack valid columns, definition, or may be a spatial table
+2025-08-19 21:08:15|   0.3|  0.0|INFORM|SpatiaLite Reader: Detected geometry_columns table with 'SpatiaLite 4.0+' schema
+2025-08-19 21:08:15|   0.4|  0.1|INFORM|The EPSG number of the FME coordinate system 'Netherlands-RDNew-2008' is '28992'
+2025-08-19 21:08:15|   0.4|  0.0|INFORM|Using MultiWriter with keyword `PRIMARY_DEST' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2025-08-19 21:08:15|   0.4|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2025-08-19 21:08:15|   0.4|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\Program Files\FME\plugins\LogCount_func.dll'
+2025-08-19 21:08:15|   0.4|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (4.0 20240722)
+2025-08-19 21:08:15|   0.4|  0.0|INFORM|Loaded module 'NullAttributeMapperFactory' from file 'C:\Program Files\FME\plugins\NullAttributeMapperFactory.dll'
+2025-08-19 21:08:15|   0.4|  0.0|INFORM|FME API version of module 'NullAttributeMapperFactory' matches current internal version (4.0 20240722)
+2025-08-19 21:08:15|   0.4|  0.0|INFORM|Loaded module 'DuplicateRemoverFactory' from file 'C:\Program Files\FME\plugins\DuplicateRemoverFactory.dll'
+2025-08-19 21:08:15|   0.4|  0.0|INFORM|FME API version of module 'DuplicateRemoverFactory' matches current internal version (4.0 20240722)
+2025-08-19 21:08:15|   0.4|  0.0|INFORM|Loaded module 'AttributeKeeperFactory' from file 'C:\Program Files\FME\plugins\AttributeKeeperFactory.dll'
+2025-08-19 21:08:15|   0.4|  0.0|INFORM|FME API version of module 'AttributeKeeperFactory' matches current internal version (4.0 20240722)
+2025-08-19 21:08:15|   0.4|  0.0|INFORM|Loaded module 'FeatureJoinerFactory' from file 'C:\Program Files\FME\plugins\FeatureJoinerFactory.dll'
+2025-08-19 21:08:15|   0.4|  0.0|INFORM|FME API version of module 'FeatureJoinerFactory' matches current internal version (4.0 20240722)
+2025-08-19 21:08:15|   0.4|  0.0|INFORM|FME Configuration: Source coordinate system for reader SPATIALITE_NATIVE_1[SPATIALITE_NATIVE] set to `Netherlands-RDNew-2008' as read from input data
+2025-08-19 21:08:15|   0.4|  0.0|INFORM|Coordinate System `Netherlands-RDNew-2008' parameters: CS_NAME=`Netherlands-RDNew-2008' DESC_NM=`Netherlands, Amersfoort RD 2008 datum, New System' DT_NAME=`Amersfoort-RD-2008' GROUP=`EUROPE' MAP_SCL=`1' ORG_LAT=`52.15616055555556' ORG_LNG=`5.387638888888889' PROJ=`OSTERO' QUAD=`1' SCL_RED=`0.9999079' SOURCE=`Kadaster' UNIT=`METER' X_OFF=`155000' Y_OFF=`463000'
+2025-08-19 21:08:15|   0.4|  0.0|INFORM|FFS writer: Writing 15630 feature(s) to file 'C:\Users\adhis\AppData\Local\Temp\wb-cache-7_future_tree_sqltree-FCHhxt\Main_merged -1 2 -1  0  123c7337da365675f254168ea284e61c93fe3f6f.fts'
+2025-08-19 21:08:15|   0.6|  0.2|INFORM|Spatial Index: Adding 15630 features
+2025-08-19 21:08:16|   1.2|  0.6|INFORM|Spatial Index: Adding 15630 features
+2025-08-19 21:08:16|   1.2|  0.0|INFORM|TestFilter_3_Type_2 Feature Recorder -1 2147745804 (RecorderFactory): Splitting bulk features into individual features
+2025-08-19 21:08:17|   1.6|  0.4|INFORM|Creating writer for format: CSV (Comma Separated Value)
+2025-08-19 21:08:17|   1.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `CSV2'
+2025-08-19 21:08:17|   1.6|  0.0|INFORM|Loaded module 'CSV2' from file 'C:\Program Files\FME\plugins\CSV2.dll'
+2025-08-19 21:08:17|   1.6|  0.0|INFORM|FME API version of module 'CSV2' matches current internal version (4.0 20240722)
+2025-08-19 21:08:17|   1.6|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2025-08-19 21:08:17|   1.6|  0.0|INFORM|Writer `CSV2_1' of type `CSV2' using group definition keyword `CSV2_1_DEF'
+2025-08-19 21:08:17|   1.8|  0.2|INFORM|CSV writer: Directive '_EXTENSION' has the value 'csv'
+2025-08-19 21:08:17|   1.8|  0.0|INFORM|CSV writer: Directive '_DELIMITER' has the value ','
+2025-08-19 21:08:17|   1.8|  0.0|INFORM|CSV writer: Directive '_ENCODING' has the value 'UTF-8'
+2025-08-19 21:08:17|   1.8|  0.0|INFORM|CSV writer: Directive '_WRITE_BOM_FOR_UNICODE' has the value 'Yes'
+2025-08-19 21:08:17|   1.8|  0.0|INFORM|CSV writer: Directive '_QUALIFY_FIELD_NAMES' has the value 'if_needed'
+2025-08-19 21:08:17|   1.8|  0.0|INFORM|CSV writer: Directive '_QUALIFY_FIELD_VALUES' has the value 'if_needed'
+2025-08-19 21:08:17|   1.8|  0.0|INFORM|CSV writer: Directive '_TREAT_EMBEDDED_FIELD_QUALIFIERS_AS_UNSAFE' has the value 'Yes'
+2025-08-19 21:08:17|   1.8|  0.0|INFORM|CSV writer: Directive '_FIELD_QUALIFIER_CHARACTER' has the value '"'
+2025-08-19 21:08:17|   1.8|  0.0|INFORM|CSV writer: Directive '_FIELD_QUALIFIER_ESCAPE_CHARACTER' has the value '"'
+2025-08-19 21:08:17|   1.8|  0.0|INFORM|CSV writer: Directive '_ROW_TERMINATION' has the value 'System'
+2025-08-19 21:08:17|   1.8|  0.0|INFORM|CSV writer: Directive '_WRITE_SCHEMA_FILE' has the value 'NO'
+2025-08-19 21:08:17|   1.8|  0.0|INFORM|CSV writer: Opening dataset 'C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\2Buurt\FT\Tree_growth.csv'
+2025-08-19 21:08:17|   1.8|  0.0|INFORM|TestFilter_3_<UNFILTERED> Feature Recorder -1 2147811340 (RecorderFactory): Splitting bulk features into individual features
+2025-08-19 21:08:17|   1.8|  0.0|INFORM|TestFilter_3_Type_2 Feature Recorder -1 2147745804 (RecorderFactory): Splitting bulk features into individual features
+2025-08-19 21:08:17|   1.8|  0.0|INFORM|TestFilter_3_Type_1 Feature Recorder -1 2147680268 (RecorderFactory): Splitting bulk features into individual features
+2025-08-19 21:08:17|   2.0|  0.2|INFORM|TestFilter_3_Type_2 Feature Recorder -1 2147745804 (RecorderFactory): Splitting bulk features into individual features
+2025-08-19 21:08:17|   2.0|  0.0|INFORM|TestFilter_3_Type_1 Feature Recorder -1 2147680268 (RecorderFactory): Splitting bulk features into individual features
+2025-08-19 21:08:17|   2.0|  0.0|INFORM|TestFilter_3_Type_2 Feature Recorder -1 2147745804 (RecorderFactory): Splitting bulk features into individual features
+2025-08-19 21:08:17|   2.0|  0.0|INFORM|TestFilter_3_Type_1 Feature Recorder -1 2147680268 (RecorderFactory): Splitting bulk features into individual features
+2025-08-19 21:08:17|   2.0|  0.0|INFORM|TestFilter_3_Type_2 Feature Recorder -1 2147745804 (RecorderFactory): Splitting bulk features into individual features
+2025-08-19 21:08:17|   2.0|  0.0|INFORM|TestFilter_3_Type_1 Feature Recorder -1 2147680268 (RecorderFactory): Splitting bulk features into individual features
+2025-08-19 21:08:17|   2.0|  0.0|INFORM|TestFilter_3_Type_2 Feature Recorder -1 2147745804 (RecorderFactory): Splitting bulk features into individual features
+2025-08-19 21:08:17|   2.0|  0.0|INFORM|TestFilter_3_Type_1 Feature Recorder -1 2147680268 (RecorderFactory): Splitting bulk features into individual features
+2025-08-19 21:08:17|   2.0|  0.0|INFORM|TestFilter_3_Type_0 Feature Recorder -1 2147614732 (RecorderFactory): Splitting bulk features into individual features
+2025-08-19 21:08:17|   2.0|  0.0|INFORM|TestFilter_3_Type_1 Feature Recorder -1 2147680268 (RecorderFactory): Splitting bulk features into individual features
+2025-08-19 21:08:17|   2.0|  0.0|INFORM|TestFilter_3_<UNFILTERED> Feature Recorder -1 2147811340 (RecorderFactory): Splitting bulk features into individual features
+2025-08-19 21:08:17|   2.0|  0.0|INFORM|TestFilter_3_Type_1 Feature Recorder -1 2147680268 (RecorderFactory): Splitting bulk features into individual features
+2025-08-19 21:08:17|   2.0|  0.0|INFORM|TestFilter_3_Type_2 Feature Recorder -1 2147745804 (RecorderFactory): Splitting bulk features into individual features
+2025-08-19 21:08:17|   2.0|  0.0|INFORM|TestFilter_3_Type_1 Feature Recorder -1 2147680268 (RecorderFactory): Splitting bulk features into individual features
+2025-08-19 21:08:17|   2.0|  0.0|INFORM|TestFilter_3_Type_2 Feature Recorder -1 2147745804 (RecorderFactory): Splitting bulk features into individual features
+2025-08-19 21:08:17|   2.1|  0.1|INFORM|TestFilter_3_Type_1 Feature Recorder -1 2147680268 (RecorderFactory): Splitting bulk features into individual features
+2025-08-19 21:08:17|   2.1|  0.0|INFORM|TestFilter_3 (TestFactory): The current set of bulk features will no longer be processed in Bulk Mode, as this is not expected to improve performance
+2025-08-19 21:08:17|   2.1|  0.0|INFORM|TestFilter_3_<UNFILTERED> Feature Recorder -1 2147811340 (RecorderFactory): Splitting bulk features into individual features
+2025-08-19 21:08:17|   2.1|  0.0|INFORM|TestFilter_3 (TestFactory): Splitting bulk features into individual features
+2025-08-19 21:08:19|   4.5|  2.4|STATS |Storing feature(s) to FME feature store file `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\02_Process\Final_FMW\7_future_tree_sqltree_log.ffs'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Null, missing, or empty string operand was found in expression '(@sub(@Value(0_2050_age),@Value(0_age_real)))'.  Result is set to null
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Feature Type: `TestFilter_3_Type_1'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit real)             : `0_2050_age' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit real)             : `0_age_real' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit real)             : `0_crown_growth_rate_peryear' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit real)             : `0_height_growth_rate_peryear' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit integer)          : `0_last_update' has value `2024'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `0_planting_year' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `_clipped' has value `no'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit real)             : `_elevation' has value `9'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `_offset_roof' has value `5'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `aanlegjaar' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `beheerobjectomschrijving' has value `3695.bm38'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `boom_id' has value `530530'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `boomsortiment' has value `Liquidambar styraciflua 'Fastigiata''
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `boomsortiment_nederlands' has value `Amerikaanse amberboom (cv)'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `boomstatus' has value `Niet van toepassing'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `brondatum' has value `2024-11-10'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `buurt' has value `Feijenoord - 11'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_class' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_class_codespace' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_creationdate' has value `2024-11-11'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit real)             : `citygml_crown_diameter' has value `1'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_crown_diameter_units' has value `m'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_feature_role' has value `cityObjectMember'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_feature_role_attr_name' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_feature_role_attr_val' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_function{}' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_function{}.codespace' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_generalizes_to{}.xlink_href' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit real)             : `citygml_height' has value `5'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_height_units' has value `m'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_level_of_detail{}' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_relative_to_terrain' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_relative_to_water' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_species' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_species_codespace' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_target_uri' has value `http://www.opengis.net/citygml/vegetation/2.0'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_terminationdate' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit real)             : `citygml_trunk_diameter' has value `5'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_trunk_diameter_units' has value `cm'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_usage{}' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_usage{}.codespace' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string; UTF-8)           : `db_type' has value `db_polygon'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `externalreference{}.externalobject.name' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `externalreference{}.externalobject.uri' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `externalreference{}.informationsystem' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string; UTF-8)           : `fme_expression_warnings{0}.attributeName' has value `0_add_diameter'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `fme_expression_warnings{0}.message' has value `Null, missing, or empty string operand was found in expression '(@sub(@Value(0_2050_age),@Value(0_age_real)))'.  Result is set to null'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `fme_expression_warnings{0}.transformerName' has value `Fast_Growth'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string; UTF-8)           : `fme_feature_type' has value `merged'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(indirect: string: UTF-8) : `fme_geometry' has value `fme_polygon'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(entangled: string: UTF-8): `fme_type' has value `fme_area'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |          entangled to db_type
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `geslacht' has value `Liquidambar'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `gml_description' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `gml_id' has value `bm_530530_K'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `gml_name' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `gml_parent_id' has value `fme-gen-06a7ad18-3d34-4ed4-be2b-0fe429928d4d'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `hoogte' has value `4.18'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `laatste_mutatie' has value `2024-10-29'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `layer' has value `03_Feijenoord — Table1'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(32 bit integer)          : `multi_reader_full_id' has value `0'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(32 bit integer)          : `multi_reader_id' has value `0'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `multi_reader_keyword' has value `SPATIALITE_NATIVE_1'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `multi_reader_type' has value `SPATIALITE_NATIVE'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit integer)          : `ogc_fid' has value `6379'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `ontwikkeling' has value `Nog niet bepaald'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `path' has value `C:/MSc/Q2_2/Cooling_Rotterdam/Start_3/03_Intermediate_Results/01_Todays_Trees_Per_Buurt/Round/03_Feijenoord.sqlite|layername=Table1'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit integer)          : `rowid' has value `1361'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `stamdiameter' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `stamlengte' has value `1'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `straat' has value `Zinkerweg'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `thema' has value `Bomen'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `tree_part' has value `kruin'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `type' has value `deciduous'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `wijk' has value `Feijenoord'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |===========================================================================
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Geometry Name: GEOMETRY
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Coordinate System: `Netherlands-RDNew-2008'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Geometry Type: Polygon
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Label(UTF-8): `GEOMETRY'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Boundary:
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |   Geometry Type: Line
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |   Number of Coordinates: 13 -- Coordinate Dimension: 3
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |   (94680.97,436289.91001100565,5.166762815913258)(94681.03695720635,436289.6600055028,5.166762815913258)(94681.22002200541,436289.4769366783,5.166762815913258)(94681.4700219999,436289.41,5.166762815913258)(94681.7200219834,436289.4769366783,5.166762815913258)
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |   (94681.90306480456,436289.6600055028,5.166762815913258)(94681.97,436289.91001100565,5.166762815913258)(94681.90306480456,436290.1600164755,5.166762815913258)(94681.7200219834,436290.34306332166,5.166762815913258)(94681.4700219999,436290.41,5.166762815913258)
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |   (94681.22002200541,436290.34306332166,5.166762815913258)(94681.03695720635,436290.1600164755,5.166762815913258)(94680.97,436289.91001100565,5.166762815913258)
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |===========================================================================
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Null, missing, or empty string operand was found in expression '(@sub(@Value(0_2050_age),@Value(0_age_real)))'.  Result is set to null
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Feature Type: `TestFilter_3_Type_1'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit real)             : `0_2050_age' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit real)             : `0_add_diameter' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit real)             : `0_age_real' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit real)             : `0_crown_growth_rate_peryear' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit real)             : `0_height_growth_rate_peryear' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit integer)          : `0_last_update' has value `2024'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `0_planting_year' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `_clipped' has value `no'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit real)             : `_elevation' has value `9'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `_offset_roof' has value `5'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `aanlegjaar' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `beheerobjectomschrijving' has value `3695.bm38'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `boom_id' has value `530530'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `boomsortiment' has value `Liquidambar styraciflua 'Fastigiata''
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `boomsortiment_nederlands' has value `Amerikaanse amberboom (cv)'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `boomstatus' has value `Niet van toepassing'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `brondatum' has value `2024-11-10'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `buurt' has value `Feijenoord - 11'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_class' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_class_codespace' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_creationdate' has value `2024-11-11'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit real)             : `citygml_crown_diameter' has value `1'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_crown_diameter_units' has value `m'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_feature_role' has value `cityObjectMember'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_feature_role_attr_name' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_feature_role_attr_val' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_function{}' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_function{}.codespace' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_generalizes_to{}.xlink_href' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit real)             : `citygml_height' has value `5'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_height_units' has value `m'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_level_of_detail{}' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_relative_to_terrain' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_relative_to_water' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_species' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_species_codespace' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_target_uri' has value `http://www.opengis.net/citygml/vegetation/2.0'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_terminationdate' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit real)             : `citygml_trunk_diameter' has value `5'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_trunk_diameter_units' has value `cm'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_usage{}' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_usage{}.codespace' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string; UTF-8)           : `db_type' has value `db_polygon'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `externalreference{}.externalobject.name' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `externalreference{}.externalobject.uri' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `externalreference{}.informationsystem' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string; UTF-8)           : `fme_expression_warnings{0}.attributeName' has value `0_add_diameter'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `fme_expression_warnings{0}.message' has value `Null, missing, or empty string operand was found in expression '(@sub(@Value(0_2050_age),@Value(0_age_real)))'.  Result is set to null'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `fme_expression_warnings{0}.transformerName' has value `Fast_Growth'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string; UTF-8)           : `fme_expression_warnings{1}.attributeName' has value `0_add_height'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `fme_expression_warnings{1}.message' has value `Null, missing, or empty string operand was found in expression '(@sub(@Value(0_2050_age),@Value(0_age_real)))'.  Result is set to null'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `fme_expression_warnings{1}.transformerName' has value `Fast_Growth'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string; UTF-8)           : `fme_feature_type' has value `merged'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(indirect: string: UTF-8) : `fme_geometry' has value `fme_polygon'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(entangled: string: UTF-8): `fme_type' has value `fme_area'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |          entangled to db_type
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `geslacht' has value `Liquidambar'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `gml_description' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `gml_id' has value `bm_530530_K'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `gml_name' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `gml_parent_id' has value `fme-gen-06a7ad18-3d34-4ed4-be2b-0fe429928d4d'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `hoogte' has value `4.18'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `laatste_mutatie' has value `2024-10-29'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `layer' has value `03_Feijenoord — Table1'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(32 bit integer)          : `multi_reader_full_id' has value `0'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(32 bit integer)          : `multi_reader_id' has value `0'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `multi_reader_keyword' has value `SPATIALITE_NATIVE_1'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `multi_reader_type' has value `SPATIALITE_NATIVE'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit integer)          : `ogc_fid' has value `6379'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `ontwikkeling' has value `Nog niet bepaald'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `path' has value `C:/MSc/Q2_2/Cooling_Rotterdam/Start_3/03_Intermediate_Results/01_Todays_Trees_Per_Buurt/Round/03_Feijenoord.sqlite|layername=Table1'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit integer)          : `rowid' has value `1361'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `stamdiameter' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `stamlengte' has value `1'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `straat' has value `Zinkerweg'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `thema' has value `Bomen'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `tree_part' has value `kruin'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `type' has value `deciduous'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `wijk' has value `Feijenoord'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |===========================================================================
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Geometry Name: GEOMETRY
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Coordinate System: `Netherlands-RDNew-2008'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Geometry Type: Polygon
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Label(UTF-8): `GEOMETRY'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Boundary:
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |   Geometry Type: Line
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |   Number of Coordinates: 13 -- Coordinate Dimension: 3
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |   (94680.97,436289.91001100565,5.166762815913258)(94681.03695720635,436289.6600055028,5.166762815913258)(94681.22002200541,436289.4769366783,5.166762815913258)(94681.4700219999,436289.41,5.166762815913258)(94681.7200219834,436289.4769366783,5.166762815913258)
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |   (94681.90306480456,436289.6600055028,5.166762815913258)(94681.97,436289.91001100565,5.166762815913258)(94681.90306480456,436290.1600164755,5.166762815913258)(94681.7200219834,436290.34306332166,5.166762815913258)(94681.4700219999,436290.41,5.166762815913258)
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |   (94681.22002200541,436290.34306332166,5.166762815913258)(94681.03695720635,436290.1600164755,5.166762815913258)(94680.97,436289.91001100565,5.166762815913258)
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |===========================================================================
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Null, missing, or empty string operand was found in expression '(@sub(@Value(0_2050_age),@Value(0_age_real)))'.  Result is set to null
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Feature Type: `TestFilter_3_Type_1'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit real)             : `0_2050_age' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit real)             : `0_age_real' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit real)             : `0_crown_growth_rate_peryear' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit real)             : `0_height_growth_rate_peryear' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit integer)          : `0_last_update' has value `2024'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `0_planting_year' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `_clipped' has value `no'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit real)             : `_elevation' has value `9'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `_offset_roof' has value `5'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `aanlegjaar' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `beheerobjectomschrijving' has value `3695.bm39'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `boom_id' has value `530531'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `boomsortiment' has value `Liquidambar styraciflua 'Fastigiata''
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `boomsortiment_nederlands' has value `Amerikaanse amberboom (cv)'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `boomstatus' has value `Niet van toepassing'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `brondatum' has value `2024-11-10'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `buurt' has value `Feijenoord - 11'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_class' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_class_codespace' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_creationdate' has value `2024-11-11'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit real)             : `citygml_crown_diameter' has value `1'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_crown_diameter_units' has value `m'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_feature_role' has value `cityObjectMember'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_feature_role_attr_name' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_feature_role_attr_val' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_function{}' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_function{}.codespace' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_generalizes_to{}.xlink_href' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit real)             : `citygml_height' has value `5'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_height_units' has value `m'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_level_of_detail{}' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_relative_to_terrain' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_relative_to_water' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_species' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_species_codespace' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_target_uri' has value `http://www.opengis.net/citygml/vegetation/2.0'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_terminationdate' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit real)             : `citygml_trunk_diameter' has value `5'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_trunk_diameter_units' has value `cm'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_usage{}' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_usage{}.codespace' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string; UTF-8)           : `db_type' has value `db_polygon'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `externalreference{}.externalobject.name' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `externalreference{}.externalobject.uri' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `externalreference{}.informationsystem' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string; UTF-8)           : `fme_expression_warnings{0}.attributeName' has value `0_add_diameter'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `fme_expression_warnings{0}.message' has value `Null, missing, or empty string operand was found in expression '(@sub(@Value(0_2050_age),@Value(0_age_real)))'.  Result is set to null'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `fme_expression_warnings{0}.transformerName' has value `Fast_Growth'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string; UTF-8)           : `fme_feature_type' has value `merged'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(indirect: string: UTF-8) : `fme_geometry' has value `fme_polygon'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(entangled: string: UTF-8): `fme_type' has value `fme_area'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |          entangled to db_type
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `geslacht' has value `Liquidambar'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `gml_description' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `gml_id' has value `bm_530531_K'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `gml_name' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `gml_parent_id' has value `fme-gen-06a7ad18-3d34-4ed4-be2b-0fe429928d4d'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `hoogte' has value `3.81'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `laatste_mutatie' has value `2024-10-29'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `layer' has value `03_Feijenoord — Table1'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(32 bit integer)          : `multi_reader_full_id' has value `0'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(32 bit integer)          : `multi_reader_id' has value `0'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `multi_reader_keyword' has value `SPATIALITE_NATIVE_1'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `multi_reader_type' has value `SPATIALITE_NATIVE'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit integer)          : `ogc_fid' has value `6525'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `ontwikkeling' has value `Nog niet bepaald'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `path' has value `C:/MSc/Q2_2/Cooling_Rotterdam/Start_3/03_Intermediate_Results/01_Todays_Trees_Per_Buurt/Round/03_Feijenoord.sqlite|layername=Table1'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(64 bit integer)          : `rowid' has value `1507'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `stamdiameter' is <null>
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `stamlengte' has value `1'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `straat' has value `Zinkerweg'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `thema' has value `Bomen'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `tree_part' has value `kruin'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `type' has value `deciduous'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Attribute(string: UTF-8)           : `wijk' has value `Feijenoord'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |===========================================================================
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Geometry Name: GEOMETRY
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Coordinate System: `Netherlands-RDNew-2008'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Geometry Type: Polygon
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Label(UTF-8): `GEOMETRY'
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |Boundary:
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |   Geometry Type: Line
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |   Number of Coordinates: 13 -- Coordinate Dimension: 3
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |   (94688.1,436274.97001100564,4.796762815913259)(94688.16695720635,436274.7200055028,4.796762815913259)(94688.35002200541,436274.5369366783,4.796762815913259)(94688.60002199991,436274.47,4.796762815913259)(94688.85002198341,436274.5369366783,4.796762815913259)
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |   (94689.03306480456,436274.7200055028,4.796762815913259)(94689.1,436274.97001100564,4.796762815913259)(94689.03306480456,436275.2200164755,4.796762815913259)(94688.85002198341,436275.40306332166,4.796762815913259)(94688.60002199991,436275.47,4.796762815913259)
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |   (94688.35002200541,436275.40306332166,4.796762815913259)(94688.16695720635,436275.2200164755,4.796762815913259)(94688.1,436274.97001100564,4.796762815913259)
+2025-08-19 21:08:19|   4.5|  0.0|WARN  |===========================================================================
+2025-08-19 21:08:19|   4.6|  0.1|WARN  |Null, missing, or empty string operand was found in expression '(@sub(@Value(0_2050_age),@Value(0_age_real)))'.  Result is set to null
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Feature Type: `TestFilter_3_Type_1'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(64 bit real)             : `0_2050_age' is <null>
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(64 bit real)             : `0_add_diameter' is <null>
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(64 bit real)             : `0_age_real' is <null>
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(64 bit real)             : `0_crown_growth_rate_peryear' is <null>
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(64 bit real)             : `0_height_growth_rate_peryear' is <null>
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(64 bit integer)          : `0_last_update' has value `2024'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `0_planting_year' is <null>
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `_clipped' has value `no'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(64 bit real)             : `_elevation' has value `9'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `_offset_roof' has value `5'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `aanlegjaar' is <null>
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `beheerobjectomschrijving' has value `3695.bm39'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `boom_id' has value `530531'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `boomsortiment' has value `Liquidambar styraciflua 'Fastigiata''
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `boomsortiment_nederlands' has value `Amerikaanse amberboom (cv)'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `boomstatus' has value `Niet van toepassing'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `brondatum' has value `2024-11-10'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `buurt' has value `Feijenoord - 11'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_class' is <null>
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_class_codespace' is <null>
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_creationdate' has value `2024-11-11'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(64 bit real)             : `citygml_crown_diameter' has value `1'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_crown_diameter_units' has value `m'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_feature_role' has value `cityObjectMember'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_feature_role_attr_name' is <null>
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_feature_role_attr_val' is <null>
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_function{}' is <null>
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_function{}.codespace' is <null>
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_generalizes_to{}.xlink_href' is <null>
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(64 bit real)             : `citygml_height' has value `5'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_height_units' has value `m'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_level_of_detail{}' is <null>
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_relative_to_terrain' is <null>
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_relative_to_water' is <null>
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_species' is <null>
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_species_codespace' is <null>
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_target_uri' has value `http://www.opengis.net/citygml/vegetation/2.0'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_terminationdate' is <null>
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(64 bit real)             : `citygml_trunk_diameter' has value `5'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_trunk_diameter_units' has value `cm'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_usage{}' is <null>
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_usage{}.codespace' is <null>
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string; UTF-8)           : `db_type' has value `db_polygon'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `externalreference{}.externalobject.name' is <null>
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `externalreference{}.externalobject.uri' is <null>
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `externalreference{}.informationsystem' is <null>
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string; UTF-8)           : `fme_expression_warnings{0}.attributeName' has value `0_add_diameter'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `fme_expression_warnings{0}.message' has value `Null, missing, or empty string operand was found in expression '(@sub(@Value(0_2050_age),@Value(0_age_real)))'.  Result is set to null'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `fme_expression_warnings{0}.transformerName' has value `Fast_Growth'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string; UTF-8)           : `fme_expression_warnings{1}.attributeName' has value `0_add_height'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `fme_expression_warnings{1}.message' has value `Null, missing, or empty string operand was found in expression '(@sub(@Value(0_2050_age),@Value(0_age_real)))'.  Result is set to null'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `fme_expression_warnings{1}.transformerName' has value `Fast_Growth'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string; UTF-8)           : `fme_feature_type' has value `merged'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(indirect: string: UTF-8) : `fme_geometry' has value `fme_polygon'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(entangled: string: UTF-8): `fme_type' has value `fme_area'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |          entangled to db_type
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `geslacht' has value `Liquidambar'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `gml_description' is <null>
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `gml_id' has value `bm_530531_K'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `gml_name' is <null>
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `gml_parent_id' has value `fme-gen-06a7ad18-3d34-4ed4-be2b-0fe429928d4d'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `hoogte' has value `3.81'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `laatste_mutatie' has value `2024-10-29'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `layer' has value `03_Feijenoord — Table1'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(32 bit integer)          : `multi_reader_full_id' has value `0'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(32 bit integer)          : `multi_reader_id' has value `0'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `multi_reader_keyword' has value `SPATIALITE_NATIVE_1'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `multi_reader_type' has value `SPATIALITE_NATIVE'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(64 bit integer)          : `ogc_fid' has value `6525'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `ontwikkeling' has value `Nog niet bepaald'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `path' has value `C:/MSc/Q2_2/Cooling_Rotterdam/Start_3/03_Intermediate_Results/01_Todays_Trees_Per_Buurt/Round/03_Feijenoord.sqlite|layername=Table1'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(64 bit integer)          : `rowid' has value `1507'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `stamdiameter' is <null>
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `stamlengte' has value `1'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `straat' has value `Zinkerweg'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `thema' has value `Bomen'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `tree_part' has value `kruin'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `type' has value `deciduous'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `wijk' has value `Feijenoord'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |===========================================================================
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Geometry Name: GEOMETRY
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Coordinate System: `Netherlands-RDNew-2008'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Geometry Type: Polygon
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Label(UTF-8): `GEOMETRY'
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |Boundary:
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |   Geometry Type: Line
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |   Number of Coordinates: 13 -- Coordinate Dimension: 3
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |   (94688.1,436274.97001100564,4.796762815913259)(94688.16695720635,436274.7200055028,4.796762815913259)(94688.35002200541,436274.5369366783,4.796762815913259)(94688.60002199991,436274.47,4.796762815913259)(94688.85002198341,436274.5369366783,4.796762815913259)
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |   (94689.03306480456,436274.7200055028,4.796762815913259)(94689.1,436274.97001100564,4.796762815913259)(94689.03306480456,436275.2200164755,4.796762815913259)(94688.85002198341,436275.40306332166,4.796762815913259)(94688.60002199991,436275.47,4.796762815913259)
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |   (94688.35002200541,436275.40306332166,4.796762815913259)(94688.16695720635,436275.2200164755,4.796762815913259)(94688.1,436274.97001100564,4.796762815913259)
+2025-08-19 21:08:19|   4.6|  0.0|WARN  |===========================================================================
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Null, missing, or empty string operand was found in expression '(@sub(@Value(0_2050_age),@Value(0_age_real)))'.  Result is set to null
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Logging limit reached for the preceding message. Further instances of this message will not be logged
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Feature Type: `TestFilter_3_Type_1'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(64 bit real)             : `0_2050_age' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(64 bit real)             : `0_age_real' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(64 bit real)             : `0_crown_growth_rate_peryear' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(64 bit real)             : `0_height_growth_rate_peryear' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(64 bit integer)          : `0_last_update' has value `2024'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `0_planting_year' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `_clipped' has value `no'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(64 bit real)             : `_elevation' has value `5'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `_offset_roof' has value `5'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `aanlegjaar' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `beheerobjectomschrijving' has value `41721.bm20'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `boom_id' has value `490305'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `boomsortiment' has value `Prunus cerasifera'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `boomsortiment_nederlands' has value `kerspruim'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `boomstatus' has value `Niet van toepassing'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `brondatum' has value `2024-03-03'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `buurt' has value `Feijenoord - 00'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_class' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_class_codespace' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_creationdate' has value `2024-03-29'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(64 bit real)             : `citygml_crown_diameter' has value `4'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_crown_diameter_units' has value `m'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_feature_role' has value `cityObjectMember'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_feature_role_attr_name' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_feature_role_attr_val' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_function{}' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_function{}.codespace' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_generalizes_to{}.xlink_href' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(64 bit real)             : `citygml_height' has value `5'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_height_units' has value `m'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_level_of_detail{}' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_relative_to_terrain' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_relative_to_water' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_species' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_species_codespace' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_target_uri' has value `http://www.opengis.net/citygml/vegetation/2.0'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_terminationdate' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(64 bit real)             : `citygml_trunk_diameter' has value `10'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_trunk_diameter_units' has value `cm'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_usage{}' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_usage{}.codespace' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string; UTF-8)           : `db_type' has value `db_polygon'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `externalreference{}.externalobject.name' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `externalreference{}.externalobject.uri' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `externalreference{}.informationsystem' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string; UTF-8)           : `fme_expression_warnings{0}.attributeName' has value `0_add_diameter'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `fme_expression_warnings{0}.message' has value `Null, missing, or empty string operand was found in expression '(@sub(@Value(0_2050_age),@Value(0_age_real)))'.  Result is set to null'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `fme_expression_warnings{0}.transformerName' has value `Fast_Growth'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string; UTF-8)           : `fme_feature_type' has value `merged'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(indirect: string: UTF-8) : `fme_geometry' has value `fme_polygon'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(entangled: string: UTF-8): `fme_type' has value `fme_area'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |          entangled to db_type
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `geslacht' has value `Prunus'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `gml_description' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `gml_id' has value `bm_490305_K'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `gml_name' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `gml_parent_id' has value `fme-gen-06a7ad18-3d34-4ed4-be2b-0fe429928d4d'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `hoogte' has value `2.94'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `laatste_mutatie' has value `2024-02-06'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `layer' has value `03_Feijenoord — Table1'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(32 bit integer)          : `multi_reader_full_id' has value `0'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(32 bit integer)          : `multi_reader_id' has value `0'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `multi_reader_keyword' has value `SPATIALITE_NATIVE_1'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `multi_reader_type' has value `SPATIALITE_NATIVE'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(64 bit integer)          : `ogc_fid' has value `6546'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `ontwikkeling' has value `Blijvende Kroon'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `path' has value `C:/MSc/Q2_2/Cooling_Rotterdam/Start_3/03_Intermediate_Results/01_Todays_Trees_Per_Buurt/Round/03_Feijenoord.sqlite|layername=Table1'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(64 bit integer)          : `rowid' has value `1528'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `stamdiameter' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `stamlengte' has value `1'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `straat' has value `Nassaukade'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `thema' has value `Bomen'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `tree_part' has value `kruin'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `type' has value `deciduous'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `wijk' has value `Feijenoord'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |===========================================================================
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Geometry Name: GEOMETRY
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Coordinate System: `Netherlands-RDNew-2008'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Geometry Type: Polygon
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Label(UTF-8): `GEOMETRY'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Boundary:
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |   Geometry Type: Line
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |   Number of Coordinates: 13 -- Coordinate Dimension: 3
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |   (94366.86,436677.9899558209,3.933355965883849)(94367.12799339887,436676.98997788836,3.933355965883849)(94367.85997788834,436676.2579933989,3.933355965883849)(94368.85995577667,436675.99,3.933355965883849)(94369.85993379768,436676.2579933989,3.933355965883849)
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |   (94370.59182961938,436676.98997788836,3.933355965883849)(94370.86,436677.9899558209,3.933355965883849)(94370.59182961938,436678.9899337977,3.933355965883849)(94369.85993379768,436679.7218296194,3.933355965883849)(94368.85995577667,436679.99,3.933355965883849)
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |   (94367.85997788834,436679.7218296194,3.933355965883849)(94367.12799339887,436678.9899337977,3.933355965883849)(94366.86,436677.9899558209,3.933355965883849)
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |===========================================================================
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Null, missing, or empty string operand was found in expression '(@sub(@Value(0_2050_age),@Value(0_age_real)))'.  Result is set to null
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Logging limit reached for the preceding message. Further instances of this message will not be logged
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Feature Type: `TestFilter_3_Type_1'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(64 bit real)             : `0_2050_age' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(64 bit real)             : `0_add_diameter' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(64 bit real)             : `0_age_real' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(64 bit real)             : `0_crown_growth_rate_peryear' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(64 bit real)             : `0_height_growth_rate_peryear' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(64 bit integer)          : `0_last_update' has value `2024'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `0_planting_year' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `_clipped' has value `no'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(64 bit real)             : `_elevation' has value `5'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `_offset_roof' has value `5'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `aanlegjaar' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `beheerobjectomschrijving' has value `41721.bm20'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `boom_id' has value `490305'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `boomsortiment' has value `Prunus cerasifera'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `boomsortiment_nederlands' has value `kerspruim'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `boomstatus' has value `Niet van toepassing'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `brondatum' has value `2024-03-03'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `buurt' has value `Feijenoord - 00'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_class' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_class_codespace' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_creationdate' has value `2024-03-29'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(64 bit real)             : `citygml_crown_diameter' has value `4'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_crown_diameter_units' has value `m'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_feature_role' has value `cityObjectMember'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_feature_role_attr_name' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_feature_role_attr_val' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_function{}' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_function{}.codespace' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_generalizes_to{}.xlink_href' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(64 bit real)             : `citygml_height' has value `5'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_height_units' has value `m'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_level_of_detail{}' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_relative_to_terrain' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_relative_to_water' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_species' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_species_codespace' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_target_uri' has value `http://www.opengis.net/citygml/vegetation/2.0'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_terminationdate' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(64 bit real)             : `citygml_trunk_diameter' has value `10'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_trunk_diameter_units' has value `cm'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_usage{}' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `citygml_usage{}.codespace' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string; UTF-8)           : `db_type' has value `db_polygon'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `externalreference{}.externalobject.name' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `externalreference{}.externalobject.uri' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `externalreference{}.informationsystem' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string; UTF-8)           : `fme_expression_warnings{0}.attributeName' has value `0_add_diameter'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `fme_expression_warnings{0}.message' has value `Null, missing, or empty string operand was found in expression '(@sub(@Value(0_2050_age),@Value(0_age_real)))'.  Result is set to null'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `fme_expression_warnings{0}.transformerName' has value `Fast_Growth'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string; UTF-8)           : `fme_expression_warnings{1}.attributeName' has value `0_add_height'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `fme_expression_warnings{1}.message' has value `Null, missing, or empty string operand was found in expression '(@sub(@Value(0_2050_age),@Value(0_age_real)))'.  Result is set to null'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `fme_expression_warnings{1}.transformerName' has value `Fast_Growth'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string; UTF-8)           : `fme_feature_type' has value `merged'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(indirect: string: UTF-8) : `fme_geometry' has value `fme_polygon'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(entangled: string: UTF-8): `fme_type' has value `fme_area'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |          entangled to db_type
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `geslacht' has value `Prunus'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `gml_description' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `gml_id' has value `bm_490305_K'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `gml_name' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `gml_parent_id' has value `fme-gen-06a7ad18-3d34-4ed4-be2b-0fe429928d4d'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `hoogte' has value `2.94'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `laatste_mutatie' has value `2024-02-06'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `layer' has value `03_Feijenoord — Table1'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(32 bit integer)          : `multi_reader_full_id' has value `0'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(32 bit integer)          : `multi_reader_id' has value `0'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `multi_reader_keyword' has value `SPATIALITE_NATIVE_1'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `multi_reader_type' has value `SPATIALITE_NATIVE'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(64 bit integer)          : `ogc_fid' has value `6546'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `ontwikkeling' has value `Blijvende Kroon'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `path' has value `C:/MSc/Q2_2/Cooling_Rotterdam/Start_3/03_Intermediate_Results/01_Todays_Trees_Per_Buurt/Round/03_Feijenoord.sqlite|layername=Table1'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(64 bit integer)          : `rowid' has value `1528'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `stamdiameter' is <null>
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `stamlengte' has value `1'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `straat' has value `Nassaukade'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `thema' has value `Bomen'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `tree_part' has value `kruin'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `type' has value `deciduous'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Attribute(string: UTF-8)           : `wijk' has value `Feijenoord'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |===========================================================================
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Geometry Name: GEOMETRY
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Coordinate System: `Netherlands-RDNew-2008'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Geometry Type: Polygon
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Label(UTF-8): `GEOMETRY'
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |Boundary:
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |   Geometry Type: Line
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |   Number of Coordinates: 13 -- Coordinate Dimension: 3
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |   (94366.86,436677.9899558209,3.933355965883849)(94367.12799339887,436676.98997788836,3.933355965883849)(94367.85997788834,436676.2579933989,3.933355965883849)(94368.85995577667,436675.99,3.933355965883849)(94369.85993379768,436676.2579933989,3.933355965883849)
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |   (94370.59182961938,436676.98997788836,3.933355965883849)(94370.86,436677.9899558209,3.933355965883849)(94370.59182961938,436678.9899337977,3.933355965883849)(94369.85993379768,436679.7218296194,3.933355965883849)(94368.85995577667,436679.99,3.933355965883849)
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |   (94367.85997788834,436679.7218296194,3.933355965883849)(94367.12799339887,436678.9899337977,3.933355965883849)(94366.86,436677.9899558209,3.933355965883849)
+2025-08-19 21:08:20|   4.6|  0.0|WARN  |===========================================================================
+2025-08-19 21:08:22|   7.0|  2.4|INFORM|TestFilter_3 (TestFactory): Processed 11559 of 15586 features
+2025-08-19 21:08:24|   8.9|  1.9|INFORM|TestFilter_3 (TestFactory): Processed 15586 of 15586 features
+2025-08-19 21:08:24|   8.9|  0.0|INFORM|SpatiaLite Reader: Database read complete.  Retrieved 15630 feature(s)
+2025-08-19 21:08:24|   8.9|  0.0|INFORM|SpatiaLite Reader: Closing `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\01_Todays_Trees_Per_Buurt\Round\00_All_Feijenoord_Round.sqlite' . Read operation complete
+2025-08-19 21:08:24|   8.9|  0.0|INFORM|Creating reader for format: SpatiaLite
+2025-08-19 21:08:24|   8.9|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SPATIALITE_NATIVE'
+2025-08-19 21:08:24|   8.9|  0.0|INFORM|SpatiaLite Reader: Opening `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\2Buurt\CT\S\Round_CT_Afr_Summer.sqlite' for read operation
+2025-08-19 21:08:24|   8.9|  0.0|INFORM|SpatiaLite Reader: Detected geometry_columns table with 'SpatiaLite 4.0+' schema
+2025-08-19 21:08:24|   8.9|  0.0|INFORM|FME Configuration: Source coordinate system for reader SPATIALITE_NATIVE_2[SPATIALITE_NATIVE] set to `Netherlands-RDNew-2008' as read from input data
+2025-08-19 21:08:24|   8.9|  0.0|INFORM|Coordinate System `Netherlands-RDNew-2008' parameters: CS_NAME=`Netherlands-RDNew-2008' DESC_NM=`Netherlands, Amersfoort RD 2008 datum, New System' DT_NAME=`Amersfoort-RD-2008' GROUP=`EUROPE' MAP_SCL=`1' ORG_LAT=`52.15616055555556' ORG_LNG=`5.387638888888889' PROJ=`OSTERO' QUAD=`1' SCL_RED=`0.9999079' SOURCE=`Kadaster' UNIT=`METER' X_OFF=`155000' Y_OFF=`463000'
+2025-08-19 21:08:24|   8.9|  0.0|INFORM|Table1 Feature Recorder -1 2147549231 (RecorderFactory): Splitting bulk features into individual features
+2025-08-19 21:08:24|   8.9|  0.0|INFORM|SpatiaLite Reader: Database read complete.  Retrieved 1269 feature(s)
+2025-08-19 21:08:24|   8.9|  0.0|INFORM|SpatiaLite Reader: Closing `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\2Buurt\CT\S\Round_CT_Afr_Summer.sqlite' . Read operation complete
+2025-08-19 21:08:24|   8.9|  0.0|INFORM|Creating reader for format: SpatiaLite
+2025-08-19 21:08:24|   8.9|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SPATIALITE_NATIVE'
+2025-08-19 21:08:24|   9.0|  0.1|INFORM|SpatiaLite Reader: Opening `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\2Buurt\CT\S\Round_CT_Kvz_Summer.sqlite' for read operation
+2025-08-19 21:08:24|   9.0|  0.0|INFORM|SpatiaLite Reader: Detected geometry_columns table with 'SpatiaLite 4.0+' schema
+2025-08-19 21:08:24|   9.0|  0.0|INFORM|FME Configuration: Source coordinate system for reader SPATIALITE_NATIVE_3[SPATIALITE_NATIVE] set to `Netherlands-RDNew-2008' as read from input data
+2025-08-19 21:08:24|   9.0|  0.0|INFORM|Coordinate System `Netherlands-RDNew-2008' parameters: CS_NAME=`Netherlands-RDNew-2008' DESC_NM=`Netherlands, Amersfoort RD 2008 datum, New System' DT_NAME=`Amersfoort-RD-2008' GROUP=`EUROPE' MAP_SCL=`1' ORG_LAT=`52.15616055555556' ORG_LNG=`5.387638888888889' PROJ=`OSTERO' QUAD=`1' SCL_RED=`0.9999079' SOURCE=`Kadaster' UNIT=`METER' X_OFF=`155000' Y_OFF=`463000'
+2025-08-19 21:08:24|   9.0|  0.0|INFORM|Table1 Feature Recorder -1 2147549232 (RecorderFactory): Splitting bulk features into individual features
+2025-08-19 21:08:24|   9.0|  0.0|INFORM|SpatiaLite Reader: Database read complete.  Retrieved 408 feature(s)
+2025-08-19 21:08:24|   9.0|  0.0|INFORM|SpatiaLite Reader: Closing `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\2Buurt\CT\S\Round_CT_Kvz_Summer.sqlite' . Read operation complete
+2025-08-19 21:08:24|   9.0|  0.0|INFORM|Creating reader for format: SpatiaLite
+2025-08-19 21:08:24|   9.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SPATIALITE_NATIVE'
+2025-08-19 21:08:24|   9.0|  0.0|INFORM|SpatiaLite Reader: Opening `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\2Buurt\CT\W\Round_CT_Afr_Winter.sqlite' for read operation
+2025-08-19 21:08:24|   9.0|  0.0|INFORM|SpatiaLite Reader: Detected geometry_columns table with 'SpatiaLite 4.0+' schema
+2025-08-19 21:08:24|   9.0|  0.0|INFORM|FME Configuration: Source coordinate system for reader SPATIALITE_NATIVE_4[SPATIALITE_NATIVE] set to `Netherlands-RDNew-2008' as read from input data
+2025-08-19 21:08:24|   9.0|  0.0|INFORM|Coordinate System `Netherlands-RDNew-2008' parameters: CS_NAME=`Netherlands-RDNew-2008' DESC_NM=`Netherlands, Amersfoort RD 2008 datum, New System' DT_NAME=`Amersfoort-RD-2008' GROUP=`EUROPE' MAP_SCL=`1' ORG_LAT=`52.15616055555556' ORG_LNG=`5.387638888888889' PROJ=`OSTERO' QUAD=`1' SCL_RED=`0.9999079' SOURCE=`Kadaster' UNIT=`METER' X_OFF=`155000' Y_OFF=`463000'
+2025-08-19 21:08:24|   9.0|  0.0|INFORM|Table1 Feature Recorder -1 2147549236 (RecorderFactory): Splitting bulk features into individual features
+2025-08-19 21:08:24|   9.1|  0.1|INFORM|SpatiaLite Reader: Database read complete.  Retrieved 1270 feature(s)
+2025-08-19 21:08:24|   9.1|  0.0|INFORM|SpatiaLite Reader: Closing `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\2Buurt\CT\W\Round_CT_Afr_Winter.sqlite' . Read operation complete
+2025-08-19 21:08:24|   9.1|  0.0|INFORM|Creating reader for format: SpatiaLite
+2025-08-19 21:08:24|   9.1|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SPATIALITE_NATIVE'
+2025-08-19 21:08:24|   9.2|  0.1|INFORM|SpatiaLite Reader: Opening `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\2Buurt\CT\W\Round_CT_Kvz_Winter.sqlite' for read operation
+2025-08-19 21:08:24|   9.2|  0.0|INFORM|SpatiaLite Reader: Detected geometry_columns table with 'SpatiaLite 4.0+' schema
+2025-08-19 21:08:24|   9.2|  0.0|INFORM|FME Configuration: Source coordinate system for reader SPATIALITE_NATIVE_5[SPATIALITE_NATIVE] set to `Netherlands-RDNew-2008' as read from input data
+2025-08-19 21:08:24|   9.2|  0.0|INFORM|Coordinate System `Netherlands-RDNew-2008' parameters: CS_NAME=`Netherlands-RDNew-2008' DESC_NM=`Netherlands, Amersfoort RD 2008 datum, New System' DT_NAME=`Amersfoort-RD-2008' GROUP=`EUROPE' MAP_SCL=`1' ORG_LAT=`52.15616055555556' ORG_LNG=`5.387638888888889' PROJ=`OSTERO' QUAD=`1' SCL_RED=`0.9999079' SOURCE=`Kadaster' UNIT=`METER' X_OFF=`155000' Y_OFF=`463000'
+2025-08-19 21:08:24|   9.2|  0.0|INFORM|Table1 Feature Recorder -1 2147549238 (RecorderFactory): Splitting bulk features into individual features
+2025-08-19 21:08:24|   9.2|  0.0|INFORM|SpatiaLite Reader: Database read complete.  Retrieved 408 feature(s)
+2025-08-19 21:08:24|   9.2|  0.0|INFORM|SpatiaLite Reader: Closing `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\2Buurt\CT\W\Round_CT_Kvz_Winter.sqlite' . Read operation complete
+2025-08-19 21:08:24|   9.2|  0.0|INFORM|MULTI_READER(MULTI_READER): Done reading 18985 features from 5 readers
+2025-08-19 21:08:24|   9.2|  0.0|INFORM|Emptying factory pipeline
+2025-08-19 21:08:24|   9.2|  0.0|STATS |Router and Unexpected Input Remover (RoutingFactory): Tested 18985 input feature(s), wrote 18985 output feature(s): 18985 matched merge filters, 18985 were routed to output, 0 could not be routed.
+2025-08-19 21:08:24|   9.2|  0.0|STATS |Unwanted Router Input Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2025-08-19 21:08:24|   9.2|  0.0|STATS |merged_SPATIALITE_NATIVE_1 Splitter (TeeFactory): Cloned 15630 input feature(s) into 15630 output feature(s)
+2025-08-19 21:08:24|   9.2|  0.0|STATS |Table1_SPATIALITE_NATIVE_3 Splitter (TeeFactory): Cloned 408 input feature(s) into 408 output feature(s)
+2025-08-19 21:08:24|   9.2|  0.0|STATS |Table1_SPATIALITE_NATIVE_5 Splitter (TeeFactory): Cloned 408 input feature(s) into 408 output feature(s)
+2025-08-19 21:08:24|   9.2|  0.0|STATS |Table1_SPATIALITE_NATIVE_4 Splitter (TeeFactory): Cloned 1270 input feature(s) into 1270 output feature(s)
+2025-08-19 21:08:24|   9.2|  0.0|STATS |Table1_SPATIALITE_NATIVE_2 Splitter (TeeFactory): Cloned 1269 input feature(s) into 1269 output feature(s)
+2025-08-19 21:08:24|   9.2|  0.0|STATS |TestFilter_3_INPUT (TeeFactory): Cloned 15630 input feature(s) into 15630 output feature(s)
+2025-08-19 21:08:24|   9.2|  0.0|STATS |TestFilter_3 (TestFactory): Tested 15630 input feature(s) -- 12300 feature(s) passed and 3330 feature(s) failed
+2025-08-19 21:08:24|   9.2|  0.0|STATS |TestFilter_INPUT (TeeFactory): Cloned 13038 input feature(s) into 13038 output feature(s)
+2025-08-19 21:08:24|   9.2|  0.0|STATS |TestFilter (TestFactory): Tested 13038 input feature(s) -- 13038 feature(s) passed and 0 feature(s) failed
+2025-08-19 21:08:24|   9.2|  0.0|STATS |TestFilter_7_INPUT (TeeFactory): Cloned 13038 input feature(s) into 13038 output feature(s)
+2025-08-19 21:08:24|   9.2|  0.0|STATS |TestFilter_7 (TestFactory): Tested 13038 input feature(s) -- 7934 feature(s) passed and 5104 feature(s) failed
+2025-08-19 21:08:24|   9.2|  0.0|STATS |GeometryRemover (TeeFactory): Cloned 13038 input feature(s) into 13038 output feature(s)
+2025-08-19 21:08:24|   9.2|  0.0|STATS |GeometryRemover OUTPUT Splitter (TeeFactory): Cloned 13038 input feature(s) into 65190 output feature(s)
+2025-08-19 21:08:24|   9.2|  0.0|INFORM|FeatureJoiner_JOINED Feature Recorder -1 2147614775 (RecorderFactory): Splitting bulk features into individual features
+2025-08-19 21:08:24|   9.4|  0.2|INFORM|Bufferer_2DBuffering (PolygonDissolveFactory): Buffering feature number: 1
+2025-08-19 21:08:25|   9.8|  0.4|INFORM|FFS writer: Writing 11769 feature(s) to file 'C:\Users\adhis\AppData\Local\Temp\wb-cache-7_future_tree_sqltree-FCHhxt\Main_FeatureJoiner -1 55 fo 2 UNJOINED_RIGHT  0  377f0bc0330f52626dbac105043419c8799742c6.fts'
+2025-08-19 21:08:25|   9.8|  0.0|INFORM|Feature Type Index: Adding 11769 features
+2025-08-19 21:08:25|   9.8|  0.0|STATS |TestFilter_2_INPUT (TeeFactory): Cloned 1269 input feature(s) into 1269 output feature(s)
+2025-08-19 21:08:25|   9.8|  0.0|STATS |TestFilter_2 (TestFactory): Tested 1269 input feature(s) -- 765 feature(s) passed and 504 feature(s) failed
+2025-08-19 21:08:25|   9.8|  0.0|STATS |3DForcer (TeeFactory): Cloned 1269 input feature(s) into 1269 output feature(s)
+2025-08-19 21:08:25|   9.8|  0.0|STATS |3DForcer_Rejector (TestFactory): Tested 1269 input feature(s) -- 0 feature(s) passed and 1269 feature(s) failed
+2025-08-19 21:08:25|   9.8|  0.0|INFORM|FeatureJoiner_2_JOINED Feature Recorder -1 2147614770 (RecorderFactory): Splitting bulk features into individual features
+2025-08-19 21:08:25|   9.9|  0.1|INFORM|Bufferer_2_2DBuffering (PolygonDissolveFactory): Buffering feature number: 1
+2025-08-19 21:08:25|  10.0|  0.1|INFORM|FFS writer: Writing 12630 feature(s) to file 'C:\Users\adhis\AppData\Local\Temp\wb-cache-7_future_tree_sqltree-FCHhxt\Main_FeatureJoiner_2 -1 50 fo 2 UNJOINED_RIGHT  0  949db7363047f3d6bf1cff791bdd9a4150aafd27.fts'
+2025-08-19 21:08:25|  10.0|  0.0|INFORM|Feature Type Index: Adding 12630 features
+2025-08-19 21:08:25|  10.0|  0.0|STATS |TestFilter_4_INPUT (TeeFactory): Cloned 408 input feature(s) into 408 output feature(s)
+2025-08-19 21:08:25|  10.0|  0.0|STATS |TestFilter_4 (TestFactory): Tested 408 input feature(s) -- 250 feature(s) passed and 158 feature(s) failed
+2025-08-19 21:08:25|  10.0|  0.0|STATS |3DForcer_2 (TeeFactory): Cloned 408 input feature(s) into 408 output feature(s)
+2025-08-19 21:08:25|  10.0|  0.0|STATS |3DForcer_2_Rejector (TestFactory): Tested 408 input feature(s) -- 0 feature(s) passed and 408 feature(s) failed
+2025-08-19 21:08:25|  10.1|  0.1|INFORM|FeatureJoiner_3_JOINED Feature Recorder -1 2147614773 (RecorderFactory): Splitting bulk features into individual features
+2025-08-19 21:08:25|  10.2|  0.1|INFORM|Bufferer_3_2DBuffering (PolygonDissolveFactory): Buffering feature number: 1
+2025-08-19 21:08:26|  10.5|  0.3|INFORM|FFS writer: Writing 11768 feature(s) to file 'C:\Users\adhis\AppData\Local\Temp\wb-cache-7_future_tree_sqltree-FCHhxt\Main_FeatureJoiner_3 -1 53 fo 2 UNJOINED_RIGHT  0  30f77c4a28c18e0f3cea16bd8c0121c0cf2808df.fts'
+2025-08-19 21:08:26|  10.5|  0.0|INFORM|Feature Type Index: Adding 11768 features
+2025-08-19 21:08:26|  10.5|  0.0|STATS |TestFilter_5_INPUT (TeeFactory): Cloned 1270 input feature(s) into 1270 output feature(s)
+2025-08-19 21:08:26|  10.5|  0.0|STATS |TestFilter_5 (TestFactory): Tested 1270 input feature(s) -- 766 feature(s) passed and 504 feature(s) failed
+2025-08-19 21:08:26|  10.5|  0.0|STATS |3DForcer_3 (TeeFactory): Cloned 1270 input feature(s) into 1270 output feature(s)
+2025-08-19 21:08:26|  10.5|  0.0|STATS |3DForcer_3_Rejector (TestFactory): Tested 1270 input feature(s) -- 0 feature(s) passed and 1270 feature(s) failed
+2025-08-19 21:08:26|  10.6|  0.1|INFORM|FeatureJoiner_4_JOINED Feature Recorder -1 2147614780 (RecorderFactory): Splitting bulk features into individual features
+2025-08-19 21:08:26|  10.6|  0.0|INFORM|Bufferer_4_2DBuffering (PolygonDissolveFactory): Buffering feature number: 1
+2025-08-19 21:08:26|  10.8|  0.2|INFORM|FFS writer: Writing 12630 feature(s) to file 'C:\Users\adhis\AppData\Local\Temp\wb-cache-7_future_tree_sqltree-FCHhxt\Main_FeatureJoiner_4 -1 60 fo 2 UNJOINED_RIGHT  0  1745fe52f53e9c9a5e0b6cf4c74962d65a00f5ae.fts'
+2025-08-19 21:08:26|  10.8|  0.0|INFORM|Feature Type Index: Adding 12630 features
+2025-08-19 21:08:26|  10.8|  0.0|STATS |TestFilter_6_INPUT (TeeFactory): Cloned 408 input feature(s) into 408 output feature(s)
+2025-08-19 21:08:26|  10.8|  0.0|STATS |TestFilter_6 (TestFactory): Tested 408 input feature(s) -- 250 feature(s) passed and 158 feature(s) failed
+2025-08-19 21:08:26|  10.8|  0.0|STATS |3DForcer_4 (TeeFactory): Cloned 408 input feature(s) into 408 output feature(s)
+2025-08-19 21:08:26|  10.8|  0.0|STATS |3DForcer_4_Rejector (TestFactory): Tested 408 input feature(s) -- 0 feature(s) passed and 408 feature(s) failed
+2025-08-19 21:08:27|  11.6|  0.8|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 16393 input feature(s), wrote 16393 output feature(s): 0 matched merge filters, 16393 were routed to output, 0 could not be routed.
+2025-08-19 21:08:27|  11.6|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2025-08-19 21:08:27|  11.6|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-19 21:08:27|  11.6|  0.0|INFORM|Feature output statistics for `CSV2' writer using keyword `CSV2_1':
+2025-08-19 21:08:27|  11.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-19 21:08:27|  11.6|  0.0|STATS |                               Features Written
+2025-08-19 21:08:27|  11.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-19 21:08:27|  11.6|  0.0|STATS |Tree_growth                                                              13038
+2025-08-19 21:08:27|  11.6|  0.0|STATS |==============================================================================
+2025-08-19 21:08:27|  11.6|  0.0|STATS |Total Features Written                                                   13038
+2025-08-19 21:08:27|  11.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-19 21:08:27|  11.6|  0.0|INFORM|MULTI_WRITER: multi_writer_id `1': Started outputting features
+2025-08-19 21:08:27|  11.6|  0.0|INFORM|Creating writer for format: SpatiaLite
+2025-08-19 21:08:27|  11.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `SPATIALITE_NATIVE'
+2025-08-19 21:08:27|  11.6|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2025-08-19 21:08:27|  11.6|  0.0|INFORM|Writer `SPATIALITE_NATIVE_6' of type `SPATIALITE_NATIVE' using group definition keyword `SPATIALITE_NATIVE_6_DEF'
+2025-08-19 21:08:27|  11.6|  0.0|INFORM|SpatiaLite Writer: Opening `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\2Buurt\FT\S\Round_FT_Afr_Summer.sqlite' for write operation
+2025-08-19 21:08:28|  11.8|  0.2|INFORM|SpatiaLite Writer: Detected geometry_columns table with 'SpatiaLite 4.0+' schema
+2025-08-19 21:08:28|  11.8|  0.0|INFORM|SPATIALITE_NATIVE writer: Creating bulk features from individual features
+2025-08-19 21:08:28|  11.8|  0.0|INFORM|MULTI_WRITER: multi_writer_id `1': Writing feature 1000 
+2025-08-19 21:08:28|  11.9|  0.1|INFORM|SpatiaLite Writer: Spatial Column SRID for feature type 'Table1' table creation is '28992'
+2025-08-19 21:08:28|  11.9|  0.0|INFORM|SpatiaLite Writer: Creating table 'Table1'
+2025-08-19 21:08:28|  12.0|  0.1|INFORM|SpatiaLite Writer: Creating spatial index for table 'Table1'
+2025-08-19 21:08:28|  12.0|  0.0|INFORM|SpatiaLite Writer: Closing `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\2Buurt\FT\S\Round_FT_Afr_Summer.sqlite' . Write operation complete
+2025-08-19 21:08:28|  12.0|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-19 21:08:28|  12.0|  0.0|INFORM|Feature output statistics for `SPATIALITE_NATIVE' writer using keyword `SPATIALITE_NATIVE_6':
+2025-08-19 21:08:28|  12.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-19 21:08:28|  12.0|  0.0|STATS |                               Features Written
+2025-08-19 21:08:28|  12.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-19 21:08:28|  12.0|  0.0|STATS |Table1                                                                    1269
+2025-08-19 21:08:28|  12.0|  0.0|STATS |==============================================================================
+2025-08-19 21:08:28|  12.0|  0.0|STATS |Total Features Written                                                    1269
+2025-08-19 21:08:28|  12.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-19 21:08:28|  12.0|  0.0|INFORM|MULTI_WRITER: multi_writer_id `1': done writing 1269 feature(s) 
+2025-08-19 21:08:28|  12.0|  0.0|INFORM|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-08-19 21:08:28|  12.0|  0.0|INFORM|MULTI_WRITER: multi_writer_id `2': Started outputting features
+2025-08-19 21:08:28|  12.0|  0.0|INFORM|Creating writer for format: SpatiaLite
+2025-08-19 21:08:28|  12.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `SPATIALITE_NATIVE'
+2025-08-19 21:08:28|  12.0|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2025-08-19 21:08:28|  12.0|  0.0|INFORM|Writer `SPATIALITE_NATIVE_7' of type `SPATIALITE_NATIVE' using group definition keyword `SPATIALITE_NATIVE_7_DEF'
+2025-08-19 21:08:28|  12.0|  0.0|INFORM|SpatiaLite Writer: Opening `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\2Buurt\FT\S\Round_FT_Kvz_Summer.sqlite' for write operation
+2025-08-19 21:08:28|  12.1|  0.1|INFORM|SpatiaLite Writer: Detected geometry_columns table with 'SpatiaLite 4.0+' schema
+2025-08-19 21:08:28|  12.1|  0.0|INFORM|SPATIALITE_NATIVE writer: Creating bulk features from individual features
+2025-08-19 21:08:28|  12.1|  0.0|INFORM|SpatiaLite Writer: Spatial Column SRID for feature type 'Table1' table creation is '28992'
+2025-08-19 21:08:28|  12.1|  0.0|INFORM|SpatiaLite Writer: Creating table 'Table1'
+2025-08-19 21:08:28|  12.1|  0.0|INFORM|SpatiaLite Writer: Creating spatial index for table 'Table1'
+2025-08-19 21:08:28|  12.1|  0.0|INFORM|SpatiaLite Writer: Closing `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\2Buurt\FT\S\Round_FT_Kvz_Summer.sqlite' . Write operation complete
+2025-08-19 21:08:28|  12.2|  0.1|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-19 21:08:28|  12.2|  0.0|INFORM|Feature output statistics for `SPATIALITE_NATIVE' writer using keyword `SPATIALITE_NATIVE_7':
+2025-08-19 21:08:28|  12.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-19 21:08:28|  12.2|  0.0|STATS |                               Features Written
+2025-08-19 21:08:28|  12.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-19 21:08:28|  12.2|  0.0|STATS |Table1                                                                     408
+2025-08-19 21:08:28|  12.2|  0.0|STATS |==============================================================================
+2025-08-19 21:08:28|  12.2|  0.0|STATS |Total Features Written                                                     408
+2025-08-19 21:08:28|  12.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-19 21:08:28|  12.2|  0.0|INFORM|MULTI_WRITER: multi_writer_id `2': done writing 408 feature(s) 
+2025-08-19 21:08:28|  12.2|  0.0|INFORM|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-08-19 21:08:28|  12.2|  0.0|INFORM|MULTI_WRITER: multi_writer_id `3': Started outputting features
+2025-08-19 21:08:28|  12.2|  0.0|INFORM|Creating writer for format: SpatiaLite
+2025-08-19 21:08:28|  12.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `SPATIALITE_NATIVE'
+2025-08-19 21:08:28|  12.2|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2025-08-19 21:08:28|  12.2|  0.0|INFORM|Writer `SPATIALITE_NATIVE_8' of type `SPATIALITE_NATIVE' using group definition keyword `SPATIALITE_NATIVE_8_DEF'
+2025-08-19 21:08:28|  12.2|  0.0|INFORM|SpatiaLite Writer: Opening `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\2Buurt\FT\W\Round_FT_Kvz_Winter.sqlite' for write operation
+2025-08-19 21:08:28|  12.2|  0.0|INFORM|SpatiaLite Writer: Detected geometry_columns table with 'SpatiaLite 4.0+' schema
+2025-08-19 21:08:28|  12.2|  0.0|INFORM|SPATIALITE_NATIVE writer: Creating bulk features from individual features
+2025-08-19 21:08:28|  12.3|  0.1|INFORM|SpatiaLite Writer: Spatial Column SRID for feature type 'Table1' table creation is '28992'
+2025-08-19 21:08:28|  12.3|  0.0|INFORM|SpatiaLite Writer: Creating table 'Table1'
+2025-08-19 21:08:28|  12.3|  0.0|INFORM|SpatiaLite Writer: Creating spatial index for table 'Table1'
+2025-08-19 21:08:28|  12.3|  0.0|INFORM|SpatiaLite Writer: Closing `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\2Buurt\FT\W\Round_FT_Kvz_Winter.sqlite' . Write operation complete
+2025-08-19 21:08:28|  12.3|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-19 21:08:28|  12.3|  0.0|INFORM|Feature output statistics for `SPATIALITE_NATIVE' writer using keyword `SPATIALITE_NATIVE_8':
+2025-08-19 21:08:28|  12.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-19 21:08:28|  12.3|  0.0|STATS |                               Features Written
+2025-08-19 21:08:28|  12.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-19 21:08:28|  12.3|  0.0|STATS |Table1                                                                     408
+2025-08-19 21:08:28|  12.3|  0.0|STATS |==============================================================================
+2025-08-19 21:08:28|  12.3|  0.0|STATS |Total Features Written                                                     408
+2025-08-19 21:08:28|  12.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-19 21:08:28|  12.3|  0.0|INFORM|MULTI_WRITER: multi_writer_id `3': done writing 408 feature(s) 
+2025-08-19 21:08:28|  12.3|  0.0|INFORM|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-08-19 21:08:28|  12.3|  0.0|INFORM|MULTI_WRITER: multi_writer_id `4': Started outputting features
+2025-08-19 21:08:28|  12.3|  0.0|INFORM|Creating writer for format: SpatiaLite
+2025-08-19 21:08:28|  12.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `SPATIALITE_NATIVE'
+2025-08-19 21:08:28|  12.3|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2025-08-19 21:08:28|  12.3|  0.0|INFORM|Writer `SPATIALITE_NATIVE_9' of type `SPATIALITE_NATIVE' using group definition keyword `SPATIALITE_NATIVE_9_DEF'
+2025-08-19 21:08:28|  12.3|  0.0|INFORM|SpatiaLite Writer: Opening `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\2Buurt\FT\W\Round_FT_Afr_Winter.sqlite' for write operation
+2025-08-19 21:08:28|  12.3|  0.0|INFORM|SpatiaLite Writer: Detected geometry_columns table with 'SpatiaLite 4.0+' schema
+2025-08-19 21:08:28|  12.3|  0.0|INFORM|SPATIALITE_NATIVE writer: Creating bulk features from individual features
+2025-08-19 21:08:28|  12.3|  0.0|INFORM|MULTI_WRITER: multi_writer_id `4': Writing feature 1000 
+2025-08-19 21:08:28|  12.5|  0.2|INFORM|SpatiaLite Writer: Spatial Column SRID for feature type 'Table1' table creation is '28992'
+2025-08-19 21:08:28|  12.5|  0.0|INFORM|SpatiaLite Writer: Creating table 'Table1'
+2025-08-19 21:08:29|  12.6|  0.1|INFORM|SpatiaLite Writer: Creating spatial index for table 'Table1'
+2025-08-19 21:08:29|  12.6|  0.0|INFORM|SpatiaLite Writer: Closing `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\03_Intermediate_Results\2Buurt\FT\W\Round_FT_Afr_Winter.sqlite' . Write operation complete
+2025-08-19 21:08:29|  12.6|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-19 21:08:29|  12.6|  0.0|INFORM|Feature output statistics for `SPATIALITE_NATIVE' writer using keyword `SPATIALITE_NATIVE_9':
+2025-08-19 21:08:29|  12.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-19 21:08:29|  12.6|  0.0|STATS |                               Features Written
+2025-08-19 21:08:29|  12.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-19 21:08:29|  12.6|  0.0|STATS |Table1                                                                    1270
+2025-08-19 21:08:29|  12.6|  0.0|STATS |==============================================================================
+2025-08-19 21:08:29|  12.6|  0.0|STATS |Total Features Written                                                    1270
+2025-08-19 21:08:29|  12.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-19 21:08:29|  12.6|  0.0|INFORM|MULTI_WRITER: multi_writer_id `4': done writing 1270 feature(s) 
+2025-08-19 21:08:29|  12.6|  0.0|INFORM|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-08-19 21:08:29|  12.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-19 21:08:29|  12.6|  0.0|STATS |                            Features Read Summary
+2025-08-19 21:08:29|  12.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-19 21:08:29|  12.6|  0.0|STATS |Table1                                                                    3355
+2025-08-19 21:08:29|  12.6|  0.0|STATS |merged                                                                   15630
+2025-08-19 21:08:29|  12.6|  0.0|STATS |==============================================================================
+2025-08-19 21:08:29|  12.6|  0.0|STATS |Total Features Read                                                      18985
+2025-08-19 21:08:29|  12.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-19 21:08:29|  12.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-19 21:08:29|  12.6|  0.0|STATS |                           Features Written Summary
+2025-08-19 21:08:29|  12.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-19 21:08:29|  12.6|  0.0|STATS |Table1                                                                    3355
+2025-08-19 21:08:29|  12.6|  0.0|STATS |Tree_growth                                                              13038
+2025-08-19 21:08:29|  12.6|  0.0|STATS |==============================================================================
+2025-08-19 21:08:29|  12.6|  0.0|STATS |Total Features Written                                                   16393
+2025-08-19 21:08:29|  12.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2025-08-19 21:08:29|  12.6|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2025-08-19 21:08:29|  12.6|  0.0|WARN  |-~                                                                             ~-
+2025-08-19 21:08:29|  12.6|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
+2025-08-19 21:08:29|  12.6|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
+2025-08-19 21:08:29|  12.6|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
+2025-08-19 21:08:29|  12.6|  0.0|WARN  |-~                                                                             ~-
+2025-08-19 21:08:29|  12.6|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2025-08-19 21:08:29|  12.6|  0.0|INFORM|Translation was SUCCESSFUL with 15 warning(s) (16393 feature(s) output)
+2025-08-19 21:08:29|  12.6|  0.0|STATS |Stored 6 feature(s) to FME feature store file `C:\MSc\Q2_2\Cooling_Rotterdam\Start_3\02_Process\Final_FMW\7_future_tree_sqltree_log.ffs'
+2025-08-19 21:08:29|  12.6|  0.0|INFORM|FME Session Duration: 25.8 seconds. (CPU: 9.9s user, 2.7s system)
+2025-08-19 21:08:29|  12.6|  0.0|INFORM|END - ProcessID: 27424, peak process memory usage: 351800 kB, current process memory usage: 240196 kB
